@@ -81,6 +81,11 @@ def prepared_feature(feature):
     props = item.setdefault("properties", {})
     extracted = fields_from_description(props.get("description", ""))
     props.update({f"info_{k}": v for k, v in extracted.items()})
+    if extracted.get("LUAS"):
+        try:
+            props["info_AREA_KM2"] = f"{float(extracted['LUAS'].replace(',', '')) / 1_000_000:,.2f} km²"
+        except ValueError:
+            pass
     return item, extracted
 
 
@@ -92,7 +97,7 @@ def add_geojson_feature(group, feature, color, weight=2, fill_opacity=0.1, label
     preferred = [
         ("info_KODDMA", "PDM code:"), ("info_NAMADMA", "PDM name:"),
         ("info_KODDUNA", "DUN code:"), ("info_NAMADUNA", "DUN name:"),
-        ("info_JUMLAH_PEM", "Registered voters:"), ("info_LUAS", "Area:"),
+        ("info_JUMLAH_PEM", "Legacy voter count:"), ("info_AREA_KM2", "Area:"),
     ]
     for field, alias in preferred:
         if field in props:
@@ -135,7 +140,7 @@ st.title("Parlimen Sepang (P.113) Dashboard")
 st.caption("Local information, facilities and issue-monitoring dashboard")
 
 overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
-    ["Overview", "Interactive Map", "Facilities", "Issues Reported", "Data Table"]
+    ["Overview", "Interactive Map", "Facilities", "Issues Reported", "Data Explorer"]
 )
 
 with overview_tab:
@@ -239,9 +244,12 @@ with map_tab:
             f"<b>PDM:</b> {props.get('_pdm_name', '')}<br>"
             f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}"
         )
-        folium.CircleMarker(
-            [lat, lon], radius=7, color="#14532d", weight=2, fill=True,
-            fill_color="#22c55e", fill_opacity=0.95,
+        folium.Marker(
+            [lat, lon],
+            icon=folium.DivIcon(
+                icon_size=(34, 34), icon_anchor=(17, 17),
+                html="<div style='width:34px;height:34px;border-radius:50%;background:#15803d;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:20px'>🕌</div>",
+            ),
             tooltip=props.get("Field3", "Masjid"),
             popup=folium.Popup(popup, max_width=430),
         ).add_to(masjid_group)
@@ -252,7 +260,6 @@ with map_tab:
 
 with facilities_tab:
     st.subheader("Facilities")
-    st.metric("Masjid within P.113 Sepang", len(masjids))
     facility_rows = []
     for feature in masjids:
         props = feature["properties"]
@@ -264,16 +271,24 @@ with facilities_tab:
             "Latitude": lat, "Longitude": lon,
         })
     facility_df = pd.DataFrame(facility_rows)
-    query = st.text_input("Search masjid, mukim, DUN or PDM")
-    if query:
-        facility_df = facility_df[facility_df.astype(str).apply(lambda row: row.str.contains(query, case=False, na=False).any(), axis=1)]
-    st.dataframe(facility_df, use_container_width=True, hide_index=True)
-    st.caption("Future facility datasets: schools, surau, clinics, community halls and others.")
+    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid"])
+    if facility_type == "Masjid":
+        st.metric("Masjid within P.113 Sepang", len(masjids))
+        query = st.text_input("Search masjid, mukim, DUN or PDM")
+        shown_facilities = facility_df
+        if query:
+            shown_facilities = shown_facilities[
+                shown_facilities.astype(str).apply(lambda row: row.str.contains(query, case=False, na=False).any(), axis=1)
+            ]
+        st.dataframe(shown_facilities, use_container_width=True, hide_index=True)
+    else:
+        st.info("Choose a facility category to display its records.")
+    st.caption("Future categories: schools, surau, clinics, community halls and others.")
 
 with issues_tab:
     st.subheader("Issues Reported")
     st.info("Reserved for issue location, category, description, status, responsible party and follow-up history.")
-    
+
 with data_tab:
     rows = []
     for feature in polling:
@@ -286,4 +301,11 @@ with data_tab:
             "Polling centre": values.get("Pusat Mengundi", ""),
             "Latitude": lat, "Longitude": lon,
         })
-    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+    polling_df = pd.DataFrame(rows)
+    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid"])
+    if selected_dataset == "Polling centres":
+        st.caption("These 51 records provide the polling-centre markers shown on the interactive map.")
+        st.dataframe(polling_df, use_container_width=True, hide_index=True)
+    else:
+        st.caption("These 43 records provide the masjid markers shown on the interactive map.")
+        st.dataframe(facility_df, use_container_width=True, hide_index=True)

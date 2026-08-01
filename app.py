@@ -21,6 +21,7 @@ FILES = {
     "masjid": DATA / "masjid.geojson",
     "schools": DATA / "schools.geojson",
     "healthcare": DATA / "healthcare.geojson",
+    "kampung": DATA / "kampung.geojson",
 }
 
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
@@ -129,6 +130,7 @@ polling = datasets["polling"]["features"]
 masjids = datasets["masjid"]["features"]
 schools = datasets["schools"]["features"]
 healthcare = datasets["healthcare"]["features"]
+kampungs = datasets["kampung"]["features"]
 
 for masjid in masjids:
     lon, lat = masjid["geometry"]["coordinates"][:2]
@@ -156,8 +158,9 @@ with overview_tab:
     c4.metric("DUN", len(duns))
     c5.metric("Masjid", len(masjids))
     c6.metric("Schools", len(schools))
-    c7, _, _ = st.columns(3)
+    c7, c8, _ = st.columns(3)
     c7.metric("Healthcare facilities", len(healthcare))
+    c8.metric("Kampung", len(kampungs))
     st.caption(
         "Data presented in this dashboard is compiled from open-source and publicly available datasets. "
         "Figures may differ slightly from official records due to incomplete coverage, source updates or data availability."
@@ -215,6 +218,15 @@ with map_tab:
         if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
             continue
         visible_healthcare.append(feature)
+
+    visible_kampungs = []
+    for feature in kampungs:
+        props = feature["properties"]
+        if selected_dun and dun_code_from_name(props.get("dun")) != selected_dun:
+            continue
+        if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
+            continue
+        visible_kampungs.append(feature)
 
     m = folium.Map(location=[2.80, 101.67], zoom_start=10, tiles=None, control_scale=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap", show=True).add_to(m)
@@ -336,6 +348,34 @@ with map_tab:
         ).add_to(healthcare_group)
     healthcare_group.add_to(m)
 
+    kampung_group = folium.FeatureGroup(name="Kampung", show=True)
+    for feature in visible_kampungs:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        area = props.get("area_ha", "")
+        popup = (
+            f"<b>{props.get('name', 'Kampung')}</b><br><br>"
+            f"<b>Type:</b> {props.get('kampung_type', '')}<br>"
+            f"<b>District:</b> {props.get('district', '')}<br>"
+            f"<b>Mukim:</b> {props.get('mukim', '')}<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Area:</b> {area} ha<br>"
+            f"<b>Coordinate match:</b> {props.get('match_confidence', '')}<br>"
+            f"<b>Status:</b> {props.get('verification_status', '')}<br>"
+            f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}"
+        )
+        folium.Marker(
+            [lat, lon],
+            icon=folium.DivIcon(
+                icon_size=(34, 34), icon_anchor=(17, 17),
+                html="<div style='width:34px;height:34px;border-radius:50%;background:#7c3aed;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:19px'>🏘️</div>",
+            ),
+            tooltip=props.get("name", "Kampung"),
+            popup=folium.Popup(popup, max_width=440),
+        ).add_to(kampung_group)
+    kampung_group.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
     st_folium(m, use_container_width=True, height=680, returned_objects=[])
 
@@ -376,7 +416,23 @@ with facilities_tab:
             "Latitude": lat, "Longitude": lon,
         })
     healthcare_df = pd.DataFrame(healthcare_rows)
-    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid", "Schools", "Healthcare"])
+    kampung_rows = []
+    for feature in kampungs:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        kampung_rows.append({
+            "Kampung": props.get("name", ""), "Type": props.get("kampung_type", ""),
+            "District": props.get("district", ""), "Mukim": props.get("mukim", ""),
+            "DUN": props.get("dun", ""), "PDM": props.get("pdm", ""),
+            "Area (ha)": props.get("area_ha", ""),
+            "Match confidence": props.get("match_confidence", ""),
+            "Verification": props.get("verification_status", ""),
+            "Latitude": lat, "Longitude": lon,
+        })
+    kampung_df = pd.DataFrame(kampung_rows)
+    facility_type = st.selectbox(
+        "Facility category", ["Select a category", "Masjid", "Schools", "Healthcare", "Kampung"]
+    )
     if facility_type == "Masjid":
         shown_facilities = facility_df
         filter_col1, filter_col2 = st.columns(2)
@@ -467,6 +523,45 @@ with facilities_tab:
         st.metric("Healthcare facilities shown", f"{len(shown_healthcare)} of {len(healthcare)}")
         st.dataframe(shown_healthcare, use_container_width=True, hide_index=True, height=520)
         st.caption("Preliminary OpenStreetMap dataset: 56 clinics and 5 hospitals. Verify against current MOH/JKN and local records before treating this as an official total.")
+    elif facility_type == "Kampung":
+        shown_kampungs = kampung_df
+        filter_col1, filter_col2, filter_col3, filter_col4 = st.columns(4)
+        with filter_col1:
+            selected_kampung_dun = st.selectbox(
+                "Filter by DUN", ["All DUN"] + sorted(kampung_df["DUN"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="kampung_dun",
+            )
+        if selected_kampung_dun != "All DUN":
+            shown_kampungs = shown_kampungs[shown_kampungs["DUN"] == selected_kampung_dun]
+        with filter_col2:
+            selected_kampung_pdm = st.selectbox(
+                "Filter by PDM", ["All PDM"] + sorted(shown_kampungs["PDM"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="kampung_pdm",
+            )
+        if selected_kampung_pdm != "All PDM":
+            shown_kampungs = shown_kampungs[shown_kampungs["PDM"] == selected_kampung_pdm]
+        with filter_col3:
+            selected_kampung_mukim = st.selectbox(
+                "Filter by Mukim", ["All Mukim"] + sorted(shown_kampungs["Mukim"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="kampung_mukim",
+            )
+        if selected_kampung_mukim != "All Mukim":
+            shown_kampungs = shown_kampungs[shown_kampungs["Mukim"] == selected_kampung_mukim]
+        with filter_col4:
+            selected_kampung_type = st.selectbox(
+                "Kampung type", ["All types"] + sorted(shown_kampungs["Type"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="kampung_type",
+            )
+        if selected_kampung_type != "All types":
+            shown_kampungs = shown_kampungs[shown_kampungs["Type"] == selected_kampung_type]
+        kampung_query = st.text_input("Search by kampung name, district, mukim, type, DUN or PDM")
+        if kampung_query:
+            shown_kampungs = shown_kampungs[
+                shown_kampungs.astype(str).apply(lambda row: row.str.contains(kampung_query, case=False, na=False).any(), axis=1)
+            ]
+        st.metric("Kampung shown", f"{len(shown_kampungs)} of {len(kampungs)}")
+        st.dataframe(shown_kampungs, use_container_width=True, hide_index=True, height=520)
+        st.caption("Mapped village points matched from the supplied Selangor village list and spatially filtered to the P.113 boundary.")
     else:
         st.info("Choose a facility category to display its records.")
     st.caption("Future categories: surau, community halls and others.")
@@ -488,7 +583,7 @@ with data_tab:
             "Latitude": lat, "Longitude": lon,
         })
     polling_df = pd.DataFrame(rows)
-    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools", "Healthcare"])
+    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools", "Healthcare", "Kampung"])
     if selected_dataset == "Polling centres":
         st.caption("These 51 records provide the polling-centre markers shown on the interactive map.")
         st.dataframe(polling_df, use_container_width=True, hide_index=True)
@@ -498,6 +593,9 @@ with data_tab:
     elif selected_dataset == "Schools":
         st.caption("These 84 preliminary OSM records provide the school markers shown on the interactive map.")
         st.dataframe(school_df, use_container_width=True, hide_index=True)
-    else:
+    elif selected_dataset == "Healthcare":
         st.caption("These 61 preliminary OSM records provide the clinic and hospital markers shown on the interactive map.")
         st.dataframe(healthcare_df, use_container_width=True, hide_index=True)
+    else:
+        st.caption("These 32 mapped kampung records are spatially located inside the P.113 boundary.")
+        st.dataframe(kampung_df, use_container_width=True, hide_index=True)

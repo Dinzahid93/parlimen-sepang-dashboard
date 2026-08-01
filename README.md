@@ -24,5 +24,7 @@ Saving the `.qgz` QGIS project alone does not update a deployed website. The dep
 - `data/dun.geojson`
 - `data/pdm.geojson`
 - `data/polling_centres.geojson`
+- `data/masjid.geojson`
+- `data/schools.geojson`
 
 The app continues to work with the current combined `description` fields. New structured layers such as schools, mosques and clinics can be added later.

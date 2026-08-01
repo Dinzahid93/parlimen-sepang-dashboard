@@ -1,0 +1,1592 @@
+{
+  "type": "FeatureCollection",
+  "name": "healthcare",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Afly Clinic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n11349374623",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6516172,
+          2.9236335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuziah",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "60, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10931156070",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7070311,
+          2.8246704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kelinik Rakyat & Surgeri",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4717547089",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6801727,
+          2.8576323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Adam",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "address": "Jalan Bukit Changgang, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4714387735",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6323121,
+          2.8267359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Alarra",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "address": "Jalan Arena, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12384110140",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6922427,
+          2.8243633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Anda",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n6200097723",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941585,
+          2.8207354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Awani",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "address": "Jalan Arena, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n11506168569",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.692973,
+          2.8254264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Cosmo Medic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12389837095",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7059824,
+          2.8288126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Desa Jenderam Hulu",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/01  JENDERAM HULU",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w703367594",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73088124142437,
+          2.868475820531232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Desa Kampung Sungai Merab Luar",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "n6089785568",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7424937,
+          2.9390066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Desa Pulau Meranti",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w394540180",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6252009463623,
+          2.9551302034678644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Dr Marisa & Rakan",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4719212642",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6753071,
+          2.8644492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Dr Najwa",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n5302880618",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7460359,
+          2.9431266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Fuziah",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "address": "Jalan SD1 1/1, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4714340659",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6163785,
+          2.8302333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Hana",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12194813650",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7201625,
+          2.9654954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Harmoni",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4719562114",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6657216,
+          2.879053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Hazra Medic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10938676339",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941534,
+          2.8192735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Horizon",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Jalan HVO 2, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n11898786131",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.697947,
+          2.8398287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Ibu & Anak Dengkil",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4717547100",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6818113,
+          2.8593146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Bukit Changgang",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "address": "Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4714340688",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6206626,
+          2.8270129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Dengkil",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "n4717547103",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.681792,
+          2.8598503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Salak",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "address": "Sepang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w823537981",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74920757726417,
+          2.7895100683932403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Sepang",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "address": "Sepang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "w948194608",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74995360135007,
+          2.6893513461190564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Sungai Pelek",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "w987512896",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7181937890615,
+          2.645142318308322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Kesihatan Tanjung Sepat",
+        "category": "Clinic",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "w1523121303",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55117320633967,
+          2.6658594560290676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Lingam",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4717547067",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6805083,
+          2.856593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Marsya",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/03  SALAK JIJAN",
+        "address": "jalan besar salak",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4220894389",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7508763,
+          2.7845415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Mediviron",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Klinik Mediviron",
+        "speciality": "",
+        "osm_id": "n9903747623",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6702873,
+          2.8560702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Mediviron",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Klinik Mediviron",
+        "speciality": "",
+        "osm_id": "n12816666775",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6581028,
+          2.9730048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Mumtaz",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "14, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10931156059",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7050664,
+          2.824739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Pergigian Dental Heritage",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "dentist",
+        "osm_id": "n6200097719",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941459,
+          2.8185737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Pergigian Warisan",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "dentist",
+        "osm_id": "n6200097716",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6942121,
+          2.8182599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Pusrawi Dengkil",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "G11, Dengkil Centre Point, Dengkil, 43800",
+        "phone": "+60108499345",
+        "website": "https://www.klinikpusrawidengkil.com",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "emergency": "",
+        "operator": "Klinik Pusrawi Dengkil",
+        "speciality": "general;vaccination;internal;surgery",
+        "osm_id": "n11431914134",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6711944,
+          2.8701887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Siti",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "",
+        "phone": "",
+        "website": "https://www.kliniksiti.com",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n6200097718",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694147,
+          2.8184417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Smart",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "address": "Jalan Warisan Sutera 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10934007726",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.692458,
+          2.8233943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Utama",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "address": "Jalan Arena, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n11951322420",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6927871,
+          2.8272951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Warisan",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10938676311",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694531,
+          2.8211586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Zalfah",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4719212648",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6748198,
+          2.8649704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medical Center",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w144359492",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73896142453779,
+          2.7611406446805566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medicentral",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "53, Jalan Warisan Sentral 2, Sepang, 43900",
+        "phone": "",
+        "website": "https://www.klinikmedicentral.com/",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10938676318",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6945292,
+          2.8206165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MediPulih Klinik",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "13A, Jalan Warisan Sentral 2, Sepang, 43900",
+        "phone": "",
+        "website": "https://www.kliniksiti.com",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10938676333",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6945319,
+          2.8182465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mediviron",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "75, Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10934112386",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941528,
+          2.8216032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ohana Mediclinic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "address": "Cyberjaya, 63000",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "general",
+        "osm_id": "n12194025770",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6510817,
+          2.9247413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orion Clinic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n13995535798",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6360807,
+          2.921198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poliklinik Amalmedik",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "61, Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "https://www.amalmedik.com",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10934112382",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941467,
+          2.8211625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poliklinik Medi Ihsan",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "address": "Jalan Saujana KLIA 1/B, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10933989998",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6896232,
+          2.8191028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poliklinik Nur Fatima",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12651142865",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.656374,
+          2.8006388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poliklinik Nur Fatimah",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4719212665",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6734425,
+          2.8652683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poliklinik UKM Kesihatan",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Jalan KLIA Avenue, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10970142957",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950565,
+          2.8070806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pusat Hemodialisis Mawar (Cawangan Sepang)",
+        "category": "Clinic",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "address": "Sepang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n4781812212",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7515498,
+          2.6914672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pusat Kesihatan Kampus UiTM Dengkil",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w1533514947",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66701202958059,
+          2.8704463219408582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raman's Family Clinic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "5, Jalan Warisan Megah 1/5, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10931156055",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7049232,
+          2.8251362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunsuria Medical Clinic",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12000494877",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7074131,
+          2.8286219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Syamsul",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "address": "28, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n10934112378",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7056077,
+          2.8247383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "U.N.I. Klinik",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "address": "153",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n12651142851",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6566281,
+          2.800412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unnamed clinic (n14041650222)",
+        "category": "Clinic",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "address": "14",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n14041650222",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6497501,
+          2.917123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andorra Women and Children Hospital",
+        "category": "Hospital",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "n8308145408",
+        "source_geometry": "point",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6780977,
+          2.974408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital Cyberjaya",
+        "category": "Hospital",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "w167293135",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63136359849378,
+          2.920731636736907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital Sultan Abdul Aziz Shah",
+        "category": "Hospital",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "address": "",
+        "phone": "",
+        "website": "https://hsaas.upm.edu.my/",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "UPM",
+        "speciality": "",
+        "osm_id": "w1079722932",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71805869845029,
+          2.9803837164571294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital Sultan Idris Shah Serdang",
+        "category": "Hospital",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "address": "",
+        "phone": "",
+        "website": "https://jknselangor.moh.gov.my/hserdang/index.php",
+        "opening_hours": "",
+        "emergency": "yes",
+        "operator": "Kementerian Kesihatan Malaysia",
+        "speciality": "",
+        "osm_id": "w1079722928",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72052009085142,
+          2.976746621957184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Selgate Specialist Hospital Sepang",
+        "category": "Hospital",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency": "",
+        "operator": "",
+        "speciality": "",
+        "osm_id": "w1079618137",
+        "source_geometry": "polygon",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74977466575518,
+          2.8052935252726
+        ]
+      }
+    }
+  ]
+}

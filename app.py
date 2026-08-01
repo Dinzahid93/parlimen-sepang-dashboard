@@ -273,7 +273,7 @@ with facilities_tab:
 with issues_tab:
     st.subheader("Issues Reported")
     st.info("Reserved for issue location, category, description, status, responsible party and follow-up history.")
-
+    
 with data_tab:
     rows = []
     for feature in polling:

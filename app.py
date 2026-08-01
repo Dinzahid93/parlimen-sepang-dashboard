@@ -19,6 +19,7 @@ FILES = {
     "pdm": DATA / "pdm.geojson",
     "polling": DATA / "polling_centres.geojson",
     "masjid": DATA / "masjid.geojson",
+    "schools": DATA / "schools.geojson",
 }
 
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
@@ -125,6 +126,7 @@ duns = datasets["dun"]["features"]
 pdms = datasets["pdm"]["features"]
 polling = datasets["polling"]["features"]
 masjids = datasets["masjid"]["features"]
+schools = datasets["schools"]["features"]
 
 for masjid in masjids:
     lon, lat = masjid["geometry"]["coordinates"][:2]
@@ -144,14 +146,16 @@ overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
 )
 
 with overview_tab:
-    c1, c2, c3, c4, c5 = st.columns(5)
+    c1, c2, c3, c4, c5, c6 = st.columns(6)
     c1.metric("Parliament", "P.113 Sepang")
     c2.metric("DUN", len(duns))
     c3.metric("PDM", len(pdms))
     c4.metric("Masjid", len(masjids))
-    c5.metric("Eligible voters", "168,039")
+    c5.metric("Schools*", len(schools))
+    c6.metric("Eligible voters", "168,039")
+    st.caption("*Preliminary OpenStreetMap school count; verification against KPM/JPN records is pending.")
     st.caption("Eligible voters: official GE15 electoral roll (2022). Legacy PDM voter attributes are retained only in feature pop-ups.")
-    st.info("Additional cards and charts will appear here when school, surau, clinic and issue datasets are added.")
+    st.info("Additional cards and charts will appear here when surau, clinic and issue datasets are added.")
 
 with map_tab:
     with st.sidebar:
@@ -186,6 +190,15 @@ with map_tab:
         if selected_pdm_name != "All PDM" and props.get("_pdm_name") != selected_pdm_name:
             continue
         visible_masjids.append(feature)
+
+    visible_schools = []
+    for feature in schools:
+        props = feature["properties"]
+        if selected_dun and dun_code_from_name(props.get("dun")) != selected_dun:
+            continue
+        if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
+            continue
+        visible_schools.append(feature)
 
     m = folium.Map(location=[2.80, 101.67], zoom_start=10, tiles=None, control_scale=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap", show=True).add_to(m)
@@ -255,6 +268,30 @@ with map_tab:
         ).add_to(masjid_group)
     masjid_group.add_to(m)
 
+    school_group = folium.FeatureGroup(name="Schools (preliminary OSM)", show=True)
+    for feature in visible_schools:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        popup = (
+            f"<b>{props.get('name', 'School')}</b><br><br>"
+            f"<b>Category:</b> {props.get('category', '')}<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Address:</b> {props.get('address', '')}<br>"
+            f"<b>Status:</b> {props.get('verification_status', '')}<br>"
+            f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}"
+        )
+        folium.Marker(
+            [lat, lon],
+            icon=folium.DivIcon(
+                icon_size=(34, 34), icon_anchor=(17, 17),
+                html="<div style='width:34px;height:34px;border-radius:50%;background:#1d4ed8;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:20px'>🏫</div>",
+            ),
+            tooltip=props.get("name", "School"),
+            popup=folium.Popup(popup, max_width=440),
+        ).add_to(school_group)
+    school_group.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
     st_folium(m, use_container_width=True, height=680, returned_objects=[])
 
@@ -271,19 +308,79 @@ with facilities_tab:
             "Latitude": lat, "Longitude": lon,
         })
     facility_df = pd.DataFrame(facility_rows)
-    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid"])
+    school_rows = []
+    for feature in schools:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        school_rows.append({
+            "School": props.get("name", ""), "Category": props.get("category", ""),
+            "DUN": props.get("dun", ""), "PDM": props.get("pdm", ""),
+            "Address": props.get("address", ""), "Verification": props.get("verification_status", ""),
+            "Latitude": lat, "Longitude": lon,
+        })
+    school_df = pd.DataFrame(school_rows)
+    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid", "Schools"])
     if facility_type == "Masjid":
-        st.metric("Masjid within P.113 Sepang", len(masjids))
-        query = st.text_input("Search masjid, mukim, DUN or PDM")
         shown_facilities = facility_df
+        filter_col1, filter_col2 = st.columns(2)
+        with filter_col1:
+            selected_facility_dun = st.selectbox(
+                "Filter by DUN",
+                ["All DUN"] + sorted(facility_df["DUN"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="facility_dun",
+            )
+        if selected_facility_dun != "All DUN":
+            shown_facilities = shown_facilities[shown_facilities["DUN"] == selected_facility_dun]
+        with filter_col2:
+            selected_facility_pdm = st.selectbox(
+                "Filter by PDM",
+                ["All PDM"] + sorted(shown_facilities["PDM"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="facility_pdm",
+            )
+        if selected_facility_pdm != "All PDM":
+            shown_facilities = shown_facilities[shown_facilities["PDM"] == selected_facility_pdm]
+        query = st.text_input("Search by masjid name, mukim, address, DUN or PDM")
         if query:
             shown_facilities = shown_facilities[
                 shown_facilities.astype(str).apply(lambda row: row.str.contains(query, case=False, na=False).any(), axis=1)
             ]
-        st.dataframe(shown_facilities, use_container_width=True, hide_index=True)
+        st.metric("Masjid shown", f"{len(shown_facilities)} of {len(masjids)}")
+        st.dataframe(shown_facilities, use_container_width=True, hide_index=True, height=520)
+    elif facility_type == "Schools":
+        shown_schools = school_df
+        filter_col1, filter_col2, filter_col3 = st.columns(3)
+        with filter_col1:
+            selected_school_dun = st.selectbox(
+                "Filter by DUN", ["All DUN"] + sorted(school_df["DUN"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="school_dun",
+            )
+        if selected_school_dun != "All DUN":
+            shown_schools = shown_schools[shown_schools["DUN"] == selected_school_dun]
+        with filter_col2:
+            selected_school_pdm = st.selectbox(
+                "Filter by PDM", ["All PDM"] + sorted(shown_schools["PDM"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="school_pdm",
+            )
+        if selected_school_pdm != "All PDM":
+            shown_schools = shown_schools[shown_schools["PDM"] == selected_school_pdm]
+        with filter_col3:
+            selected_school_type = st.selectbox(
+                "School category", ["All categories"] + sorted(shown_schools["Category"].dropna().unique().tolist()),
+                key="school_category",
+            )
+        if selected_school_type != "All categories":
+            shown_schools = shown_schools[shown_schools["Category"] == selected_school_type]
+        school_query = st.text_input("Search by school name, category, address, DUN or PDM")
+        if school_query:
+            shown_schools = shown_schools[
+                shown_schools.astype(str).apply(lambda row: row.str.contains(school_query, case=False, na=False).any(), axis=1)
+            ]
+        st.metric("Schools shown", f"{len(shown_schools)} of {len(schools)}")
+        st.dataframe(shown_schools, use_container_width=True, hide_index=True, height=520)
+        st.caption("Preliminary OpenStreetMap dataset. Verify against current KPM/JPN records before treating this as an official total.")
     else:
         st.info("Choose a facility category to display its records.")
-    st.caption("Future categories: schools, surau, clinics, community halls and others.")
+    st.caption("Future categories: surau, clinics, community halls and others.")
 
 with issues_tab:
     st.subheader("Issues Reported")
@@ -302,10 +399,13 @@ with data_tab:
             "Latitude": lat, "Longitude": lon,
         })
     polling_df = pd.DataFrame(rows)
-    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid"])
+    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools"])
     if selected_dataset == "Polling centres":
         st.caption("These 51 records provide the polling-centre markers shown on the interactive map.")
         st.dataframe(polling_df, use_container_width=True, hide_index=True)
-    else:
+    elif selected_dataset == "Masjid":
         st.caption("These 43 records provide the masjid markers shown on the interactive map.")
         st.dataframe(facility_df, use_container_width=True, hide_index=True)
+    else:
+        st.caption("These 84 preliminary OSM records provide the school markers shown on the interactive map.")
+        st.dataframe(school_df, use_container_width=True, hide_index=True)

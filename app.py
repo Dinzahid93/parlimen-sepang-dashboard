@@ -20,6 +20,7 @@ FILES = {
     "polling": DATA / "polling_centres.geojson",
     "masjid": DATA / "masjid.geojson",
     "schools": DATA / "schools.geojson",
+    "healthcare": DATA / "healthcare.geojson",
 }
 
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
@@ -127,6 +128,7 @@ pdms = datasets["pdm"]["features"]
 polling = datasets["polling"]["features"]
 masjids = datasets["masjid"]["features"]
 schools = datasets["schools"]["features"]
+healthcare = datasets["healthcare"]["features"]
 
 for masjid in masjids:
     lon, lat = masjid["geometry"]["coordinates"][:2]
@@ -146,16 +148,21 @@ overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
 )
 
 with overview_tab:
-    c1, c2, c3, c4, c5, c6 = st.columns(6)
+    c1, c2, c3 = st.columns(3)
     c1.metric("Parliament", "P.113 Sepang")
-    c2.metric("DUN", len(duns))
+    c2.metric("Eligible voters", "168,039")
     c3.metric("PDM", len(pdms))
-    c4.metric("Masjid", len(masjids))
-    c5.metric("Schools*", len(schools))
-    c6.metric("Eligible voters", "168,039")
-    st.caption("*Preliminary OpenStreetMap school count; verification against KPM/JPN records is pending.")
-    st.caption("Eligible voters: official GE15 electoral roll (2022). Legacy PDM voter attributes are retained only in feature pop-ups.")
-    st.info("Additional cards and charts will appear here when surau, clinic and issue datasets are added.")
+    c4, c5, c6 = st.columns(3)
+    c4.metric("DUN", len(duns))
+    c5.metric("Masjid", len(masjids))
+    c6.metric("Schools", len(schools))
+    c7, _, _ = st.columns(3)
+    c7.metric("Healthcare facilities", len(healthcare))
+    st.caption(
+        "Data presented in this dashboard is compiled from open-source and publicly available datasets. "
+        "Figures may differ slightly from official records due to incomplete coverage, source updates or data availability."
+    )
+    st.info("Additional cards and charts will appear here as surau, community facility and issue datasets are added.")
 
 with map_tab:
     with st.sidebar:
@@ -199,6 +206,15 @@ with map_tab:
         if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
             continue
         visible_schools.append(feature)
+
+    visible_healthcare = []
+    for feature in healthcare:
+        props = feature["properties"]
+        if selected_dun and dun_code_from_name(props.get("dun")) != selected_dun:
+            continue
+        if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
+            continue
+        visible_healthcare.append(feature)
 
     m = folium.Map(location=[2.80, 101.67], zoom_start=10, tiles=None, control_scale=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap", show=True).add_to(m)
@@ -292,6 +308,34 @@ with map_tab:
         ).add_to(school_group)
     school_group.add_to(m)
 
+    healthcare_group = folium.FeatureGroup(name="Healthcare (preliminary OSM)", show=True)
+    for feature in visible_healthcare:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        popup = (
+            f"<b>{props.get('name', 'Healthcare facility')}</b><br><br>"
+            f"<b>Category:</b> {props.get('category', '')}<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Address:</b> {props.get('address', '')}<br>"
+            f"<b>Phone:</b> {props.get('phone', '')}<br>"
+            f"<b>Opening hours:</b> {props.get('opening_hours', '')}<br>"
+            f"<b>Status:</b> {props.get('verification_status', '')}<br>"
+            f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}"
+        )
+        marker_color = "#dc2626" if props.get("category") == "Hospital" else "#0891b2"
+        marker_icon = "🏥" if props.get("category") == "Hospital" else "✚"
+        folium.Marker(
+            [lat, lon],
+            icon=folium.DivIcon(
+                icon_size=(34, 34), icon_anchor=(17, 17),
+                html=f"<div style='width:34px;height:34px;border-radius:50%;background:{marker_color};color:white;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:bold'>{marker_icon}</div>",
+            ),
+            tooltip=props.get("name", "Healthcare facility"),
+            popup=folium.Popup(popup, max_width=440),
+        ).add_to(healthcare_group)
+    healthcare_group.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
     st_folium(m, use_container_width=True, height=680, returned_objects=[])
 
@@ -319,7 +363,20 @@ with facilities_tab:
             "Latitude": lat, "Longitude": lon,
         })
     school_df = pd.DataFrame(school_rows)
-    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid", "Schools"])
+    healthcare_rows = []
+    for feature in healthcare:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        healthcare_rows.append({
+            "Facility": props.get("name", ""), "Category": props.get("category", ""),
+            "DUN": props.get("dun", ""), "PDM": props.get("pdm", ""),
+            "Address": props.get("address", ""), "Phone": props.get("phone", ""),
+            "Opening hours": props.get("opening_hours", ""),
+            "Verification": props.get("verification_status", ""),
+            "Latitude": lat, "Longitude": lon,
+        })
+    healthcare_df = pd.DataFrame(healthcare_rows)
+    facility_type = st.selectbox("Facility category", ["Select a category", "Masjid", "Schools", "Healthcare"])
     if facility_type == "Masjid":
         shown_facilities = facility_df
         filter_col1, filter_col2 = st.columns(2)
@@ -378,9 +435,41 @@ with facilities_tab:
         st.metric("Schools shown", f"{len(shown_schools)} of {len(schools)}")
         st.dataframe(shown_schools, use_container_width=True, hide_index=True, height=520)
         st.caption("Preliminary OpenStreetMap dataset. Verify against current KPM/JPN records before treating this as an official total.")
+    elif facility_type == "Healthcare":
+        shown_healthcare = healthcare_df
+        filter_col1, filter_col2, filter_col3 = st.columns(3)
+        with filter_col1:
+            selected_healthcare_dun = st.selectbox(
+                "Filter by DUN", ["All DUN"] + sorted(healthcare_df["DUN"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="healthcare_dun",
+            )
+        if selected_healthcare_dun != "All DUN":
+            shown_healthcare = shown_healthcare[shown_healthcare["DUN"] == selected_healthcare_dun]
+        with filter_col2:
+            selected_healthcare_pdm = st.selectbox(
+                "Filter by PDM", ["All PDM"] + sorted(shown_healthcare["PDM"].dropna().loc[lambda s: s != ""].unique().tolist()),
+                key="healthcare_pdm",
+            )
+        if selected_healthcare_pdm != "All PDM":
+            shown_healthcare = shown_healthcare[shown_healthcare["PDM"] == selected_healthcare_pdm]
+        with filter_col3:
+            selected_healthcare_type = st.selectbox(
+                "Healthcare category", ["All categories"] + sorted(shown_healthcare["Category"].dropna().unique().tolist()),
+                key="healthcare_category",
+            )
+        if selected_healthcare_type != "All categories":
+            shown_healthcare = shown_healthcare[shown_healthcare["Category"] == selected_healthcare_type]
+        healthcare_query = st.text_input("Search by facility name, category, address, DUN or PDM")
+        if healthcare_query:
+            shown_healthcare = shown_healthcare[
+                shown_healthcare.astype(str).apply(lambda row: row.str.contains(healthcare_query, case=False, na=False).any(), axis=1)
+            ]
+        st.metric("Healthcare facilities shown", f"{len(shown_healthcare)} of {len(healthcare)}")
+        st.dataframe(shown_healthcare, use_container_width=True, hide_index=True, height=520)
+        st.caption("Preliminary OpenStreetMap dataset: 56 clinics and 5 hospitals. Verify against current MOH/JKN and local records before treating this as an official total.")
     else:
         st.info("Choose a facility category to display its records.")
-    st.caption("Future categories: surau, clinics, community halls and others.")
+    st.caption("Future categories: surau, community halls and others.")
 
 with issues_tab:
     st.subheader("Issues Reported")
@@ -399,13 +488,16 @@ with data_tab:
             "Latitude": lat, "Longitude": lon,
         })
     polling_df = pd.DataFrame(rows)
-    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools"])
+    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools", "Healthcare"])
     if selected_dataset == "Polling centres":
         st.caption("These 51 records provide the polling-centre markers shown on the interactive map.")
         st.dataframe(polling_df, use_container_width=True, hide_index=True)
     elif selected_dataset == "Masjid":
         st.caption("These 43 records provide the masjid markers shown on the interactive map.")
         st.dataframe(facility_df, use_container_width=True, hide_index=True)
-    else:
+    elif selected_dataset == "Schools":
         st.caption("These 84 preliminary OSM records provide the school markers shown on the interactive map.")
         st.dataframe(school_df, use_container_width=True, hide_index=True)
+    else:
+        st.caption("These 61 preliminary OSM records provide the clinic and hospital markers shown on the interactive map.")
+        st.dataframe(healthcare_df, use_container_width=True, hide_index=True)

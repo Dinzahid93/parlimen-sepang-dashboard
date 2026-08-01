@@ -1,0 +1,838 @@
+{
+  "type": "FeatureCollection",
+  "name": "kampung_p113_sepang",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Baru Tanjung Sepat Indah",
+        "district": "Kuala Langat",
+        "mukim": "Batu",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Baru",
+        "area_ha": 105.56,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/07  TANJONG SEPAT TEMPATAN 4",
+        "matched_osm_name": "Tanjong Sepat Indah",
+        "osm_element": "way/1010292541",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5592987,
+          2.6602413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Batu Laut",
+        "district": "Kuala Langat",
+        "mukim": "Batu",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 2177.12,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/11  BATU LAUT",
+        "matched_osm_name": "Kampung Batu Laut",
+        "osm_element": "node/9774673321",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5193014,
+          2.6828441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Bukit Bangkung",
+        "district": "Sepang",
+        "mukim": "Sepang",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 446.9,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/01 BUKIT BANGKUNG",
+        "matched_osm_name": "Kampung Bukit Bangkong",
+        "osm_element": "node/9127827512",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6734391,
+          2.6503518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Endah",
+        "district": "Kuala Langat",
+        "mukim": "Morib",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 1834.44,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "matched_osm_name": "Kampung Endah",
+        "osm_element": "way/1186222740",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4689701,
+          2.7334134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Sungai Lang Baru",
+        "district": "Kuala Langat",
+        "mukim": "Tanjung Dua Belas",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 1506.68,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/13  SUNGAI LANG",
+        "matched_osm_name": "Kampung Sungai Lang",
+        "osm_element": "node/9895147785",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5119951,
+          2.7922842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Tanjung Sepat Darat",
+        "district": "Kuala Langat",
+        "mukim": "Batu",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 729.69,
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/05  TANJONG SEPAT TEMPATAN 2",
+        "matched_osm_name": "Tanjung Sepat",
+        "osm_element": "node/254073394",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "Medium",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.562905,
+          2.659941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Dato' Abu Bakar Baginda",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 330.76,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/09 KAMPUNG DATO ABU BAKAR BAGINDA",
+        "matched_osm_name": "Kampung Dato' Abu Bakar Baginda",
+        "osm_element": "way/1080015942",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7380505,
+          2.9562067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Desa Putra",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 1434.33,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "matched_osm_name": "Kampung Desa Putra",
+        "osm_element": "node/1311884885",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7348246,
+          2.9194304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Labohan Dagang",
+        "district": "Kuala Langat",
+        "mukim": "Tanjung Dua Belas",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 503.04,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/03  LABUHAN DAGANG",
+        "matched_osm_name": "Kampung Labohan Dagang",
+        "osm_element": "node/4279227089",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6226719,
+          2.8019841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Limau Manis",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 696.81,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/11  DESA PUTRA",
+        "matched_osm_name": "Kampung Limau Manis",
+        "osm_element": "node/6698687729",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7126289,
+          2.9158048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Olak Lempit",
+        "district": "Kuala Langat",
+        "mukim": "Tanjung Dua Belas",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 930.84,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "matched_osm_name": "Kampung Olak Lempit",
+        "osm_element": "node/4893058399",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5928134,
+          2.8349369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Bakok",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "matched_osm_name": "Kampung Orang Asli Bakok",
+        "osm_element": "way/663083757",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6901548,
+          2.8229472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Bukit Dugang",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/12  JENDERAM HILIR",
+        "matched_osm_name": "Kampung Orang Asli Bukit Dugang",
+        "osm_element": "node/13141008280",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.719235,
+          2.9012484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Bukit Serdang",
+        "district": "Kuala Langat",
+        "mukim": "Tanjung Dua Belas",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 105.75,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "matched_osm_name": "Kampung Orang Asli Bukit Serdang",
+        "osm_element": "node/13908613316",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6466904,
+          2.8309419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Bukit Tampoi",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "matched_osm_name": "Kampung Orang Asli Bukit Tampoi",
+        "osm_element": "node/13907899909",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6756099,
+          2.8501391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Jambu",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "matched_osm_name": "Kampung Orang Asli Jambu",
+        "osm_element": "node/13907911305",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6903223,
+          2.8135683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Kelinsing",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "matched_osm_name": "Kampung Kelinsing",
+        "osm_element": "node/7230375741",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "Medium",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6997525,
+          2.812814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Kolam Air Bangkong",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "matched_osm_name": "Kampung Orang Asli Kolam Air Bangkong",
+        "osm_element": "node/13907902898",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6716766,
+          2.8402166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Sungai Buah",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 8.29,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/13  SUNGAI BUAH",
+        "matched_osm_name": "Kampung Orang Asli Sungai Buah",
+        "osm_element": "way/699908136",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7628112,
+          2.8815815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Orang Asli Sungai Melut",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Orang Asli",
+        "area_ha": 0,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "matched_osm_name": "Kampung Orang Asli Sungai Melut",
+        "osm_element": "node/13907897564",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6827,
+          2.8319987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Pulau Meranti",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 676.98,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "matched_osm_name": "Kampung Pulau Meranti",
+        "osm_element": "node/4865976223",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6397935,
+          2.9696594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. RTB Bukit Changgang",
+        "district": "Kuala Langat",
+        "mukim": "Tanjung Dua Belas",
+        "pbt": "Majlis Daerah Kuala Langat",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 585.46,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "matched_osm_name": "Kampung RTB Bukit Changgang",
+        "osm_element": "node/4758915009",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6561446,
+          2.8068186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Semarang",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 1554.72,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/04  AMPAR TENANG",
+        "matched_osm_name": "Kampung Semarang",
+        "osm_element": "node/9903699616",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6965003,
+          2.8693311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Sungai Buah",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 575.86,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/13  SUNGAI BUAH",
+        "matched_osm_name": "Kampung Sungai Buah",
+        "osm_element": "node/6613512730",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7602897,
+          2.8944528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Sungai Merab",
+        "district": "Sepang",
+        "mukim": "Dengkil",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 549.81,
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "matched_osm_name": "Kampung Sungai Merab Ulu",
+        "osm_element": "node/1311884817",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "Medium",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7396246,
+          2.9262616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Bagan Lalang",
+        "district": "Sepang",
+        "mukim": "Sepang",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 182.93,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/08  BAGAN LALANG",
+        "matched_osm_name": "Bagan Lalang",
+        "osm_element": "node/270758592",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6903642,
+          2.6075858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Baru Salak",
+        "district": "Sepang",
+        "mukim": "Labu",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Baru",
+        "area_ha": 88.46,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/03  SALAK JIJAN",
+        "matched_osm_name": "Kampung Baru Salak",
+        "osm_element": "way/823537985",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7518963,
+          2.7832741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Baru Sepang Jaya",
+        "district": "Sepang",
+        "mukim": "Sepang",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Baru",
+        "area_ha": 45.04,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/05  SEPANG UTARA",
+        "matched_osm_name": "Kampung Sepang Jaya",
+        "osm_element": "node/4781813248",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7485569,
+          2.687291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Giching",
+        "district": "Sepang",
+        "mukim": "Labu",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 293.17,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "matched_osm_name": "Kampung Giching",
+        "osm_element": "node/11028453464",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7348261,
+          2.7933074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Jelutong Indah",
+        "district": "Sepang",
+        "mukim": "Sepang",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 50.2,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "matched_osm_name": "Kampung Jelutong Indah",
+        "osm_element": "node/9321627302",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7243395,
+          2.6481722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Labu Lanjut",
+        "district": "Sepang",
+        "mukim": "Labu",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 657.79,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "matched_osm_name": "Kampung Labu Lanjut",
+        "osm_element": "node/532759931",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "High",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7188097,
+          2.7951199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kg. Tanjong Mas",
+        "district": "Sepang",
+        "mukim": "Sepang",
+        "pbt": "Majlis Perbandaran Sepang",
+        "kampung_type": "Kampung Tradisi",
+        "area_ha": 197.8,
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "matched_osm_name": "Kampung Tanjong Mas Batu 2",
+        "osm_element": "node/9321627396",
+        "source_spreadsheet": "50-senarai-kampung-mengikut-daerah-di-negeri-selangor.xlsx",
+        "coordinate_source": "OpenStreetMap",
+        "match_confidence": "Medium",
+        "verification_status": "Needs verification against official village coordinates/boundaries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7361691,
+          2.6578426
+        ]
+      }
+    }
+  ]
+}

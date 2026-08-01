@@ -18,6 +18,7 @@ FILES = {
     "dun": DATA / "dun.geojson",
     "pdm": DATA / "pdm.geojson",
     "polling": DATA / "polling_centres.geojson",
+    "masjid": DATA / "masjid.geojson",
 }
 
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
@@ -53,6 +54,26 @@ def fields_from_description(description):
 def dun_code_from_name(name):
     match = re.search(r"(?:N\.|113/)(54|55|56)", name or "", flags=re.I)
     return match.group(1) if match else None
+
+
+def point_in_ring(lon, lat, ring):
+    inside = False
+    j = len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i][:2]
+        xj, yj = ring[j][:2]
+        if ((yi > lat) != (yj > lat)) and lon < (xj - xi) * (lat - yi) / ((yj - yi) or 1e-15) + xi:
+            inside = not inside
+        j = i
+    return inside
+
+
+def point_in_geometry(lon, lat, geometry):
+    polygons = geometry["coordinates"] if geometry["type"] == "MultiPolygon" else [geometry["coordinates"]]
+    for polygon in polygons:
+        if point_in_ring(lon, lat, polygon[0]) and not any(point_in_ring(lon, lat, hole) for hole in polygon[1:]):
+            return True
+    return False
 
 
 def prepared_feature(feature):
@@ -98,6 +119,17 @@ parliament = datasets["parliament"]["features"]
 duns = datasets["dun"]["features"]
 pdms = datasets["pdm"]["features"]
 polling = datasets["polling"]["features"]
+masjids = datasets["masjid"]["features"]
+
+for masjid in masjids:
+    lon, lat = masjid["geometry"]["coordinates"][:2]
+    props = masjid.setdefault("properties", {})
+    props["_dun_code"] = next(
+        (dun_code_from_name(f["properties"].get("Name")) for f in duns if point_in_geometry(lon, lat, f["geometry"])), None
+    )
+    props["_pdm_name"] = next(
+        (f["properties"].get("Name", "") for f in pdms if point_in_geometry(lon, lat, f["geometry"])), ""
+    )
 
 st.title("Parlimen Sepang (P.113) Dashboard")
 st.caption("Local information, facilities and issue-monitoring dashboard")
@@ -107,19 +139,14 @@ overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
 )
 
 with overview_tab:
-    voter_total = 0
-    for feature in pdms:
-        values = fields_from_description(feature["properties"].get("description", ""))
-        try:
-            voter_total += int(float(values.get("JUMLAH_PEM", 0)))
-        except ValueError:
-            pass
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Parliament", "P.113 Sepang")
     c2.metric("DUN", len(duns))
     c3.metric("PDM", len(pdms))
-    c4.metric("Registered voters", f"{voter_total:,}")
-    st.info("Additional cards and charts will appear here when school, mosque, clinic and issue datasets are added.")
+    c4.metric("Masjid", len(masjids))
+    c5.metric("Eligible voters", "168,039")
+    st.caption("Eligible voters: official GE15 electoral roll (2022). Legacy PDM voter attributes are retained only in feature pop-ups.")
+    st.info("Additional cards and charts will appear here when school, surau, clinic and issue datasets are added.")
 
 with map_tab:
     with st.sidebar:
@@ -145,6 +172,15 @@ with map_tab:
         if selected_pdm_name != "All PDM" and code not in selected_pdm_name:
             continue
         visible_polling.append(feature)
+
+    visible_masjids = []
+    for feature in masjids:
+        props = feature["properties"]
+        if selected_dun and props.get("_dun_code") != selected_dun:
+            continue
+        if selected_pdm_name != "All PDM" and props.get("_pdm_name") != selected_pdm_name:
+            continue
+        visible_masjids.append(feature)
 
     m = folium.Map(location=[2.80, 101.67], zoom_start=10, tiles=None, control_scale=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap", show=True).add_to(m)
@@ -191,12 +227,48 @@ with map_tab:
         ).add_to(polling_group)
     polling_group.add_to(m)
 
+    masjid_group = folium.FeatureGroup(name="Masjid", show=True)
+    for feature in visible_masjids:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        popup = (
+            f"<b>{props.get('Field3', 'Masjid')}</b><br><br>"
+            f"<b>District:</b> {props.get('Field1', '')}<br>"
+            f"<b>Mukim:</b> {props.get('Field2', '')}<br>"
+            f"<b>Address:</b> {props.get('Field4', '')}<br>"
+            f"<b>PDM:</b> {props.get('_pdm_name', '')}<br>"
+            f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}"
+        )
+        folium.CircleMarker(
+            [lat, lon], radius=7, color="#14532d", weight=2, fill=True,
+            fill_color="#22c55e", fill_opacity=0.95,
+            tooltip=props.get("Field3", "Masjid"),
+            popup=folium.Popup(popup, max_width=430),
+        ).add_to(masjid_group)
+    masjid_group.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
     st_folium(m, use_container_width=True, height=680, returned_objects=[])
 
 with facilities_tab:
     st.subheader("Facilities")
-    st.info("Reserved for schools, mosques, surau, clinics, community halls and other facilities.")
+    st.metric("Masjid within P.113 Sepang", len(masjids))
+    facility_rows = []
+    for feature in masjids:
+        props = feature["properties"]
+        lon, lat = feature["geometry"]["coordinates"][:2]
+        facility_rows.append({
+            "Masjid": props.get("Field3", ""), "District": props.get("Field1", ""),
+            "Mukim": props.get("Field2", ""), "DUN": DUN_LABELS.get(props.get("_dun_code"), ""),
+            "PDM": props.get("_pdm_name", ""), "Address": props.get("Field4", ""),
+            "Latitude": lat, "Longitude": lon,
+        })
+    facility_df = pd.DataFrame(facility_rows)
+    query = st.text_input("Search masjid, mukim, DUN or PDM")
+    if query:
+        facility_df = facility_df[facility_df.astype(str).apply(lambda row: row.str.contains(query, case=False, na=False).any(), axis=1)]
+    st.dataframe(facility_df, use_container_width=True, hide_index=True)
+    st.caption("Future facility datasets: schools, surau, clinics, community halls and others.")
 
 with issues_tab:
     st.subheader("Issues Reported")
@@ -215,4 +287,3 @@ with data_tab:
             "Latitude": lat, "Longitude": lon,
         })
     st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-

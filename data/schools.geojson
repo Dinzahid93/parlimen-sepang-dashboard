@@ -1,0 +1,1770 @@
+{
+  "type": "FeatureCollection",
+  "name": "schools",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brainy Bunch International School and Headquarters",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w794395458",
+        "operator": "Brainy Bunch",
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62504208638448,
+          2.9046688091212407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Concord College International School",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "r17637729",
+        "operator": null,
+        "address": "Jalan Sunsuria, Sepang, 43900",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70048221585486,
+          2.828916955744418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "elc International School Cyberjaya Campus",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w303272536",
+        "operator": null,
+        "address": "Lingkaran Cyber Point Barat, Cyberjaya",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64729042175576,
+          2.926866376323518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KAFA Integrasi Darul Taqwa",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w1007070261",
+        "operator": null,
+        "address": "Sepang",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7486004687001,
+          2.6961974476102424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "King Henry VIII College",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w1080497943",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63758025377983,
+          2.91514239753265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korean School of Malaysia",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w1011916005",
+        "operator": null,
+        "address": "Jalan SP 2, Cyberjaya, 63000",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62302121412496,
+          2.9210437607775135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maahad Tahfiz D-Itqan",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4713976447",
+        "operator": null,
+        "address": "Olak Lempit, Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5987353,
+          2.8354676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maahad Tahfiz Miftah Al-Ulum",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4716687592",
+        "operator": null,
+        "address": "Bukit Changgang, Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6446551,
+          2.8386243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrasah Tahfiz Lil Banin",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4717546680",
+        "operator": null,
+        "address": "Bukit Changgang, Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6306282,
+          2.8369264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rafflesia International School",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w1069526471",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.65740468556704,
+          2.972513305862235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAM Bandar Baru Salak Tinggi",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w661667286",
+        "operator": "Kementerian Pendidikan Malaysia",
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73485308887115,
+          2.820142538964678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Agama Menengah Sungai Merab Luar",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w335704586",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7497760088562,
+          2.938823617388576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Jenis Kebangsaan (Cina) Sepang",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w485411096",
+        "operator": null,
+        "address": "Sepang",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/05  SEPANG UTARA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7492078467456,
+          2.6892089547748736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Jenis Kebangsaan (Tamil) Ladang Tumbuk",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w1009998630",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58161887404623,
+          2.6519047467148487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Jenis Kebangsaan (Tamil) Ldg West Country 'Barat'",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w1021575843",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72585713714852,
+          2.9744001931502817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Jenis Kebangsaan (Tamil) Sepang",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w485411082",
+        "operator": null,
+        "address": "Jalan Kelab, Sepang",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7500790489987,
+          2.6949790039762194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Jenis Kebangsaan (Tamil) Teluk Merbau",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w356075313",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/03  TANJONG RHU",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66062378952786,
+          2.643441099331815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Batu Laut",
+        "category": "National primary",
+        "source_geometry": "point",
+        "osm_id": "n3615264650",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/11  BATU LAUT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.515089,
+          2.6762725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Bukit Tampoi (A)",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w1525978979",
+        "operator": "Kementerian Pendidikan Malaysia",
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6718662054327,
+          2.8510058638918014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Desa Pinggiran Putra",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w497927356",
+        "operator": null,
+        "address": "Kajang",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/22  DESA PINGGIRAN PUTRA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70581800265623,
+          2.8995554892232946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Jenderam",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w703367604",
+        "operator": null,
+        "address": "43800",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/01  JENDERAM HULU",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73191896303611,
+          2.8689934173432836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Kampung Endah",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w1064229818",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.46989191857448,
+          2.7339610464724906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Kota Warisan",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w662254487",
+        "operator": "Kementerian Pendidikan Malaysia (KPM)",
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70515832072843,
+          2.826296956463858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Olak Lempit",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w794395537",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58754449612168,
+          2.835587543815677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Sungai Pelek",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w145235806",
+        "operator": null,
+        "address": "45950",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72180722973769,
+          2.6456089679234505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Sungai Rawang",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w987512891",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/02  SUNGAI RAWANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67247845226743,
+          2.6636548841906835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kebangsaan Taman Seroja",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w790632863",
+        "operator": null,
+        "address": "Bandar Baru Salak Tinggi, 43900",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72791035840403,
+          2.8292667447055915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Kiblah Dengkil",
+        "category": "Other school",
+        "source_geometry": "point",
+        "osm_id": "n4719933801",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/04  AMPAR TENANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6884887,
+          2.8536558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Menengah Kebangsaan Batu Laut",
+        "category": "National secondary",
+        "source_geometry": "point",
+        "osm_id": "n3615264651",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/11  BATU LAUT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5151244,
+          2.6779536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Menengah Kebangsaan Seri Sepang",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w445088689",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74099455616535,
+          2.8102975544870907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Menengah Kebangsaan Tanjung Sepat",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w356008592",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.56673549797087,
+          2.657227887281255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Bandar Bukit Puchong",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w969536435",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62644143684719,
+          2.9697119956012963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Desa Air Hitam",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w394920131",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/19  DESA AIR HITAM",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61195877345841,
+          2.9652527489536356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Jenderam Hilir",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w972214207",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/12  JENDERAM HILIR",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72112545017464,
+          2.8853780746133193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Jenderam Hulu",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w703367612",
+        "operator": null,
+        "address": "43800",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/01  JENDERAM HULU",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73276565035806,
+          2.8700224632509737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Kampung Bukit Bangkong",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w1064300333",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/02  SUNGAI RAWANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67356483061945,
+          2.660492712224548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Pulau Meranti",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w969251269",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.64019405786162,
+          2.9685972896359454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Sungai Pelek",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w356165794",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72227234072362,
+          2.646076818577708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Taman Putra Perdana",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w1277872915",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61995188165568,
+          2.949025281424705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Agama Tanjong Sepat",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w356271082",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55505508239064,
+          2.6731127587670334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Islam Al-Imtiyaz",
+        "category": "Other school",
+        "source_geometry": "point",
+        "osm_id": "n11349374625",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.651621,
+          2.9235783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Islam Integrasi At-Taqwa",
+        "category": "Other school",
+        "source_geometry": "point",
+        "osm_id": "n4714387747",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6325553,
+          2.8244705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Rendah Islam Permata Al-Haziq",
+        "category": "Other school",
+        "source_geometry": "point",
+        "osm_id": "n12820004911",
+        "operator": null,
+        "address": "Dengkil, 43800",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/13  SUNGAI BUAH",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7627358,
+          2.9020499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sekolah Seri Puteri Cyberjaya",
+        "category": "Other school",
+        "source_geometry": "polygon",
+        "osm_id": "w295649044",
+        "operator": null,
+        "address": "Cyberjaya",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66419088674634,
+          2.911795712222928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Dengkil",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w497790829",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67773870652782,
+          2.859770938821615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Sin Ming Puchong",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w394526202",
+        "operator": null,
+        "address": "Puchong",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/19  DESA AIR HITAM",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61406356451145,
+          2.9659025519109914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Tanjong Sepat 丹绒士拔华文小学",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w500200718",
+        "operator": null,
+        "address": "Tanjong Sepat",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/08  TANJONG SEPAT TEMPATAN 5",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.55750038986038,
+          2.6616315428416466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Tche Min 双溪比力智明华文小学",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w1115396863",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/09  SUNGAI PELEK TIGA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71692742351584,
+          2.6448410308880415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Union, Cyberjaya",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w944310123",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63019917740779,
+          2.9263587814666847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (C) Wah Lian 双溪比力华联华文小学",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w1010284490",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/09  SUNGAI PELEK TIGA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71407908907618,
+          2.642393783138692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (T) Dengkil",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w497790831",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6793672262357,
+          2.855292010209941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (T) Ladang Gadong",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w1064300325",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4737296191014,
+          2.6995341334574254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SJK (T) Taman Permata",
+        "category": "Vernacular school",
+        "source_geometry": "polygon",
+        "osm_id": "w793261730",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67955225432404,
+          2.869805086417422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Agama Integrasi Salak Tinggi",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n532822165",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7497271,
+          2.7944404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Bukit Changgang",
+        "category": "National primary",
+        "source_geometry": "point",
+        "osm_id": "n4709142095",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6275627,
+          2.8320026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Cyberjaya",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w303573892",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63846096755306,
+          2.919279490843577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Cyberjaya 2",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w1225489707",
+        "operator": "Kementerian Pendidikan Malaysia",
+        "address": "Cyberjaya",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63142545458476,
+          2.9024576034825165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Dato' Abu Bakar Baginda",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w643414488",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73047944368759,
+          2.9575838457545824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Dengkil",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w497790841",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67287683675778,
+          2.8640035217896593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK KLIA",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w790632018",
+        "operator": null,
+        "address": "Taman Mawar, Sepang, 43900",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73163340131542,
+          2.8317504729366942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Labohan Dagang",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w864131671",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61380258675241,
+          2.8056065498309315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Pulau Meranti",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w1079175858",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62536681280385,
+          2.9654617784946367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Rancangan Tanah Belia Bukit Changgang",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w483138281",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.65704673467147,
+          2.8051553786300163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Salak",
+        "category": "National primary",
+        "source_geometry": "point",
+        "osm_id": "n532822162",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7470063,
+          2.7967315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Sungai Merab Luar",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w335704585",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75056434904805,
+          2.937229341749153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Taman Putra Perdana",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w639930457",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62053319329782,
+          2.9405452538452277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Taman Putra Perdana 2",
+        "category": "National primary",
+        "source_geometry": "polygon",
+        "osm_id": "w686317465",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61097661218136,
+          2.9396616557987905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Bandar Baru Salak Tinggi",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w400449861",
+        "operator": null,
+        "address": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72072439847204,
+          2.827042913790379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Bukit Changgang",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w472252120",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62258159394091,
+          2.8232918710086787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Cyberjaya",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w303573894",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.639470204274,
+          2.9189528033803214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Dato’ Abu Bakar Baginda",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w444924918",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74999088604505,
+          2.950456597818595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Dengkil",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w242669774",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67209043843941,
+          2.865872289929904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Kota Warisan",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w1079496614",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.69894887811432,
+          2.8171839649630006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Putra Perdana",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w639928188",
+        "operator": null,
+        "address": "Puchong, 47130",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6215747768713,
+          2.943946375283885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMK Sungai Rawang",
+        "category": "National secondary",
+        "source_geometry": "polygon",
+        "osm_id": "w987512888",
+        "operator": null,
+        "address": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/02  SUNGAI RAWANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6773973290499,
+          2.6714117859302013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spectrum International School",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w499739346",
+        "operator": null,
+        "address": "Persiaran Timur",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/11  DESA PUTRA",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71004538472,
+          2.922889039091344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Bandar Baru Salak Tinggi",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w791603814",
+        "operator": null,
+        "address": "43900",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73151071403838,
+          2.8196071156421985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Bukit Changgang",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4709142098",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6282872,
+          2.8320059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Dato Ahmad Razali",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4719562092",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6699877,
+          2.8804619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Dengkil",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w497790830",
+        "operator": null,
+        "address": "Dengkil",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67796619328033,
+          2.858914575594981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Labohan Dagang",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4733564746",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6106055,
+          2.8043339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Olak Lempit",
+        "category": "Religious school",
+        "source_geometry": "point",
+        "osm_id": "n4713976470",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5866071,
+          2.8382461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SRA Rancangan Tanah Belia Bukit Changgang",
+        "category": "Religious school",
+        "source_geometry": "polygon",
+        "osm_id": "w483138283",
+        "operator": null,
+        "address": "Banting",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6562736052066,
+          2.804090451831668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taylor's International School Puchong",
+        "category": "Private / International",
+        "source_geometry": "polygon",
+        "osm_id": "w1062013789",
+        "operator": null,
+        "address": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "verification_status": "OSM – needs verification"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63285605408345,
+          2.97834057884721
+        ]
+      }
+    }
+  ]
+}

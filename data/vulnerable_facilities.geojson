@@ -7,5 +7,441 @@
       "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
     }
   },
-  "features": []
+  "metadata": {
+    "created": "2026-08-02",
+    "scope": "Publicly listed vulnerable facilities potentially within P.113 Sepang",
+    "important_note": "The Streamlit app performs a final point-in-polygon check against parliament.geojson. Coordinates marked as approximations require local verification before emergency or operational use.",
+    "record_count": 11
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70082024233,
+          2.8392433916713
+        ]
+      },
+      "properties": {
+        "name": "Pusat Dialisis DaVita Kota Warisan",
+        "category": "Private Dialysis Centre",
+        "operator": "DaVita Malaysia",
+        "resident_group": "Dialysis patients",
+        "capacity": "12 dialysis stations",
+        "address": "Lot 36G, 38G & 40G, Jasper Square, Sunsuria City @ Sepang, 43900 Dengkil, Selangor",
+        "postcode": "43900",
+        "phone": "1800-180-780",
+        "email": "",
+        "website": "https://davita.com.my/dialysis-centre/kota-warisan",
+        "opening_hours": "Monday-Saturday 06:00-21:00; Sunday closed",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Transport available upon request; verify emergency arrangements directly",
+        "dialysis_type": "Haemodialysis",
+        "sessions_per_day": "",
+        "verification_status": "Official operator listing; exact published coordinates",
+        "last_verified": "2026-08-02",
+        "source": "DaVita Malaysia",
+        "source_url": "https://davita.com.my/dialysis-centre/kota-warisan",
+        "coordinate_quality": "Exact published coordinates",
+        "remarks": "",
+        "facility_id": "VF-001",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6997,
+          2.8169
+        ]
+      },
+      "properties": {
+        "name": "Pusat Dialisis Mukmin Salak Tinggi",
+        "category": "Private Dialysis Centre",
+        "operator": "Gedung Penawar Sdn. Bhd.",
+        "resident_group": "Dialysis patients",
+        "capacity": "",
+        "address": "No. 34 & 35, Ground Floor, Jalan 4, Medan 120, Bandar Baru Salak Tinggi, 43900 Sepang, Selangor",
+        "postcode": "43900",
+        "phone": "012-297 7971",
+        "email": "pdmsalaktinggi@gedungpenawar.com",
+        "website": "https://www.gedungpenawar.com/dialysis-centre/",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "Haemodialysis",
+        "sessions_per_day": "",
+        "verification_status": "Public and operator listings verified; coordinates approximated from address",
+        "last_verified": "2026-08-02",
+        "source": "Gedung Penawar and Dialisis.MY",
+        "source_url": "https://dialisis.my/pusat-dialisis-mukmin-salak-tinggi",
+        "coordinate_quality": "Address-centroid approximation; field verification recommended",
+        "remarks": "",
+        "facility_id": "VF-002",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6793,
+          2.8618
+        ]
+      },
+      "properties": {
+        "name": "Pusat Dialisis Mukmin Dengkil",
+        "category": "Private Dialysis Centre",
+        "operator": "Gedung Penawar Sdn. Bhd.",
+        "resident_group": "Dialysis patients",
+        "capacity": "",
+        "address": "Dengkil, Sepang, Selangor",
+        "postcode": "43800",
+        "phone": "",
+        "email": "",
+        "website": "https://www.gedungpenawar.com/pusat-dialisis-dengkil/",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "Haemodialysis",
+        "sessions_per_day": "",
+        "verification_status": "Operator listing verified; exact premises and coordinates require local verification",
+        "last_verified": "2026-08-02",
+        "source": "Gedung Penawar and Malaysian Medical Council listings",
+        "source_url": "https://www.gedungpenawar.com/pusat-dialisis-dengkil/",
+        "coordinate_quality": "Dengkil locality approximation",
+        "remarks": "Confirm exact shop-lot address before operational use.",
+        "facility_id": "VF-003",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.751,
+          2.6907
+        ]
+      },
+      "properties": {
+        "name": "NSCMH Dialysis Care Cawangan Sepang",
+        "category": "NGO Dialysis Centre",
+        "operator": "NSCMH Dialysis Care",
+        "resident_group": "Dialysis patients",
+        "capacity": "",
+        "address": "Lot 1, Jalan Sepang-Lukut, Pekan Sepang, 43900 Sepang, Selangor",
+        "postcode": "43900",
+        "phone": "018-387 7288 / 03-3141 2815",
+        "email": "dialysissepang@gmail.com",
+        "website": "https://dialisis.my/nscmh-dialysis-care-sepang-branch",
+        "opening_hours": "Monday-Friday approximately 06:00-16:00; Saturday approximately 06:00-15:00",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "Haemodialysis",
+        "sessions_per_day": "",
+        "verification_status": "Public directory and map listing verified; coordinates approximated from premises address",
+        "last_verified": "2026-08-02",
+        "source": "Dialisis.MY and Waze public listing",
+        "source_url": "https://dialisis.my/nscmh-dialysis-care-sepang-branch",
+        "coordinate_quality": "Address-centroid approximation",
+        "remarks": "",
+        "facility_id": "VF-004",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6558,
+          2.9218
+        ]
+      },
+      "properties": {
+        "name": "Hospital Cyberjaya - Haemodialysis Service",
+        "category": "Government Dialysis Centre",
+        "operator": "Ministry of Health Malaysia",
+        "resident_group": "Hospital dialysis patients",
+        "capacity": "",
+        "address": "Hospital Cyberjaya, Persiaran Multimedia, Cyber 11, 63000 Cyberjaya, Selangor",
+        "postcode": "63000",
+        "phone": "",
+        "email": "",
+        "website": "",
+        "opening_hours": "Hospital service; confirm with facility",
+        "emergency_contact": "",
+        "wheelchair_access": "Yes",
+        "backup_power": "Hospital infrastructure; confirm operational details",
+        "flood_risk_note": "",
+        "evacuation_support": "Hospital emergency procedures apply",
+        "dialysis_type": "Haemodialysis",
+        "sessions_per_day": "",
+        "verification_status": "Dialysis service publicly listed; map coordinate requires local confirmation",
+        "last_verified": "2026-08-02",
+        "source": "Dialysis centre public directory",
+        "source_url": "https://dialisis.my/lokasi/selangor/sepang",
+        "coordinate_quality": "Hospital map-location approximation",
+        "remarks": "",
+        "facility_id": "VF-005",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7142,
+          2.7986
+        ]
+      },
+      "properties": {
+        "name": "Rumah Anak Yatim Baitul Barokah",
+        "category": "Orphanage",
+        "operator": "Rumah Anak Yatim Baitul Barokah",
+        "resident_group": "Orphaned and vulnerable children",
+        "capacity": "",
+        "address": "979, Jalan Burhan, Kampung Giching Hilir, Salak, 43900 Sepang, Selangor",
+        "postcode": "43900",
+        "phone": "",
+        "email": "",
+        "website": "https://www.facebook.com/rumahbaitulbarokah/",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "Public organisation listing verified; coordinates approximated from village/address",
+        "last_verified": "2026-08-02",
+        "source": "Public organisation page",
+        "source_url": "https://www.facebook.com/rumahbaitulbarokah/",
+        "coordinate_quality": "Address-area approximation; field verification recommended",
+        "remarks": "Do not publish information about individual children.",
+        "facility_id": "VF-006",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6761,
+          2.868
+        ]
+      },
+      "properties": {
+        "name": "Rumah Anak-Anak Yatim / Miskin Taman Baiduri",
+        "category": "Orphanage",
+        "operator": "",
+        "resident_group": "Orphaned and low-income children",
+        "capacity": "",
+        "address": "No. 11A, Jalan Baiduri 2, Taman Baiduri, 43800 Dengkil, Selangor",
+        "postcode": "43800",
+        "phone": "019-653 9701",
+        "email": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "Public directory address verified; coordinates approximated from address",
+        "last_verified": "2026-08-02",
+        "source": "Public welfare directory citing Pejabat MARA Daerah Sepang",
+        "source_url": "https://story.motherhood.com.my/my/rumah-anak-yatim-putrajaya/",
+        "coordinate_quality": "Neighbourhood approximation",
+        "remarks": "Confirm current operating status and official contact.",
+        "facility_id": "VF-007",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7027,
+          2.8274
+        ]
+      },
+      "properties": {
+        "name": "Pertubuhan Baitus Sakinah Hidayah",
+        "category": "Children's Home",
+        "operator": "Pertubuhan Baitus Sakinah Hidayah",
+        "resident_group": "Vulnerable children",
+        "capacity": "",
+        "address": "111, Persiaran Warisan Indah 8/6, Kota Warisan, 43900 Sepang, Selangor",
+        "postcode": "43900",
+        "phone": "018-371 7948",
+        "email": "",
+        "website": "",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "Public directory address verified; coordinates approximated from street",
+        "last_verified": "2026-08-02",
+        "source": "Public welfare directory",
+        "source_url": "https://story.motherhood.com.my/my/rumah-anak-yatim-putrajaya/",
+        "coordinate_quality": "Street-level approximation; field verification recommended",
+        "remarks": "Confirm classification and current operating status.",
+        "facility_id": "VF-008",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.668,
+          2.8697
+        ]
+      },
+      "properties": {
+        "name": "PW Learning Disabilities and Autism Care Centre",
+        "category": "Disability Care Centre",
+        "operator": "PW Learning Centre",
+        "resident_group": "Children and persons with learning disabilities and autism",
+        "capacity": "",
+        "address": "No. 16, Jalan Cyber Valley 1A/1, Cyber Valley Commercial Centre, 43800 Dengkil, Selangor",
+        "postcode": "43800",
+        "phone": "018-383 6288",
+        "email": "",
+        "website": "",
+        "opening_hours": "Monday-Friday 08:00-17:30; Saturday 08:00-12:30",
+        "emergency_contact": "",
+        "wheelchair_access": "Wheelchair-accessible parking reported",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "JKM/public map listing verified; coordinates approximated from commercial centre",
+        "last_verified": "2026-08-02",
+        "source": "JKM, MARA Selangor and Waze public listings",
+        "source_url": "https://www.jkm.gov.my/main/pusat-jagaan?frontendpage=pusat-jagaan&page=135&params=&per-page=10&search_name=&search_state=&search_type=pusat-jagaan-kanak-kanak",
+        "coordinate_quality": "Commercial-centre approximation",
+        "remarks": "",
+        "facility_id": "VF-009",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6596,
+          2.9213
+        ]
+      },
+      "properties": {
+        "name": "Animals For Young Autism & Special Needs Centre",
+        "category": "Autism Centre",
+        "operator": "Animals For Young",
+        "resident_group": "Children and young people with autism and special needs",
+        "capacity": "",
+        "address": "F5-02 & F5-03, Shaftsbury Square Cyberjaya, Jalan Impact, Cyber 6, 63000 Cyberjaya, Selangor",
+        "postcode": "63000",
+        "phone": "011-1014 0828",
+        "email": "",
+        "website": "https://www.animalsforyoung.org/",
+        "opening_hours": "",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "Official centre website and JKM listing verified; coordinate approximated to Shaftsbury Square",
+        "last_verified": "2026-08-02",
+        "source": "Official centre website and JKM",
+        "source_url": "https://www.animalsforyoung.org/",
+        "coordinate_quality": "Building-level approximation",
+        "remarks": "",
+        "facility_id": "VF-010",
+        "dun": "",
+        "pdm": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6215,
+          2.9631
+        ]
+      },
+      "properties": {
+        "name": "Pusat Jagaan dan Rawatan Orang Tua Al-Ikhlas",
+        "category": "Elderly Care Home",
+        "operator": "Pusat Jagaan dan Rawatan Orang Tua Al-Ikhlas",
+        "resident_group": "Older persons, including residents requiring care",
+        "capacity": "",
+        "address": "Lot 3530, Jalan Batu 18, Kampung Pulau Meranti, 47120 Puchong, Selangor",
+        "postcode": "47120",
+        "phone": "017-335 9882",
+        "email": "",
+        "website": "",
+        "opening_hours": "Daily approximately 09:00-17:00",
+        "emergency_contact": "",
+        "wheelchair_access": "Unknown",
+        "backup_power": "Unknown",
+        "flood_risk_note": "Located near low-lying/wetland areas; risk assessment recommended",
+        "evacuation_support": "Unknown",
+        "dialysis_type": "",
+        "sessions_per_day": "",
+        "verification_status": "JKM-registered/public map listing verified; parliamentary inclusion determined by dashboard boundary",
+        "last_verified": "2026-08-02",
+        "source": "JKM-related directory, public map listing and nursing-home directory",
+        "source_url": "https://nursinghomeguide.my/ms/nursing-homes/pusat-jagaan-dan-rawatan-orang-tua-al-ikhlas/",
+        "coordinate_quality": "Locality/building approximation",
+        "remarks": "The app will exclude this point automatically if it lies outside P.113.",
+        "facility_id": "VF-011",
+        "dun": "",
+        "pdm": ""
+      }
+    }
+  ]
 }

@@ -1,0 +1,2945 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7044508,
+          2.8287139
+        ]
+      },
+      "properties": {
+        "name": "123 Express Mart Cafe",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "R.G.76, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13068221557",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301206,
+          2.8267255
+        ]
+      },
+      "properties": {
+        "name": "7 Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10065255034",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6911156,
+          2.8191307
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Saujana KLIA 1/A, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10933989994",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6555942,
+          2.8013207
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "105",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12651142866",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7159017,
+          2.8061146
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12719128647",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7378821,
+          2.8114765
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12719128665",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6878104,
+          2.7430824
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13713897801",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.556598,
+          2.6624784
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/08  TANJONG SEPAT TEMPATAN 5",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13886055359",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.717284,
+          2.6427498
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-2142 1136",
+        "website": "https://www.7eleven.com.my/",
+        "opening_hours": "",
+        "operator": "7-Eleven Malaysia Sdn Bhd",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/1594369828",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7050081,
+          2.8247444
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "+603-2142 1136",
+        "website": "https://www.7eleven.com.my/",
+        "opening_hours": "24/7",
+        "operator": "7-Eleven Malaysia Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4363091690",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6752265,
+          2.8645297
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Mutiara 1, Dengkil",
+        "phone": "+603-2142 1136",
+        "website": "https://www.7eleven.com.my/",
+        "opening_hours": "24/7",
+        "operator": "7-Eleven Malaysia Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719212640",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941489,
+          2.8179973
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-2142 1136",
+        "website": "https://www.7eleven.com.my/",
+        "opening_hours": "",
+        "operator": "7-Eleven Malaysia Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/5428458325",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7257431,
+          2.8381174
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Belian 1, Salak Perdana, Sepang, 43900",
+        "phone": "+603-2142 1136",
+        "website": "https://www.7eleven.com.my/",
+        "opening_hours": "24/7",
+        "operator": "7-Eleven Malaysia Sdn Bhd",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7398584003",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5651697,
+          2.6598605
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7707726708",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7503309,
+          2.6856721
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9290751781",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7052086,
+          2.8288006
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "R.G.18, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "24/7",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9516636788",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7010389,
+          2.8390689
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "39, Jalan Sunsuria 1B/3, Sepang, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11005349816",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4543985,
+          2.7321273
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11017984094",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6922926,
+          2.8243816
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Arena, Sepang, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11104331286",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7381458,
+          2.8117759
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11156190985",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.716287,
+          2.6419184
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/1594369829",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5582173,
+          2.6615192
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/07  TANJONG SEPAT TEMPATAN 4",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/3617375402",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6761563,
+          2.8642761
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719212615",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6565587,
+          2.8004632
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "149;151, Jalan LU 2/2, Banting",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4758915006",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7510013,
+          2.689876
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Sepang",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4781813227",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6741057,
+          2.857436
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil, 43800",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/5383360011",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6947759,
+          2.8210414
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6200097726",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7058544,
+          2.8247235
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "36-38, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6393411086",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7257385,
+          2.8378957
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Belian 1, Bandar Baru Salak Tinggi, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7398559663",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301745,
+          2.8284376
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Seroja 7, Bandar Baru Salak Tinggi, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7400373854",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7207215,
+          2.8051418
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7419412094",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6893828,
+          2.8191038
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Saujana KLIA 1/B, Sepang, 43900",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7419412104",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6844437,
+          2.8555913
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/04  AMPAR TENANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7419663471",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7489791,
+          2.7901252
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7688779418",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6159941,
+          2.8304334
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7707712300",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5650394,
+          2.6599233
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7707726707",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7074988,
+          2.6247329
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "+603-3362 6863",
+        "website": "https://www.99speedmart.com.my/Store",
+        "opening_hours": "",
+        "operator": "99 Speed Mart Sdn Berhad",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/08  BAGAN LALANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321627219",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6894062,
+          2.7441695
+        ]
+      },
+      "properties": {
+        "name": "Airside Shoppe",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13839761425",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6907833,
+          2.7409003
+        ]
+      },
+      "properties": {
+        "name": "Airside Shoppe",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4425419928",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6868754,
+          2.7419561
+        ]
+      },
+      "properties": {
+        "name": "Be Duty Free",
+        "category": "Department Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4455632860",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.704684,
+          2.8288351
+        ]
+      },
+      "properties": {
+        "name": "Du-du Potato",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11530248040",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5568237,
+          2.6626379
+        ]
+      },
+      "properties": {
+        "name": "Econsave",
+        "category": "Hypermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/08  TANJONG SEPAT TEMPATAN 5",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13886055360",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950811,
+          2.8232491
+        ]
+      },
+      "properties": {
+        "name": "Econsave",
+        "category": "Hypermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "G21, KIP Mall, Jalan Warisan Sentral 3, Sepang, 43900",
+        "phone": "",
+        "website": "https://econsave.com.my/all-stores/",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/8881606248",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5644081,
+          2.6594156
+        ]
+      },
+      "properties": {
+        "name": "Econsave",
+        "category": "Hypermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1303232333",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941486,
+          2.8193799
+        ]
+      },
+      "properties": {
+        "name": "Elewsmart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6200097722",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941442,
+          2.8203585
+        ]
+      },
+      "properties": {
+        "name": "emart24",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "G-49, Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Su,PH 00:00-12:00",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12059088962",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6858891,
+          2.7443252
+        ]
+      },
+      "properties": {
+        "name": "emart24",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "L2-34,35,36,36A, Gateway @KLIA2, Sepang, 64000",
+        "phone": "",
+        "website": "https://emart24.com.my/",
+        "opening_hours": "24/7",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12074721469",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7133497,
+          2.7475405
+        ]
+      },
+      "properties": {
+        "name": "Eraman Duty Free",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11631794051",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7131703,
+          2.7479325
+        ]
+      },
+      "properties": {
+        "name": "Eraman Duty Free",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11631811636",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6951652,
+          2.8211113
+        ]
+      },
+      "properties": {
+        "name": "Everyday Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral 4, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10939797254",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6848894,
+          2.8691268
+        ]
+      },
+      "properties": {
+        "name": "FamilyMart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "PT 3353, KM48.7, Jalan Pintasan Dengkil-Putrajaya (FT29), Dengkil, 43800",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/04  AMPAR TENANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10939867542",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6856921,
+          2.8006167
+        ]
+      },
+      "properties": {
+        "name": "FamilyMart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12719128644",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7372458,
+          2.8114842
+        ]
+      },
+      "properties": {
+        "name": "FamilyMart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12719128662",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941471,
+          2.8182586
+        ]
+      },
+      "properties": {
+        "name": "FamilyMart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "13, Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "24/7",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6200097715",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6945333,
+          2.8193355
+        ]
+      },
+      "properties": {
+        "name": "Fresca Mart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral 2, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13529332450",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6854287,
+          2.7441725
+        ]
+      },
+      "properties": {
+        "name": "Gateway@klia2",
+        "category": "Shopping Centre",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "https://gatewayklia2.com.my/",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1033454782",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7511355,
+          2.6904264
+        ]
+      },
+      "properties": {
+        "name": "Hema Cash & Carry",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12522682434",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6847579,
+          2.7443422
+        ]
+      },
+      "properties": {
+        "name": "Jaya Grocer",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9290816912",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6953194,
+          2.8229842
+        ]
+      },
+      "properties": {
+        "name": "KIPMall",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Sepang, 43900",
+        "phone": "",
+        "website": "https://www.kipmall.com.my/kipmall-kota-warisan/",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/661617399",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950849,
+          2.8075606
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "https://kkgroup.my/kk-super-mart",
+        "opening_hours": "",
+        "operator": "KK Supermart & Superstore Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10200963459",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7057699,
+          2.8288102
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "R.G.23A, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "https://kkgroup.my/kk-super-mart",
+        "opening_hours": "24/7",
+        "operator": "KK Supermart & Superstore Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10931025295",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7048214,
+          2.8247498
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "6, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "",
+        "website": "https://kkgroup.my/kk-super-mart",
+        "opening_hours": "24/7",
+        "operator": "KK Supermart & Superstore Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10931156056",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7130597,
+          2.8245995
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13144718444",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6867204,
+          2.7431023
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "https://kkgroup.my/kk-super-mart",
+        "opening_hours": "",
+        "operator": "KK Supermart & Superstore Sdn Bhd",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4455632875",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694147,
+          2.8186417
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "phone": "",
+        "website": "https://kkgroup.my/kk-super-mart",
+        "opening_hours": "",
+        "operator": "KK Supermart & Superstore Sdn Bhd",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6200097720",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7059459,
+          2.8247181
+        ]
+      },
+      "properties": {
+        "name": "LVS Abadi",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/10931156067",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7045984,
+          2.8288322
+        ]
+      },
+      "properties": {
+        "name": "Ming Gui",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Sunsuria, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11530248039",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6774158,
+          2.7804147
+        ]
+      },
+      "properties": {
+        "name": "Mitsui Outlet Park KLIA Sepang",
+        "category": "Shopping Centre",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Persiaran Komersial, KLIA, 64000",
+        "phone": "+603 8777 9300",
+        "website": "https://www.mitsuioutletparkklia.com.my/",
+        "opening_hours": "10:00-22:00",
+        "operator": "MFMA Developement",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1033470607",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6856995,
+          2.7374846
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12206668378",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950927,
+          2.8058262
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan KLIA Avenue, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12787410975",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6834914,
+          2.7401711
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13839761419",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6900355,
+          2.740392
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4425419937",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7147282,
+          2.641261
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/09  SUNGAI PELEK TIGA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321627294",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6775652,
+          2.7790755
+        ]
+      },
+      "properties": {
+        "name": "myNEWS.com",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9521579097",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5676393,
+          2.658794
+        ]
+      },
+      "properties": {
+        "name": "NT Shop",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13885971801",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.700208,
+          2.8389488
+        ]
+      },
+      "properties": {
+        "name": "Nurul Sumayyah",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Sunsuria 1B/2, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/11005313902",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.679876,
+          2.8581331
+        ]
+      },
+      "properties": {
+        "name": "P Palaniandy Mini Market",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4717547094",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6956859,
+          2.8204997
+        ]
+      },
+      "properties": {
+        "name": "Panas Express",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "24/7",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13529332440",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7503713,
+          2.6902925
+        ]
+      },
+      "properties": {
+        "name": "Pasar Awam Sepang",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Sepang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "way/485411091",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7162244,
+          2.6437894
+        ]
+      },
+      "properties": {
+        "name": "Pasar Awam Sungai Pelek",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/09  SUNGAI PELEK TIGA",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "way/1185873331",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5657397,
+          2.6597506
+        ]
+      },
+      "properties": {
+        "name": "Pasar Awam Tanjong Sepat",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "6.30 Pagi -  5.30 Petang (Mungkin Berubah)",
+        "operator": "Majlis Perbandaran Kuala Langat",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/3618601645",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6807886,
+          2.8554837
+        ]
+      },
+      "properties": {
+        "name": "Pasar Dengkil",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/4717547081",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6769576,
+          2.8622837
+        ]
+      },
+      "properties": {
+        "name": "Pasar Mini Hin Fatt",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719211260",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6927875,
+          2.8274063
+        ]
+      },
+      "properties": {
+        "name": "Pasar Raya Ahmad",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Arena, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12384110138",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7047332,
+          2.8251091
+        ]
+      },
+      "properties": {
+        "name": "Pasar Raya Syed",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Megah 1/5, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/10931156054",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7052163,
+          2.8251308
+        ]
+      },
+      "properties": {
+        "name": "Pasar Segar MZA",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Megah 1/5, Kota Warisan, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/10931156052",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7217008,
+          2.6473009
+        ]
+      },
+      "properties": {
+        "name": "Pasaraya Beasar CLC Sungai Pelek",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13961981359",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5670434,
+          2.6586973
+        ]
+      },
+      "properties": {
+        "name": "Pasaraya Grabd Union（tanjong sepat）",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13886055351",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6771936,
+          2.8577129
+        ]
+      },
+      "properties": {
+        "name": "Pasaraya Iqbal Maju",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4717547007",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6733122,
+          2.8666041
+        ]
+      },
+      "properties": {
+        "name": "Pasaraya Megah",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719561263",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6750056,
+          2.8647932
+        ]
+      },
+      "properties": {
+        "name": "Pasaraya Mun Seng",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719212645",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6850612,
+          2.7655365
+        ]
+      },
+      "properties": {
+        "name": "Petronas",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "Petronas",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/445088686",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.705093,
+          2.8247508
+        ]
+      },
+      "properties": {
+        "name": "Sepang Jimart Trading",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12185334330",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6814164,
+          2.7685563
+        ]
+      },
+      "properties": {
+        "name": "Shell Select",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/2980371652",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694422,
+          2.8167462
+        ]
+      },
+      "properties": {
+        "name": "Shell Select",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/446330735",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6767522,
+          2.8626599
+        ]
+      },
+      "properties": {
+        "name": "Shoon Hiong Mini Market",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719211262",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7258007,
+          2.8397025
+        ]
+      },
+      "properties": {
+        "name": "Star Market",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10062388280",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6554711,
+          2.801439
+        ]
+      },
+      "properties": {
+        "name": "TT Frozen Food Mart",
+        "category": "Supermarket",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "99",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12651142837",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6945223,
+          2.8218312
+        ]
+      },
+      "properties": {
+        "name": "UBL Mart",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan Warisan Sentral 2, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/10938670501",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6561264,
+          2.8008394
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Convenience Store (node/12651142864)",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "129",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12651142864",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5527058,
+          2.6632917
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Convenience Store (node/4733431521)",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4733431521",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.698687,
+          2.8395969
+        ]
+      },
+      "properties": {
+        "name": "Value Bear Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "G-10, Horizon Suites, Jalan HVO, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11898786132",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7417133,
+          2.6806901
+        ]
+      },
+      "properties": {
+        "name": "Wanlly Dragon Fruit",
+        "category": "Market",
+        "group": "Market",
+        "religion": "",
+        "denomination": "",
+        "address": "3782, Jalan Besar Batu 1, Sepang, 43900",
+        "phone": "60166316283",
+        "website": "",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "operator": "TING YIT FATT",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/06  SEPANG SELATAN",
+        "premises_type": "Market site / schedule needs verification",
+        "osm_element": "node/7294169964",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6963182,
+          2.822244
+        ]
+      },
+      "properties": {
+        "name": "YokuMart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Kip Core Avenue, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11815841411",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6982626,
+          2.8389433
+        ]
+      },
+      "properties": {
+        "name": "Zam's Mart",
+        "category": "Convenience Store",
+        "group": "Retail",
+        "religion": "",
+        "denomination": "",
+        "address": "Jalan HVO 3, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11898786136",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    }
+  ]
+}

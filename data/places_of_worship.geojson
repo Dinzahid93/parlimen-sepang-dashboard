@@ -1,0 +1,3757 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7431046,
+          2.891683
+        ]
+      },
+      "properties": {
+        "name": "BMSM Dhammavijaya Meditation Center",
+        "category": "Buddhist Temple",
+        "group": "House of Worship",
+        "religion": "buddhist",
+        "denomination": "theravada",
+        "address": "Lot 850, Jalan Besar, Kg. Sungai Buah Luar, 43800",
+        "phone": "",
+        "website": "https://bmsm.org.my/",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/13  SUNGAI BUAH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/852296956",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.63832,
+          2.8623323
+        ]
+      },
+      "properties": {
+        "name": "Madrasah Nurulhuda",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Kampung Selangor Dredging, Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4717546710",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7008938,
+          2.8397504
+        ]
+      },
+      "properties": {
+        "name": "Mega XMU Chinese Methodist Church",
+        "category": "Church",
+        "group": "House of Worship",
+        "religion": "christian",
+        "denomination": "",
+        "address": "15, Jalan Sunsuria 1B/3, Sepang, 43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11005349813",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6304347,
+          2.9103587
+        ]
+      },
+      "properties": {
+        "name": "Musolla",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12935465809",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7027596,
+          2.7550737
+        ]
+      },
+      "properties": {
+        "name": "Musolla KLIA",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/8462953984",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7374801,
+          2.9208036
+        ]
+      },
+      "properties": {
+        "name": "re",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6489787089",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6017807,
+          2.9309367
+        ]
+      },
+      "properties": {
+        "name": "Sau Seng Lum Puchong Exhibition Centre",
+        "category": "Buddhist Temple",
+        "group": "House of Worship",
+        "religion": "buddhist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "https://www.sausenglum.org/c_exhibition.php",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/686317456",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.716675,
+          2.6421583
+        ]
+      },
+      "properties": {
+        "name": "Sepang Chinese Methodist Church",
+        "category": "Church",
+        "group": "House of Worship",
+        "religion": "christian",
+        "denomination": "methodist",
+        "address": "155, Jalan Besar",
+        "phone": "03-3142-2200",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13518400527",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7231539,
+          2.9763233
+        ]
+      },
+      "properties": {
+        "name": "Sree Maha Sivakaliamman",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1079722927",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7317963,
+          2.7588773
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10127547941",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7321043,
+          2.7589313
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/10127547944",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6371953,
+          2.9188854
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11209393563",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6369152,
+          2.9198785
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11209393564",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7402258,
+          2.9268138
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13289096915",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6812262,
+          2.7684137
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13677371452",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5550732,
+          2.6731815
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/356271076",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72899,
+          2.9123149
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/392546399",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6299414,
+          2.9676944
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/969536447",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.600521,
+          2.7989061
+        ]
+      },
+      "properties": {
+        "name": "Surau",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/03  LABUHAN DAGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/975140240",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6577616,
+          2.9307704
+        ]
+      },
+      "properties": {
+        "name": "Surau Al Falah TM Cyberjaya",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1207813062",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7381956,
+          2.9123016
+        ]
+      },
+      "properties": {
+        "name": "Surau Al Firdaus",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1018279134",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6430302,
+          2.9242509
+        ]
+      },
+      "properties": {
+        "name": "Surau Al Hidayah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/133480481",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7236919,
+          2.8326961
+        ]
+      },
+      "properties": {
+        "name": "Surau Al Islah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7405320003",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6096062,
+          2.9353691
+        ]
+      },
+      "properties": {
+        "name": "Surau Al Muttaqeen",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7700037188",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301751,
+          2.8325124
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Amin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "43900",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7391446311",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7300126,
+          2.8323135
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Amin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/793830680",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5975618,
+          2.8354347
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Bajuri",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Olak Lempit, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/956260019",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6251161,
+          2.7697224
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Ehsan",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Bandar Seri Ehsan, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/03  LABUHAN DAGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/552665788",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.630684,
+          2.8182613
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Ehsaniah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Kampung Bukit Changgang, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4714387751",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7183668,
+          2.8999224
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Falah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/12  JENDERAM HILIR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1429529159",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6962857,
+          2.8634018
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Falah Kg Lalang",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/15  LADANG AMPAR TENANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719934167",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6749212,
+          2.8662828
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Hidayah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Taman Desa Dengkil, Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719562011",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5951951,
+          2.9674882
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Hidayah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1127401492",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.706231,
+          2.8257068
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Hijrah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/662254493",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7060619,
+          2.825728
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Hijrah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/23  KOTA WARISAN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/662254494",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7505161,
+          2.836515
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Ikhsan",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/01  JENDERAM HULU",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/7391878107",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7063682,
+          2.905394
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Ikhwan",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Desa Pinggiran Putra, Kajang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/22  DESA PINGGIRAN PUTRA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/497796459",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6704381,
+          2.8740952
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Iman",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Taman Dengkil Jaya, Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/702396424",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6199602,
+          2.8307434
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Islah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Taman Changgang Jaya, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4714340671",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6778036,
+          2.8663686
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Jabbar",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Jalan Emas 2, Taman Emas, Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719562009",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6422816,
+          2.8409776
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Jamaiyah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Bukit Changgang, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4716687593",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6687678,
+          2.6547304
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Mannan",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/01 BUKIT BANGKUNG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6395034727",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7069998,
+          2.8984765
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Mukhlisin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Desa Pinggiran Putra, Kajang",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/22  DESA PINGGIRAN PUTRA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/497796471",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6824688,
+          2.8352254
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Munir",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/16  KAMPUNG MELOT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/5666683398",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7126412,
+          2.8007463
+        ]
+      },
+      "properties": {
+        "name": "Surau Al-Musawwir",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6920264118",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6193066,
+          2.9362693
+        ]
+      },
+      "properties": {
+        "name": "Surau Amanputra",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "Jalan Amanputra 1, Puchong, 47130",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/625105296",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5763517,
+          2.8222186
+        ]
+      },
+      "properties": {
+        "name": "Surau An-Nur",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Bandar Mahkota Banting, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4714340615",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6220385,
+          2.9461014
+        ]
+      },
+      "properties": {
+        "name": "Surau As-Sakinah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1277872920",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6512099,
+          2.849288
+        ]
+      },
+      "properties": {
+        "name": "Surau As-Syakirin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Taman Ambar, Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4717546704",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5610691,
+          2.662336
+        ]
+      },
+      "properties": {
+        "name": "Surau Baitul Rahman",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/09  TANJONG SEPAT 6",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302863600",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6566658,
+          2.9783599
+        ]
+      },
+      "properties": {
+        "name": "Surau Baiturrahman Taman D'Alpinia",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1060213020",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7368824,
+          2.9187387
+        ]
+      },
+      "properties": {
+        "name": "Surau Dataran Iman",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1018280627",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7531818,
+          2.8010938
+        ]
+      },
+      "properties": {
+        "name": "Surau Desa Bestari",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6575812368",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6640831,
+          2.8826279
+        ]
+      },
+      "properties": {
+        "name": "Surau Desa Timah Langat",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719562174",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6693628,
+          2.9466212
+        ]
+      },
+      "properties": {
+        "name": "Surau Garden Residence",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/581830398",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6356383,
+          2.8355867
+        ]
+      },
+      "properties": {
+        "name": "Surau Hj Moksin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Bukit Changgang, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/02  BUKIT CANGGANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4716685765",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5834405,
+          2.8328208
+        ]
+      },
+      "properties": {
+        "name": "Surau Hj Salleh",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Olak Lempit, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4714340613",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7358904,
+          2.9772174
+        ]
+      },
+      "properties": {
+        "name": "Surau ILSAS",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12027600946",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7517935,
+          2.7697276
+        ]
+      },
+      "properties": {
+        "name": "Surau Kampung Lembah Paya",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1419674404",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7454925,
+          2.9431094
+        ]
+      },
+      "properties": {
+        "name": "Surau Nur Ramadhan",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1080015904",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7350803,
+          2.8211027
+        ]
+      },
+      "properties": {
+        "name": "Surau Raudhatul Faizin",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "sunni",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/661667342",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.637721,
+          2.9366279
+        ]
+      },
+      "properties": {
+        "name": "Surau SEG",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13503887531",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6389375,
+          2.918907
+        ]
+      },
+      "properties": {
+        "name": "Surau Smk Cyberjaya",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/5565588400",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.689464,
+          2.8578938
+        ]
+      },
+      "properties": {
+        "name": "Surau Taman Gemilang",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Dengkil",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/04  AMPAR TENANG",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4719933867",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7274441,
+          2.8265993
+        ]
+      },
+      "properties": {
+        "name": "Surau Taman Seroja",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/793776475",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5984683,
+          2.8317712
+        ]
+      },
+      "properties": {
+        "name": "Surau Ummi Yatimah",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "Taman Cenderawasih, Banting",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/01  SUNGAI LEMPIT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4713976438",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4641653,
+          2.7231068
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Chinese / Taoist Temple (node/11017984035)",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11017984035",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6806359,
+          2.8585204
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Chinese / Taoist Temple (node/1464044603)",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "chinese_folk",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/1464044603",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.560053,
+          2.6569307
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Chinese / Taoist Temple (node/9321705096)",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/04  TANJONG SEPAT TEMPATAN 1",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321705096",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7489668,
+          2.6886073
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Chinese / Taoist Temple (way/1079586016)",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/05  SEPANG UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1079586016",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7251707,
+          2.9764758
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (node/242186440)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/242186440",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6419083,
+          2.8601303
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (node/8224326042)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/8224326042",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.709868,
+          2.6289965
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (node/9321627223)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321627223",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7117416,
+          2.6360909
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (node/9321627299)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/10  SUNGAI PELEK DUA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321627299",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5953244,
+          2.9795954
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/1215536733)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/19  DESA AIR HITAM",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1215536733",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6640901,
+          2.6426351
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/356075310)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/03  TANJONG RHU",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/356075310",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6799854,
+          2.8691112
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/446365146)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/446365146",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73986,
+          2.815131
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/944725543)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/944725543",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7282862,
+          2.6912702
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/983854256)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/05  SEPANG UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/983854256",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.733937,
+          2.9792262
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Hindu Temple (way/990083122)",
+        "category": "Hindu Temple",
+        "group": "House of Worship",
+        "religion": "hindu",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/990083122",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5616727,
+          2.6600447
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (node/12067449562)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/05  TANJONG SEPAT TEMPATAN 2",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/12067449562",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6555981,
+          2.8033646
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (relation/18739247)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "relation/18739247",
+        "source_geometry": "relation",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7437362,
+          2.9564719
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1006127587)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/09 KAMPUNG DATO ABU BAKAR BAGINDA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1006127587",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6790334,
+          2.8583181
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1178013613)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/06  KAMPUNG DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1178013613",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5589312,
+          2.658418
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302798751)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/06  TANJONG SEPAT TEMPATAN 3",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302798751",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.558492,
+          2.6586547
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302798791)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/06  TANJONG SEPAT TEMPATAN 3",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302798791",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5600524,
+          2.6569157
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302863505)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/04  TANJONG SEPAT TEMPATAN 1",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302863505",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5606801,
+          2.657356
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302994946)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/05  TANJONG SEPAT TEMPATAN 2",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302994946",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5617916,
+          2.6601091
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302995020)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/05  TANJONG SEPAT TEMPATAN 2",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302995020",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.561706,
+          2.6601826
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1302995021)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/05  TANJONG SEPAT TEMPATAN 2",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1302995021",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.723176,
+          2.9761231
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1303525626)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1303525626",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7232475,
+          2.9763872
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1303525627)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/08 SUNGAI MERAB UTARA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1303525627",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6293361,
+          2.9664362
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/1508410659)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1508410659",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7114082,
+          2.914677
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/305711018)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/11  DESA PUTRA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/305711018",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7485245,
+          2.9410894
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/390781501)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/390781501",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5823618,
+          2.9755959
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/555890891)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/19  DESA AIR HITAM",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/555890891",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6406948,
+          2.9692249
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/581759796)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/581759796",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6690392,
+          2.8794722
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/702396397)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/702396397",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7266995,
+          2.8160711
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/792806455)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/792806455",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7236938,
+          2.8326649
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/794350127)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/13  TAMAN SEROJA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/794350127",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7392212,
+          2.8284234
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Other Place of Worship (way/802388286)",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/14  TAMAN MAWAR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/802388286",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.718901,
+          2.7932
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/11028453458)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/11028453458",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6438589,
+          2.9356082
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/13329714151)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/13329714151",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7307468,
+          2.8928229
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/2949400459)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/12  JENDERAM HILIR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/2949400459",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7361201,
+          2.7956405
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/4844241128)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4844241128",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6821153,
+          2.8624884
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/5565684333)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/18  TAMAN PERMATA DENGKIL",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/5565684333",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6364527,
+          2.8675775
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/8224408214)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/21  SELANGOR DREDGING",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/8224408214",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.705554,
+          2.7874605
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (node/9318824667)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9318824667",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4698747,
+          2.7329036
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1064229817)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/12  KAMPUNG ENDAH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1064229817",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5113014,
+          2.6772244
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1064300327)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/11  BATU LAUT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1064300327",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6849459,
+          2.6752871
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1064300334)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/07  HULU CUCUH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1064300334",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6136118,
+          2.9644894
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1067117352)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/19  DESA AIR HITAM",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1067117352",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7523104,
+          2.9160631
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1079618164)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1079618164",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7403417,
+          2.7585097
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1105232841)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1105232841",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6981421,
+          2.7685981
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1289790878)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/04  LOTHIAN TIMUR",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1289790878",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.764972,
+          2.9029066
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/1384679187)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/13  SUNGAI BUAH",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1384679187",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6566778,
+          2.9119492
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/295240104)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/295240104",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6422955,
+          2.922066
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/303572387)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/303572387",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7532603,
+          2.931727
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/335703505)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/335703505",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7493887,
+          2.9379306
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/335704587)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/335704587",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7529397,
+          2.9332977
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/390739355)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/390739355",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7443603,
+          2.9389639
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/396129766)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/396129766",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7491019,
+          2.9464969
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/548927060)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/548927060",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6097819,
+          2.9439196
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/581810793)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/17  BANDAR PUTRA PERDANA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/581810793",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6149932,
+          2.9045785
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/588893977)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/588893977",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6622285,
+          2.8024124
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/621457423)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/14  RTB DATOK HARUN",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/621457423",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7400736,
+          2.8042241
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/762467288)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/02  SALAK",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/762467288",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7375932,
+          2.8096484
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/774987536)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/774987536",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7415009,
+          2.9386934
+        ]
+      },
+      "properties": {
+        "name": "Unnamed Surau / Musolla (way/783858281)",
+        "category": "Surau / Musolla",
+        "group": "House of Worship",
+        "religion": "muslim",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/10 SUNGAI MERAB",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/783858281",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6510365,
+          2.9255941
+        ]
+      },
+      "properties": {
+        "name": "Yasmin Cyberjaya",
+        "category": "Other Place of Worship",
+        "group": "House of Worship",
+        "religion": "",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/20  CYBERJAYA",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/4467589994",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5564939,
+          2.6570272
+        ]
+      },
+      "properties": {
+        "name": "众姓庙",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.54 TANJONG SEPAT",
+        "pdm": "113/54/04  TANJONG SEPAT TEMPATAN 1",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/6050924081",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6126362,
+          2.9626065
+        ]
+      },
+      "properties": {
+        "name": "华光太帝庙",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "chinese_folk",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.55 DENGKIL",
+        "pdm": "113/55/07  PULAU MERANTI",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9723066282",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7182098,
+          2.6421785
+        ]
+      },
+      "properties": {
+        "name": "双溪比力玄天宫",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "way/1010284495",
+        "source_geometry": "way",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7144014,
+          2.6392268
+        ]
+      },
+      "properties": {
+        "name": "清龙宫",
+        "category": "Chinese / Taoist Temple",
+        "group": "House of Worship",
+        "religion": "taoist",
+        "denomination": "",
+        "address": "",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "operator": "",
+        "dun": "N.56 SUNGAI PELEK",
+        "pdm": "113/56/11  SUNGAI PELEK EMPAT",
+        "premises_type": "Fixed premises (mapped)",
+        "osm_element": "node/9321627295",
+        "source_geometry": "node",
+        "verification_status": "OpenStreetMap record; local verification recommended"
+      }
+    }
+  ]
+}

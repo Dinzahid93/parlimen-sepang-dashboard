@@ -10,8 +10,15 @@ from streamlit_folium import st_folium
 
 
 st.set_page_config(page_title="Parlimen Sepang (P.113) Dashboard", page_icon="🗺️", layout="wide")
+password = st.text_input("Enter password", type="password")
+
+if password != "0987":
+    if password:
+        st.error("Incorrect password.")
+    st.stop()
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
+
 
 FILES = {
     "parliament": DATA / "parliament.geojson",

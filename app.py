@@ -10,15 +10,8 @@ from streamlit_folium import st_folium
 
 
 st.set_page_config(page_title="Parlimen Sepang (P.113) Dashboard", page_icon="🗺️", layout="wide")
-password = st.text_input("Enter password", type="password")
-
-if password != "0987":
-    if password:
-        st.error("Incorrect password.")
-    st.stop()
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
-
 
 FILES = {
     "parliament": DATA / "parliament.geojson",
@@ -29,6 +22,8 @@ FILES = {
     "schools": DATA / "schools.geojson",
     "healthcare": DATA / "healthcare.geojson",
     "kampung": DATA / "kampung.geojson",
+    "worship": DATA / "places_of_worship.geojson",
+    "retail": DATA / "retail_markets.geojson",
 }
 
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
@@ -138,6 +133,8 @@ masjids = datasets["masjid"]["features"]
 schools = datasets["schools"]["features"]
 healthcare = datasets["healthcare"]["features"]
 kampungs = datasets["kampung"]["features"]
+worship = datasets["worship"]["features"]
+retail = datasets["retail"]["features"]
 
 for masjid in masjids:
     lon, lat = masjid["geometry"]["coordinates"][:2]
@@ -165,14 +162,17 @@ with overview_tab:
     c4.metric("DUN", len(duns))
     c5.metric("Masjid", len(masjids))
     c6.metric("Schools", len(schools))
-    c7, c8, _ = st.columns(3)
+    c7, c8, c9 = st.columns(3)
     c7.metric("Healthcare facilities", len(healthcare))
     c8.metric("Kampung", len(kampungs))
+    c9.metric("Other houses of worship", len(worship))
+    c10, _, _ = st.columns(3)
+    c10.metric("Retail & markets", len(retail))
     st.caption(
         "Data presented in this dashboard is compiled from open-source and publicly available datasets. "
         "Figures may differ slightly from official records due to incomplete coverage, source updates or data availability."
     )
-    st.info("Additional cards and charts will appear here as surau, community facility and issue datasets are added.")
+    st.info("Additional cards and charts will appear here as community facility and issue datasets are added.")
 
 with map_tab:
     with st.sidebar:
@@ -234,6 +234,20 @@ with map_tab:
         if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
             continue
         visible_kampungs.append(feature)
+
+    def filtered_points(features):
+        result = []
+        for feature in features:
+            props = feature["properties"]
+            if selected_dun and dun_code_from_name(props.get("dun")) != selected_dun:
+                continue
+            if selected_pdm_name != "All PDM" and props.get("pdm") != selected_pdm_name:
+                continue
+            result.append(feature)
+        return result
+
+    visible_worship = filtered_points(worship)
+    visible_retail = filtered_points(retail)
 
     m = folium.Map(location=[2.80, 101.67], zoom_start=10, tiles=None, control_scale=True)
     folium.TileLayer("OpenStreetMap", name="OpenStreetMap", show=True).add_to(m)
@@ -383,6 +397,34 @@ with map_tab:
         ).add_to(kampung_group)
     kampung_group.add_to(m)
 
+    worship_group = folium.FeatureGroup(name="Other houses of worship", show=False)
+    worship_icons = {"Surau / Musolla": "☪", "Church": "✝", "Hindu Temple": "🛕", "Buddhist Temple": "☸", "Chinese / Taoist Temple": "🏮", "Gurdwara": "☬"}
+    for feature in visible_worship:
+        props = feature["properties"]; lon, lat = feature["geometry"]["coordinates"][:2]
+        popup = (f"<b>{props.get('name','')}</b><br><br><b>Category:</b> {props.get('category','')}<br>"
+                 f"<b>Religion:</b> {props.get('religion','')}<br><b>DUN:</b> {props.get('dun','')}<br>"
+                 f"<b>PDM:</b> {props.get('pdm','')}<br><b>Address:</b> {props.get('address','')}<br>"
+                 f"<b>Status:</b> {props.get('verification_status','')}<br><b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}")
+        icon = worship_icons.get(props.get("category"), "◆")
+        folium.Marker([lat,lon], icon=folium.DivIcon(icon_size=(32,32),icon_anchor=(16,16),
+            html=f"<div style='width:32px;height:32px;border-radius:50%;background:#a16207;color:white;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:18px'>{icon}</div>"),
+            tooltip=props.get("name","House of worship"),popup=folium.Popup(popup,max_width=440)).add_to(worship_group)
+    worship_group.add_to(m)
+
+    retail_group = folium.FeatureGroup(name="Retail & markets", show=False)
+    for feature in visible_retail:
+        props = feature["properties"]; lon, lat = feature["geometry"]["coordinates"][:2]
+        popup = (f"<b>{props.get('name','')}</b><br><br><b>Category:</b> {props.get('category','')}<br>"
+                 f"<b>DUN:</b> {props.get('dun','')}<br><b>PDM:</b> {props.get('pdm','')}<br>"
+                 f"<b>Address:</b> {props.get('address','')}<br><b>Opening hours:</b> {props.get('opening_hours','')}<br>"
+                 f"<b>Premises:</b> {props.get('premises_type','')}<br><b>Status:</b> {props.get('verification_status','')}<br>"
+                 f"<b>Latitude:</b> {lat}<br><b>Longitude:</b> {lon}")
+        icon = "🧺" if props.get("group")=="Market" else "🛒"
+        folium.Marker([lat,lon], icon=folium.DivIcon(icon_size=(32,32),icon_anchor=(16,16),
+            html=f"<div style='width:32px;height:32px;border-radius:50%;background:#be123c;border:2px solid white;box-shadow:0 1px 5px #333;display:flex;align-items:center;justify-content:center;font-size:17px'>{icon}</div>"),
+            tooltip=props.get("name","Retail / market"),popup=folium.Popup(popup,max_width=440)).add_to(retail_group)
+    retail_group.add_to(m)
+
     folium.LayerControl(collapsed=False).add_to(m)
     st_folium(m, use_container_width=True, height=680, returned_objects=[])
 
@@ -437,8 +479,23 @@ with facilities_tab:
             "Latitude": lat, "Longitude": lon,
         })
     kampung_df = pd.DataFrame(kampung_rows)
+    worship_df = pd.DataFrame([{
+        "Name": f["properties"].get("name",""), "Category": f["properties"].get("category",""),
+        "Religion": f["properties"].get("religion",""), "DUN": f["properties"].get("dun",""),
+        "PDM": f["properties"].get("pdm",""), "Address": f["properties"].get("address",""),
+        "Verification": f["properties"].get("verification_status",""),
+        "Latitude": f["geometry"]["coordinates"][1], "Longitude": f["geometry"]["coordinates"][0]
+    } for f in worship])
+    retail_df = pd.DataFrame([{
+        "Name": f["properties"].get("name",""), "Group": f["properties"].get("group",""),
+        "Category": f["properties"].get("category",""), "DUN": f["properties"].get("dun",""),
+        "PDM": f["properties"].get("pdm",""), "Address": f["properties"].get("address",""),
+        "Opening hours": f["properties"].get("opening_hours",""), "Premises": f["properties"].get("premises_type",""),
+        "Verification": f["properties"].get("verification_status",""),
+        "Latitude": f["geometry"]["coordinates"][1], "Longitude": f["geometry"]["coordinates"][0]
+    } for f in retail])
     facility_type = st.selectbox(
-        "Facility category", ["Select a category", "Masjid", "Schools", "Healthcare", "Kampung"]
+        "Facility category", ["Select a category", "Masjid", "Other houses of worship", "Schools", "Healthcare", "Kampung", "Retail & Markets"]
     )
     if facility_type == "Masjid":
         shown_facilities = facility_df
@@ -569,9 +626,28 @@ with facilities_tab:
         st.metric("Kampung shown", f"{len(shown_kampungs)} of {len(kampungs)}")
         st.dataframe(shown_kampungs, use_container_width=True, hide_index=True, height=520)
         st.caption("Mapped village points matched from the supplied Selangor village list and spatially filtered to the P.113 boundary.")
+    elif facility_type in ("Other houses of worship", "Retail & Markets"):
+        source_df = worship_df if facility_type == "Other houses of worship" else retail_df
+        shown = source_df
+        filter_col1, filter_col2, filter_col3 = st.columns(3)
+        with filter_col1:
+            selected_dun2 = st.selectbox("Filter by DUN", ["All DUN"] + sorted(source_df["DUN"].dropna().loc[lambda s:s!=""].unique().tolist()), key=f"{facility_type}_dun")
+        if selected_dun2 != "All DUN": shown = shown[shown["DUN"] == selected_dun2]
+        with filter_col2:
+            selected_pdm2 = st.selectbox("Filter by PDM", ["All PDM"] + sorted(shown["PDM"].dropna().loc[lambda s:s!=""].unique().tolist()), key=f"{facility_type}_pdm")
+        if selected_pdm2 != "All PDM": shown = shown[shown["PDM"] == selected_pdm2]
+        with filter_col3:
+            selected_category2 = st.selectbox("Category", ["All categories"] + sorted(shown["Category"].dropna().unique().tolist()), key=f"{facility_type}_category")
+        if selected_category2 != "All categories": shown = shown[shown["Category"] == selected_category2]
+        search2 = st.text_input("Search by name, category, address, DUN or PDM", key=f"{facility_type}_search")
+        if search2:
+            shown = shown[shown.astype(str).apply(lambda row: row.str.contains(search2, case=False, na=False).any(), axis=1)]
+        st.metric(f"{facility_type} shown", f"{len(shown)} of {len(source_df)}")
+        st.dataframe(shown, use_container_width=True, hide_index=True, height=520)
+        st.caption("OpenStreetMap starting dataset spatially filtered to P.113. Verify unmapped, unnamed and temporary entities with local records.")
     else:
         st.info("Choose a facility category to display its records.")
-    st.caption("Future categories: surau, community halls and others.")
+    st.caption("Future categories can be added using the same DUN/PDM structure.")
 
 with issues_tab:
     st.subheader("Issues Reported")
@@ -590,19 +666,25 @@ with data_tab:
             "Latitude": lat, "Longitude": lon,
         })
     polling_df = pd.DataFrame(rows)
-    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Schools", "Healthcare", "Kampung"])
+    selected_dataset = st.selectbox("Dataset", ["Polling centres", "Masjid", "Other houses of worship", "Schools", "Healthcare", "Kampung", "Retail & Markets"])
     if selected_dataset == "Polling centres":
         st.caption("These 51 records provide the polling-centre markers shown on the interactive map.")
         st.dataframe(polling_df, use_container_width=True, hide_index=True)
     elif selected_dataset == "Masjid":
         st.caption("These 43 records provide the masjid markers shown on the interactive map.")
         st.dataframe(facility_df, use_container_width=True, hide_index=True)
+    elif selected_dataset == "Other houses of worship":
+        st.caption(f"These {len(worship_df)} open-source records include surau/musolla, churches and temples within P.113.")
+        st.dataframe(worship_df, use_container_width=True, hide_index=True)
     elif selected_dataset == "Schools":
         st.caption("These 84 preliminary OSM records provide the school markers shown on the interactive map.")
         st.dataframe(school_df, use_container_width=True, hide_index=True)
     elif selected_dataset == "Healthcare":
         st.caption("These 61 preliminary OSM records provide the clinic and hospital markers shown on the interactive map.")
         st.dataframe(healthcare_df, use_container_width=True, hide_index=True)
-    else:
+    elif selected_dataset == "Kampung":
         st.caption("These 32 mapped kampung records are spatially located inside the P.113 boundary.")
         st.dataframe(kampung_df, use_container_width=True, hide_index=True)
+    else:
+        st.caption(f"These {len(retail_df)} priority retail and market records are grouped by DUN and PDM.")
+        st.dataframe(retail_df, use_container_width=True, hide_index=True)

@@ -1,11 +1,12 @@
 from pathlib import Path
 import json
+import math
 import re
 
 import folium
 import pandas as pd
 import streamlit as st
-from folium.plugins import Fullscreen
+from folium.plugins import Fullscreen, MeasureControl
 from streamlit_folium import st_folium
 
 
@@ -474,16 +475,70 @@ for feature in vulnerable_raw:
         outside_count += 1
         continue
 
-    vulnerable.append(spatially_assign(feature, duns, pdms))
+vulnerable.append(spatially_assign(feature, duns, pdms))
+
+
+def line_coordinates(geometry):
+    """Return a list of coordinate lines for LineString/MultiLineString."""
+    geometry = geometry or {}
+    if geometry.get("type") == "LineString":
+        return [geometry.get("coordinates", [])]
+    if geometry.get("type") == "MultiLineString":
+        return geometry.get("coordinates", [])
+    return []
+
+
+def road_length_km(feature):
+    total = 0.0
+    for line in line_coordinates(feature.get("geometry")):
+        for start, end in zip(line, line[1:]):
+            lon1, lat1 = start[:2]
+            lon2, lat2 = end[:2]
+            phi1, phi2 = math.radians(lat1), math.radians(lat2)
+            dphi = math.radians(lat2 - lat1)
+            dlambda = math.radians(lon2 - lon1)
+            a = (
+                math.sin(dphi / 2) ** 2
+                + math.cos(phi1)
+                * math.cos(phi2)
+                * math.sin(dlambda / 2) ** 2
+            )
+            total += 6371.0088 * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    return total
 
 
 st.title("Parlimen Sepang (P.113) Dashboard")
 st.caption("Local information, facilities and issue-monitoring dashboard")
 
-overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
+road_df = pd.DataFrame(
+    [
+        {
+            "Road": p.get("road_name", "") or "Unnamed road",
+            "Route": p.get("route_number", ""),
+            "Road class": p.get("road_class", ""),
+            "Responsible authority": p.get("responsible_authority", ""),
+            "Maintenance agency": p.get("maintenance_agency", ""),
+            "DUN": p.get("dun", ""),
+            "PDM": p.get("pdm", ""),
+            "Verification": p.get("verification_status", ""),
+            "Verification note": p.get("verification_note", ""),
+            "Geometry source": p.get("geometry_source", ""),
+            "Geometry source URL": p.get("geometry_source_url", ""),
+            "Authority reference": p.get("authority_reference", ""),
+            "Authority source URL": p.get("authority_source_url", ""),
+            "Retrieved": p.get("retrieved_date", ""),
+            "_feature_index": index,
+        }
+        for index, feature in enumerate(roads)
+        for p in [feature.get("properties", {})]
+    ]
+)
+
+overview_tab, map_tab, roads_tab, facilities_tab, issues_tab, data_tab = st.tabs(
     [
         "Overview",
         "Interactive Map",
+        "Roads",
         "Facilities",
         "Issues Reported",
         "Data Explorer",
@@ -654,24 +709,6 @@ with map_tab:
         selected_dun,
         selected_pdm_name,
     )
-    selected_dun_name = (
-        DUN_LABELS.get(selected_dun, "").split(" ", 1)[-1].upper()
-        if selected_dun
-        else ""
-    )
-    visible_roads = []
-    for feature in roads:
-        props = feature.get("properties", {})
-        road_dun = str(props.get("dun", "")).upper()
-        road_pdm = str(props.get("pdm", "")).upper()
-        if selected_dun and selected_dun_name not in road_dun:
-            continue
-        if (
-            selected_pdm_name != "All PDM"
-            and road_pdm not in selected_pdm_name.upper()
-        ):
-            continue
-        visible_roads.append(feature)
     visible_vulnerable = filter_points(
         vulnerable,
         selected_dun,
@@ -700,6 +737,13 @@ with map_tab:
     ).add_to(m)
 
     Fullscreen(position="topright").add_to(m)
+    MeasureControl(
+        position="topleft",
+        primary_length_unit="kilometers",
+        secondary_length_unit="meters",
+        primary_area_unit="sqkilometers",
+        secondary_area_unit="hectares",
+    ).add_to(m)
 
     parliament_group = folium.FeatureGroup(
         name="Parliament boundary",
@@ -1119,58 +1163,6 @@ with map_tab:
 
     retail_group.add_to(m)
 
-    road_colors = {
-        "Expressway": "#7c3aed",
-        "Federal Road": "#dc2626",
-        "State Road": "#f59e0b",
-        "Major road—authority unverified": "#475569",
-        "Local/other road": "#64748b",
-    }
-    roads_group = folium.FeatureGroup(name="Roads by authority", show=False)
-    for feature in visible_roads:
-        props = feature.get("properties", {})
-        road_class = props.get("road_class", "Unverified")
-        source_url = props.get("geometry_source_url", "")
-        authority_url = props.get("authority_source_url", "")
-        source_link = (
-            f"<a href='{source_url}' target='_blank'>"
-            f"{props.get('geometry_source', '')}</a>"
-            if source_url
-            else props.get("geometry_source", "")
-        )
-        authority_link = (
-            f"<a href='{authority_url}' target='_blank'>Authority reference</a>"
-            if authority_url
-            else ""
-        )
-        popup = (
-            f"<b>{props.get('road_name') or 'Unnamed road'}</b><br><br>"
-            f"<b>Route:</b> {props.get('route_number', '')}<br>"
-            f"<b>Road class:</b> {road_class}<br>"
-            f"<b>Responsible authority:</b> "
-            f"{props.get('responsible_authority', '')}<br>"
-            f"<b>Maintenance agency:</b> "
-            f"{props.get('maintenance_agency', '')}<br>"
-            f"<b>DUN:</b> {props.get('dun', '')}<br>"
-            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
-            f"<b>Verification:</b> "
-            f"{props.get('verification_status', '')}<br>"
-            f"<b>Note:</b> {props.get('verification_note', '')}<br>"
-            f"<b>Geometry source:</b> {source_link}<br>"
-            f"<b>Authority source:</b> {authority_link}<br>"
-            f"<b>Retrieved:</b> {props.get('retrieved_date', '')}"
-        )
-        folium.GeoJson(
-            feature,
-            style_function=lambda _, color=road_colors.get(
-                road_class, "#475569"
-            ): {"color": color, "weight": 3, "opacity": 0.85},
-            tooltip=props.get("road_name") or road_class,
-            popup=folium.Popup(popup, max_width=500),
-        ).add_to(roads_group)
-
-    roads_group.add_to(m)
-
     vulnerable_group = folium.FeatureGroup(
         name="Vulnerable facilities",
         show=False,
@@ -1248,6 +1240,196 @@ with map_tab:
         use_container_width=True,
         height=680,
         returned_objects=[],
+    )
+
+
+with roads_tab:
+    st.subheader("Roads and Responsible Authorities")
+    st.caption(
+        "Filter the road list, then click a row to highlight that road on the map. "
+        "Use the ruler button on the map to measure any distance or area."
+    )
+
+    shown_roads = road_df.copy()
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        road_dun = st.selectbox(
+            "DUN",
+            ["All DUN"]
+            + sorted(shown_roads["DUN"].dropna().loc[lambda s: s != ""].unique()),
+            key="roads_dun",
+        )
+    if road_dun != "All DUN":
+        shown_roads = shown_roads[shown_roads["DUN"] == road_dun]
+
+    with c2:
+        road_pdm = st.selectbox(
+            "PDM",
+            ["All PDM"]
+            + sorted(shown_roads["PDM"].dropna().loc[lambda s: s != ""].unique()),
+            key="roads_pdm",
+        )
+    if road_pdm != "All PDM":
+        shown_roads = shown_roads[shown_roads["PDM"] == road_pdm]
+
+    with c3:
+        road_class_filter = st.selectbox(
+            "Road class",
+            ["All classes"]
+            + sorted(
+                shown_roads["Road class"]
+                .dropna()
+                .loc[lambda s: s != ""]
+                .unique()
+            ),
+            key="roads_class",
+        )
+    if road_class_filter != "All classes":
+        shown_roads = shown_roads[
+            shown_roads["Road class"] == road_class_filter
+        ]
+
+    road_query = st.text_input(
+        "Search road name, route, authority or verification status",
+        key="roads_search",
+    )
+    if road_query:
+        searchable = shown_roads.drop(columns=["_feature_index"])
+        shown_roads = shown_roads[
+            searchable.astype(str).apply(
+                lambda row: row.str.contains(
+                    road_query, case=False, na=False, regex=False
+                ).any(),
+                axis=1,
+            )
+        ]
+
+    st.metric("Road segments shown", f"{len(shown_roads):,} of {len(roads):,}")
+    table_columns = [
+        "Road",
+        "Route",
+        "Road class",
+        "Responsible authority",
+        "Maintenance agency",
+        "DUN",
+        "PDM",
+        "Verification",
+    ]
+    road_event = st.dataframe(
+        shown_roads[table_columns],
+        use_container_width=True,
+        hide_index=True,
+        height=330,
+        selection_mode="single-row",
+        on_select="rerun",
+        key="road_list",
+    )
+
+    selected_feature_index = None
+    selected_rows = road_event.selection.rows
+    if selected_rows and selected_rows[0] < len(shown_roads):
+        selected_feature_index = int(
+            shown_roads.iloc[selected_rows[0]]["_feature_index"]
+        )
+
+    show_filtered = st.checkbox(
+        "Load all filtered roads on map (may be slower for a large result)",
+        value=False,
+        key="show_filtered_roads",
+    )
+
+    road_map = folium.Map(
+        location=[2.80, 101.67],
+        zoom_start=10,
+        tiles="OpenStreetMap",
+        control_scale=True,
+    )
+    folium.TileLayer(
+        "https://server.arcgisonline.com/ArcGIS/rest/services/"
+        "World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        attr="Esri World Imagery",
+        name="Satellite",
+        show=False,
+    ).add_to(road_map)
+    Fullscreen(position="topright").add_to(road_map)
+    MeasureControl(
+        position="topleft",
+        primary_length_unit="kilometers",
+        secondary_length_unit="meters",
+        primary_area_unit="sqkilometers",
+        secondary_area_unit="hectares",
+    ).add_to(road_map)
+
+    road_colors = {
+        "Expressway": "#7c3aed",
+        "Federal Road": "#dc2626",
+        "State Road": "#f59e0b",
+        "Major road—authority unverified": "#475569",
+        "Local/other road": "#64748b",
+    }
+    map_indices = (
+        shown_roads["_feature_index"].astype(int).tolist()
+        if show_filtered
+        else ([] if selected_feature_index is None else [selected_feature_index])
+    )
+    selected_bounds = []
+    for feature_index in map_indices:
+        feature = roads[feature_index]
+        props = feature.get("properties", {})
+        road_class = props.get("road_class", "Unverified")
+        is_selected = feature_index == selected_feature_index
+        length_km = road_length_km(feature)
+        popup = (
+            f"<b>{props.get('road_name') or 'Unnamed road'}</b><br><br>"
+            f"<b>Route:</b> {props.get('route_number', '')}<br>"
+            f"<b>Mapped segment length:</b> {length_km:.3f} km<br>"
+            f"<b>Road class:</b> {road_class}<br>"
+            f"<b>Responsible authority:</b> "
+            f"{props.get('responsible_authority', '')}<br>"
+            f"<b>Maintenance agency:</b> "
+            f"{props.get('maintenance_agency', '')}<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Verification:</b> "
+            f"{props.get('verification_status', '')}<br>"
+            f"<b>Geometry source:</b> {props.get('geometry_source', '')}<br>"
+            f"<b>Retrieved:</b> {props.get('retrieved_date', '')}"
+        )
+        color = "#00e5ff" if is_selected else road_colors.get(
+            road_class, "#475569"
+        )
+        folium.GeoJson(
+            feature,
+            style_function=lambda _, color=color, selected=is_selected: {
+                "color": color,
+                "weight": 7 if selected else 3,
+                "opacity": 1.0 if selected else 0.75,
+            },
+            tooltip=props.get("road_name") or road_class,
+            popup=folium.Popup(popup, max_width=500),
+        ).add_to(road_map)
+        if is_selected:
+            for line in line_coordinates(feature.get("geometry")):
+                selected_bounds.extend([[coord[1], coord[0]] for coord in line])
+
+    if selected_bounds:
+        road_map.fit_bounds(selected_bounds, padding=(25, 25))
+        selected_feature = roads[selected_feature_index]
+        selected_props = selected_feature.get("properties", {})
+        st.success(
+            f"Selected: {selected_props.get('road_name') or 'Unnamed road'} "
+            f"— mapped segment length {road_length_km(selected_feature):.3f} km"
+        )
+    elif not show_filtered:
+        st.info("Select one road from the table to display and highlight it.")
+
+    folium.LayerControl(collapsed=True).add_to(road_map)
+    st_folium(
+        road_map,
+        use_container_width=True,
+        height=620,
+        returned_objects=[],
+        key="roads_map",
     )
 
 
@@ -1389,29 +1571,6 @@ with facilities_tab:
         ],
     )
 
-    road_df = pd.DataFrame(
-        [
-            {
-                "Road": p.get("road_name", ""),
-                "Route": p.get("route_number", ""),
-                "Road class": p.get("road_class", ""),
-                "Responsible authority": p.get("responsible_authority", ""),
-                "Maintenance agency": p.get("maintenance_agency", ""),
-                "DUN": p.get("dun", ""),
-                "PDM": p.get("pdm", ""),
-                "Verification": p.get("verification_status", ""),
-                "Verification note": p.get("verification_note", ""),
-                "Geometry source": p.get("geometry_source", ""),
-                "Geometry source URL": p.get("geometry_source_url", ""),
-                "Authority reference": p.get("authority_reference", ""),
-                "Authority source URL": p.get("authority_source_url", ""),
-                "Retrieved": p.get("retrieved_date", ""),
-            }
-            for feature in roads
-            for p in [feature.get("properties", {})]
-        ]
-    )
-
     facility_type = st.selectbox(
         "Facility category",
         [
@@ -1423,7 +1582,6 @@ with facilities_tab:
             "Healthcare",
             "Kampung",
             "Retail & Markets",
-            "Roads & Authorities",
             "Vulnerable Facilities",
         ],
     )
@@ -1595,7 +1753,6 @@ with facilities_tab:
             "Healthcare": healthcare_df,
             "Kampung": kampung_df,
             "Retail & Markets": retail_df,
-            "Roads & Authorities": road_df,
         }
 
         shown = source_map[facility_type].copy()

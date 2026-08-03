@@ -198,6 +198,85 @@ def spatially_assign(feature, duns, pdms):
     return feature
 
 
+def normalized_place_name(value):
+    """Normalize facility names so records from different files can be matched."""
+    return re.sub(r"[^A-Z0-9]", "", (value or "").upper())
+
+
+def polling_centre_is_school(name):
+    """Return True when a polling-centre name clearly identifies a school."""
+    text = re.sub(r"\s+", " ", (name or "").upper()).strip()
+    school_patterns = [
+        r"\bSEKOLAH\b",
+        r"\bSK\b",
+        r"\bSMK\b",
+        r"\bSJK\s*\(?[CT]\)?\b",
+        r"\bSJKT\b",
+        r"\bSJ(K|KC|KT)\b",
+        r"\bSRA\b",
+        r"\bKAFA\b",
+        r"\bMADRASAH\b",
+        r"\bKOLEJ\b",
+    ]
+    return any(re.search(pattern, text, flags=re.I) for pattern in school_patterns)
+
+
+def add_school_polling_centres(school_features, polling_features, duns, pdms):
+    """Add school-based polling centres to the school dataset without duplicates."""
+    combined = list(school_features)
+    known_names = {
+        normalized_place_name(f.get("properties", {}).get("name", ""))
+        for f in combined
+        if f.get("properties", {}).get("name")
+    }
+    known_coordinates = {
+        tuple(round(float(value), 6) for value in f.get("geometry", {}).get("coordinates", [])[:2])
+        for f in combined
+        if f.get("geometry", {}).get("type") == "Point"
+        and len(f.get("geometry", {}).get("coordinates", [])) >= 2
+    }
+
+    for feature in polling_features:
+        geometry = feature.get("geometry") or {}
+        coordinates = geometry.get("coordinates", [])
+        if geometry.get("type") != "Point" or len(coordinates) < 2:
+            continue
+
+        source_props = feature.get("properties", {})
+        values = fields_from_description(source_props.get("description", ""))
+        name = (
+            values.get("Pusat Mengundi")
+            or source_props.get("Name")
+            or source_props.get("name")
+            or ""
+        ).strip()
+        if not polling_centre_is_school(name):
+            continue
+
+        name_key = normalized_place_name(name)
+        coordinate_key = tuple(round(float(value), 6) for value in coordinates[:2])
+        if name_key in known_names or coordinate_key in known_coordinates:
+            continue
+
+        school_feature = {
+            "type": "Feature",
+            "geometry": json.loads(json.dumps(geometry)),
+            "properties": {
+                "name": name,
+                "category": "School / Polling Centre",
+                "address": source_props.get("address", ""),
+                "verification_status": "From polling-centre dataset",
+                "is_polling_centre": True,
+                "polling_centre_code": values.get("Kod Pusat Mengundi", ""),
+            },
+        }
+        combined.append(spatially_assign(school_feature, duns, pdms))
+        known_names.add(name_key)
+        known_coordinates.add(coordinate_key)
+
+    return combined
+
+
 def prepared_feature(feature):
     item = json.loads(json.dumps(feature))
     props = item.setdefault("properties", {})
@@ -315,6 +394,24 @@ worship = datasets["worship"].get("features", [])
 retail = datasets["retail"].get("features", [])
 vulnerable_raw = datasets["vulnerable"].get("features", [])
 
+# Surau/Musolla are Islamic facilities, but they are not Masjid. Keep them as
+# their own dashboard category and remove them from Other houses of worship.
+def is_surau(feature):
+    props = feature.get("properties", {})
+    searchable = " ".join(
+        str(props.get(field, ""))
+        for field in ("name", "category", "amenity", "religion", "denomination")
+    ).casefold()
+    return any(term in searchable for term in ("surau", "musolla", "musala"))
+
+
+suraus = [feature for feature in worship if is_surau(feature)]
+worship = [feature for feature in worship if not is_surau(feature)]
+
+# A school can serve two roles. Keep it in the polling-centre layer and also
+# include it in the school layer, overview count, Facilities and Data Explorer.
+schools = add_school_polling_centres(schools, polling, duns, pdms)
+
 for masjid in masjids:
     geometry = masjid.get("geometry") or {}
     coordinates = geometry.get("coordinates", [])
@@ -388,12 +485,15 @@ with overview_tab:
     c7, c8, c9 = st.columns(3)
     c7.metric("Healthcare facilities", len(healthcare))
     c8.metric("Kampung", len(kampungs))
-    c9.metric("Other houses of worship", len(worship))
+    c9.metric("Surau", len(suraus))
 
     c10, c11, c12 = st.columns(3)
-    c10.metric("Retail & markets", len(retail))
-    c11.metric("Vulnerable facilities", len(vulnerable))
-    c12.metric(
+    c10.metric("Other houses of worship", len(worship))
+    c11.metric("Retail & markets", len(retail))
+    c12.metric("Vulnerable facilities", len(vulnerable))
+
+    c13, _, _ = st.columns(3)
+    c13.metric(
         "Dialysis centres",
         sum(
             "Dialysis" in f.get("properties", {}).get("category", "")
@@ -520,6 +620,11 @@ with map_tab:
     )
     visible_worship = filter_points(
         worship,
+        selected_dun,
+        selected_pdm_name,
+    )
+    visible_suraus = filter_points(
+        suraus,
         selected_dun,
         selected_pdm_name,
     )
@@ -833,12 +938,54 @@ with map_tab:
 
     kampung_group.add_to(m)
 
+    surau_group = folium.FeatureGroup(
+        name="Surau",
+        show=True,
+    )
+
+    for feature in visible_suraus:
+        geometry = feature.get("geometry") or {}
+        coordinates = geometry.get("coordinates", [])
+        if geometry.get("type") != "Point" or len(coordinates) < 2:
+            continue
+
+        props = feature.get("properties", {})
+        lon, lat = coordinates[:2]
+        popup = (
+            f"<b>{props.get('name', 'Surau')}</b><br><br>"
+            f"<b>Category:</b> Surau / Musolla<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Address:</b> {props.get('address', '')}<br>"
+            f"<b>Status:</b> {props.get('verification_status', '')}<br>"
+            f"<b>Latitude:</b> {lat}<br>"
+            f"<b>Longitude:</b> {lon}"
+        )
+
+        folium.Marker(
+            [lat, lon],
+            icon=folium.DivIcon(
+                icon_size=(32, 32),
+                icon_anchor=(16, 16),
+                html=(
+                    "<div style='width:32px;height:32px;border-radius:50%;"
+                    "background:#059669;color:white;border:2px solid white;"
+                    "box-shadow:0 1px 5px #333;display:flex;"
+                    "align-items:center;justify-content:center;"
+                    "font-size:18px'>☪</div>"
+                ),
+            ),
+            tooltip=props.get("name", "Surau"),
+            popup=folium.Popup(popup, max_width=440),
+        ).add_to(surau_group)
+
+    surau_group.add_to(m)
+
     worship_group = folium.FeatureGroup(
         name="Other houses of worship",
         show=False,
     )
     worship_icons = {
-        "Surau / Musolla": "☪",
         "Church": "✝",
         "Hindu Temple": "🛕",
         "Buddhist Temple": "☸",
@@ -1094,6 +1241,18 @@ with facilities_tab:
         ],
     )
 
+    surau_df = make_point_dataframe(
+        suraus,
+        [
+            ("Surau", "name"),
+            ("Category", "category"),
+            ("DUN", "dun"),
+            ("PDM", "pdm"),
+            ("Address", "address"),
+            ("Verification", "verification_status"),
+        ],
+    )
+
     retail_df = make_point_dataframe(
         retail,
         [
@@ -1144,6 +1303,7 @@ with facilities_tab:
         [
             "Select a category",
             "Masjid",
+            "Surau",
             "Other houses of worship",
             "Schools",
             "Healthcare",
@@ -1314,6 +1474,7 @@ with facilities_tab:
 
     else:
         source_map = {
+            "Surau": surau_df,
             "Other houses of worship": worship_df,
             "Schools": school_df,
             "Healthcare": healthcare_df,
@@ -1434,6 +1595,7 @@ with data_tab:
         [
             "Polling centres",
             "Masjid",
+            "Surau",
             "Other houses of worship",
             "Schools",
             "Healthcare",
@@ -1446,6 +1608,7 @@ with data_tab:
     dataset_map = {
         "Polling centres": polling_df,
         "Masjid": facility_df,
+        "Surau": surau_df,
         "Other houses of worship": worship_df,
         "Schools": school_df,
         "Healthcare": healthcare_df,

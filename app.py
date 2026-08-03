@@ -41,6 +41,7 @@ FILES = {
     "seven_eleven": DATA / "7eleven.geojson",
     "pasar_tani": DATA / "pasar_tani.geojson",
     "pasar_pagi": DATA / "pasar_pagi.geojson",
+    "roads": DATA / "roads_authority_sepang.geojson",
     "vulnerable": DATA / "vulnerable_facilities.geojson",
 }
 
@@ -407,6 +408,10 @@ retail = [
     for features in retail_layers.values()
     for feature in features
 ]
+# Always derive electoral attributes from the point coordinates. This also
+# supports older retail files that used uppercase DUN/PDM property names.
+retail = [spatially_assign(feature, duns, pdms) for feature in retail]
+roads = datasets["roads"].get("features", [])
 vulnerable_raw = datasets["vulnerable"].get("features", [])
 
 # Surau/Musolla are Islamic facilities, but they are not Masjid. Keep them as
@@ -507,7 +512,7 @@ with overview_tab:
     c11.metric("Retail & markets", len(retail))
     c12.metric("Vulnerable facilities", len(vulnerable))
 
-    c13, _, _ = st.columns(3)
+    c13, c14, _ = st.columns(3)
     c13.metric(
         "Dialysis centres",
         sum(
@@ -638,6 +643,7 @@ with map_tab:
         selected_dun,
         selected_pdm_name,
     )
+    c14.metric("Road segments", len(roads))
     visible_suraus = filter_points(
         suraus,
         selected_dun,
@@ -648,6 +654,24 @@ with map_tab:
         selected_dun,
         selected_pdm_name,
     )
+    selected_dun_name = (
+        DUN_LABELS.get(selected_dun, "").split(" ", 1)[-1].upper()
+        if selected_dun
+        else ""
+    )
+    visible_roads = []
+    for feature in roads:
+        props = feature.get("properties", {})
+        road_dun = str(props.get("dun", "")).upper()
+        road_pdm = str(props.get("pdm", "")).upper()
+        if selected_dun and selected_dun_name not in road_dun:
+            continue
+        if (
+            selected_pdm_name != "All PDM"
+            and road_pdm not in selected_pdm_name.upper()
+        ):
+            continue
+        visible_roads.append(feature)
     visible_vulnerable = filter_points(
         vulnerable,
         selected_dun,
@@ -1095,6 +1119,58 @@ with map_tab:
 
     retail_group.add_to(m)
 
+    road_colors = {
+        "Expressway": "#7c3aed",
+        "Federal Road": "#dc2626",
+        "State Road": "#f59e0b",
+        "Major road—authority unverified": "#475569",
+        "Local/other road": "#64748b",
+    }
+    roads_group = folium.FeatureGroup(name="Roads by authority", show=False)
+    for feature in visible_roads:
+        props = feature.get("properties", {})
+        road_class = props.get("road_class", "Unverified")
+        source_url = props.get("geometry_source_url", "")
+        authority_url = props.get("authority_source_url", "")
+        source_link = (
+            f"<a href='{source_url}' target='_blank'>"
+            f"{props.get('geometry_source', '')}</a>"
+            if source_url
+            else props.get("geometry_source", "")
+        )
+        authority_link = (
+            f"<a href='{authority_url}' target='_blank'>Authority reference</a>"
+            if authority_url
+            else ""
+        )
+        popup = (
+            f"<b>{props.get('road_name') or 'Unnamed road'}</b><br><br>"
+            f"<b>Route:</b> {props.get('route_number', '')}<br>"
+            f"<b>Road class:</b> {road_class}<br>"
+            f"<b>Responsible authority:</b> "
+            f"{props.get('responsible_authority', '')}<br>"
+            f"<b>Maintenance agency:</b> "
+            f"{props.get('maintenance_agency', '')}<br>"
+            f"<b>DUN:</b> {props.get('dun', '')}<br>"
+            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
+            f"<b>Verification:</b> "
+            f"{props.get('verification_status', '')}<br>"
+            f"<b>Note:</b> {props.get('verification_note', '')}<br>"
+            f"<b>Geometry source:</b> {source_link}<br>"
+            f"<b>Authority source:</b> {authority_link}<br>"
+            f"<b>Retrieved:</b> {props.get('retrieved_date', '')}"
+        )
+        folium.GeoJson(
+            feature,
+            style_function=lambda _, color=road_colors.get(
+                road_class, "#475569"
+            ): {"color": color, "weight": 3, "opacity": 0.85},
+            tooltip=props.get("road_name") or road_class,
+            popup=folium.Popup(popup, max_width=500),
+        ).add_to(roads_group)
+
+    roads_group.add_to(m)
+
     vulnerable_group = folium.FeatureGroup(
         name="Vulnerable facilities",
         show=False,
@@ -1313,6 +1389,29 @@ with facilities_tab:
         ],
     )
 
+    road_df = pd.DataFrame(
+        [
+            {
+                "Road": p.get("road_name", ""),
+                "Route": p.get("route_number", ""),
+                "Road class": p.get("road_class", ""),
+                "Responsible authority": p.get("responsible_authority", ""),
+                "Maintenance agency": p.get("maintenance_agency", ""),
+                "DUN": p.get("dun", ""),
+                "PDM": p.get("pdm", ""),
+                "Verification": p.get("verification_status", ""),
+                "Verification note": p.get("verification_note", ""),
+                "Geometry source": p.get("geometry_source", ""),
+                "Geometry source URL": p.get("geometry_source_url", ""),
+                "Authority reference": p.get("authority_reference", ""),
+                "Authority source URL": p.get("authority_source_url", ""),
+                "Retrieved": p.get("retrieved_date", ""),
+            }
+            for feature in roads
+            for p in [feature.get("properties", {})]
+        ]
+    )
+
     facility_type = st.selectbox(
         "Facility category",
         [
@@ -1324,6 +1423,7 @@ with facilities_tab:
             "Healthcare",
             "Kampung",
             "Retail & Markets",
+            "Roads & Authorities",
             "Vulnerable Facilities",
         ],
     )
@@ -1495,6 +1595,7 @@ with facilities_tab:
             "Healthcare": healthcare_df,
             "Kampung": kampung_df,
             "Retail & Markets": retail_df,
+            "Roads & Authorities": road_df,
         }
 
         shown = source_map[facility_type].copy()
@@ -1616,6 +1717,7 @@ with data_tab:
             "Healthcare",
             "Kampung",
             "Retail & Markets",
+            "Roads & Authorities",
             "Vulnerable Facilities",
         ],
     )
@@ -1629,6 +1731,7 @@ with data_tab:
         "Healthcare": healthcare_df,
         "Kampung": kampung_df,
         "Retail & Markets": retail_df,
+        "Roads & Authorities": road_df,
         "Vulnerable Facilities": vulnerable_df,
     }
 

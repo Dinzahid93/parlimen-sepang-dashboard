@@ -1305,7 +1305,49 @@ with roads_tab:
         ]
 
     st.metric("Road segments shown", f"{len(shown_roads):,} of {len(roads):,}")
+
+    if "selected_road_indices" not in st.session_state:
+        st.session_state.selected_road_indices = set(
+            road_df["_feature_index"].astype(int).tolist()
+        )
+    if "road_editor_version" not in st.session_state:
+        st.session_state.road_editor_version = 0
+
+    filtered_indices = set(
+        shown_roads["_feature_index"].astype(int).tolist()
+    )
+    select_col, deselect_col, selection_count_col = st.columns([1, 1, 2])
+    with select_col:
+        if st.button(
+            "Select all",
+            use_container_width=True,
+            key="select_all_filtered_roads",
+        ):
+            st.session_state.selected_road_indices.update(filtered_indices)
+            st.session_state.road_editor_version += 1
+            st.rerun()
+    with deselect_col:
+        if st.button(
+            "Deselect all",
+            use_container_width=True,
+            key="deselect_all_filtered_roads",
+        ):
+            st.session_state.selected_road_indices.difference_update(
+                filtered_indices
+            )
+            st.session_state.road_editor_version += 1
+            st.rerun()
+
+    editor_roads = shown_roads.copy()
+    editor_roads.insert(
+        0,
+        "Show",
+        editor_roads["_feature_index"].astype(int).isin(
+            st.session_state.selected_road_indices
+        ),
+    )
     table_columns = [
+        "Show",
         "Road",
         "Route",
         "Road class",
@@ -1315,27 +1357,54 @@ with roads_tab:
         "PDM",
         "Verification",
     ]
-    road_event = st.dataframe(
-        shown_roads[table_columns],
+    edited_roads = st.data_editor(
+        editor_roads[table_columns],
         use_container_width=True,
         hide_index=True,
         height=330,
-        selection_mode="single-row",
-        on_select="rerun",
-        key="road_list",
+        disabled=[column for column in table_columns if column != "Show"],
+        column_config={
+            "Show": st.column_config.CheckboxColumn(
+                "Show on map",
+                help="Tick to show this road; untick to hide it.",
+                default=True,
+            )
+        },
+        key=f"road_list_{st.session_state.road_editor_version}",
     )
 
+    checked_mask = edited_roads["Show"].fillna(False).astype(bool).to_numpy()
+    checked_indices = set(
+        editor_roads.loc[checked_mask, "_feature_index"].astype(int).tolist()
+    )
+    st.session_state.selected_road_indices.difference_update(filtered_indices)
+    st.session_state.selected_road_indices.update(checked_indices)
     selected_feature_index = None
-    selected_rows = road_event.selection.rows
-    if selected_rows and selected_rows[0] < len(shown_roads):
-        selected_feature_index = int(
-            shown_roads.iloc[selected_rows[0]]["_feature_index"]
+    with selection_count_col:
+        st.metric(
+            "Selected on map",
+            f"{len(checked_indices):,} of {len(shown_roads):,}",
         )
 
-    show_filtered = st.checkbox(
-        "Load all filtered roads on map (may be slower for a large result)",
-        value=False,
-        key="show_filtered_roads",
+    highlight_options = [None] + sorted(
+        checked_indices,
+        key=lambda index: (
+            str(roads[index].get("properties", {}).get("road_name", "")),
+            index,
+        ),
+    )
+    selected_feature_index = st.selectbox(
+        "Highlight and zoom to one selected road",
+        highlight_options,
+        format_func=lambda index: (
+            "None"
+            if index is None
+            else (
+                f"{roads[index].get('properties', {}).get('road_name') or 'Unnamed road'}"
+                f" — {roads[index].get('properties', {}).get('route_number', '')}"
+            )
+        ),
+        key="highlight_road",
     )
 
     road_map = folium.Map(
@@ -1367,11 +1436,7 @@ with roads_tab:
         "Major road—authority unverified": "#475569",
         "Local/other road": "#64748b",
     }
-    map_indices = (
-        shown_roads["_feature_index"].astype(int).tolist()
-        if show_filtered
-        else ([] if selected_feature_index is None else [selected_feature_index])
-    )
+    map_indices = sorted(checked_indices)
     selected_bounds = []
     for feature_index in map_indices:
         feature = roads[feature_index]
@@ -1420,8 +1485,8 @@ with roads_tab:
             f"Selected: {selected_props.get('road_name') or 'Unnamed road'} "
             f"— mapped segment length {road_length_km(selected_feature):.3f} km"
         )
-    elif not show_filtered:
-        st.info("Select one road from the table to display and highlight it.")
+    elif not map_indices:
+        st.info("No roads are selected. Tick a road or use Select all.")
 
     folium.LayerControl(collapsed=True).add_to(road_map)
     st_folium(

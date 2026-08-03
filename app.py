@@ -475,7 +475,7 @@ for feature in vulnerable_raw:
         outside_count += 1
         continue
 
-vulnerable.append(spatially_assign(feature, duns, pdms))
+    vulnerable.append(spatially_assign(feature, duns, pdms))
 
 
 def line_coordinates(geometry):

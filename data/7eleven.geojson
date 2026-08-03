@@ -1,0 +1,726 @@
+{
+  "type": "FeatureCollection",
+  "name": "7eleven",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.556598,
+          2.6624784
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/08  TANJONG SEPAT TEMPATAN 5",
+        "source": "OpenStreetMap",
+        "source_id": "node/13886055359",
+        "source_url": "https://www.openstreetmap.org/node/13886055359",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5651697,
+          2.6598605
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/09  TANJONG SEPAT 6",
+        "source": "OpenStreetMap",
+        "source_id": "node/7707726708",
+        "source_url": "https://www.openstreetmap.org/node/7707726708",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6394022,
+          2.9109061
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/13919271523",
+        "source_url": "https://www.openstreetmap.org/node/13919271523",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6752265,
+          2.8645297
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Mutiara 1, Dengkil",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/06  KAMPUNG DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/4719212640",
+        "source_url": "https://www.openstreetmap.org/node/4719212640",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6183221,
+          2.9485086
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/2361299994",
+        "source_url": "https://www.openstreetmap.org/node/2361299994",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6561859,
+          2.9777988
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010367",
+        "source_url": "https://www.openstreetmap.org/node/7733010367",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6167602,
+          2.9645855
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/13791124162",
+        "source_url": "https://www.openstreetmap.org/node/13791124162",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7334131,
+          2.9706504
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/08 SUNGAI MERAB UTARA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12764566122",
+        "source_url": "https://www.openstreetmap.org/node/12764566122",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7506956,
+          2.9419776
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/10 SUNGAI MERAB",
+        "source": "OpenStreetMap",
+        "source_id": "node/5311298021",
+        "source_url": "https://www.openstreetmap.org/node/5311298021",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6555942,
+          2.8013207
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "105",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/14  RTB DATOK HARUN",
+        "source": "OpenStreetMap",
+        "source_id": "node/12651142866",
+        "source_url": "https://www.openstreetmap.org/node/12651142866",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6911156,
+          2.8191307
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Saujana KLIA 1/A, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/16  KAMPUNG MELOT",
+        "source": "OpenStreetMap",
+        "source_id": "node/10933989994",
+        "source_url": "https://www.openstreetmap.org/node/10933989994",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6020978,
+          2.9443096
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010365",
+        "source_url": "https://www.openstreetmap.org/node/7733010365",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6134851,
+          2.9459961
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862710372",
+        "source_url": "https://www.openstreetmap.org/node/11862710372",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6098179,
+          2.9795382
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/9955158550",
+        "source_url": "https://www.openstreetmap.org/node/9955158550",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6610677,
+          2.9233925
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656505731",
+        "source_url": "https://www.openstreetmap.org/node/7656505731",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372134,
+          2.9245597
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656590692",
+        "source_url": "https://www.openstreetmap.org/node/7656590692",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6431529,
+          2.9277384
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11079782069",
+        "source_url": "https://www.openstreetmap.org/node/11079782069",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6559474,
+          2.924275
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12672981810",
+        "source_url": "https://www.openstreetmap.org/node/12672981810",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6382091,
+          2.9325269
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12993822346",
+        "source_url": "https://www.openstreetmap.org/node/12993822346",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6503538,
+          2.9156905
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "50",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/14041650221",
+        "source_url": "https://www.openstreetmap.org/node/14041650221",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7050081,
+          2.8247444
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/4363091690",
+        "source_url": "https://www.openstreetmap.org/node/4363091690",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941489,
+          2.8179973
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/5428458325",
+        "source_url": "https://www.openstreetmap.org/node/5428458325",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7052086,
+          2.8288006
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "R.G.18, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/9516636788",
+        "source_url": "https://www.openstreetmap.org/node/9516636788",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6878104,
+          2.7430824
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/04  LOTHIAN TIMUR",
+        "source": "OpenStreetMap",
+        "source_id": "node/13713897801",
+        "source_url": "https://www.openstreetmap.org/node/13713897801",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7503309,
+          2.6856721
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/06  SEPANG SELATAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/9290751781",
+        "source_url": "https://www.openstreetmap.org/node/9290751781",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.717284,
+          2.6427498
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/11  SUNGAI PELEK EMPAT",
+        "source": "OpenStreetMap",
+        "source_id": "node/1594369828",
+        "source_url": "https://www.openstreetmap.org/node/1594369828",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7159017,
+          2.8061146
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "source": "OpenStreetMap",
+        "source_id": "node/12719128647",
+        "source_url": "https://www.openstreetmap.org/node/12719128647",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7378821,
+          2.8114765
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "source": "OpenStreetMap",
+        "source_id": "node/12719128665",
+        "source_url": "https://www.openstreetmap.org/node/12719128665",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301206,
+          2.8267255
+        ]
+      },
+      "properties": {
+        "name": "7 Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/10065255034",
+        "source_url": "https://www.openstreetmap.org/node/10065255034",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7257431,
+          2.8381174
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Belian 1, Salak Perdana, Sepang, 43900",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7398584003",
+        "source_url": "https://www.openstreetmap.org/node/7398584003",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    }
+  ]
+}

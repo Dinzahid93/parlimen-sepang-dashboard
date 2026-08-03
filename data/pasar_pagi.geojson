@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "pasar_pagi",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5657397,
+          2.6597506
+        ]
+      },
+      "properties": {
+        "name": "Pasar Pagi Tanjong Sepat",
+        "category": "pasar_pagi",
+        "category_label": "Pasar Pagi",
+        "brand": "",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/09  TANJONG SEPAT 6",
+        "source": "Official listing + OpenStreetMap venue",
+        "source_id": "curated-market",
+        "source_url": "https://dewan.selangor.gov.my/question/pasar-malam-di-negeri-selangor/",
+        "verification_status": "Official state listing; venue coordinate mapped as Pasar Awam Tanjong Sepat",
+        "retrieved_on": "2026-08-03"
+      }
+    }
+  ]
+}

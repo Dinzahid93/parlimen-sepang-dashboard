@@ -1,0 +1,414 @@
+{
+  "type": "FeatureCollection",
+  "name": "kkmart",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6168383,
+          2.9644284
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/13791124164",
+        "source_url": "https://www.openstreetmap.org/node/13791124164",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6135488,
+          2.945961
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "G-71",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862710374",
+        "source_url": "https://www.openstreetmap.org/node/11862710374",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.618887,
+          2.9467046
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "28, Jalan Putra Perdana 2/3",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12169654467",
+        "source_url": "https://www.openstreetmap.org/node/12169654467",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.607543,
+          2.9795247
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/12082386289",
+        "source_url": "https://www.openstreetmap.org/node/12082386289",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6502158,
+          2.9157216
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/5565638655",
+        "source_url": "https://www.openstreetmap.org/node/5565638655",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6627947,
+          2.9233169
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/10544068365",
+        "source_url": "https://www.openstreetmap.org/node/10544068365",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6392178,
+          2.9227386
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12622941708",
+        "source_url": "https://www.openstreetmap.org/node/12622941708",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372206,
+          2.9246788
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12622941710",
+        "source_url": "https://www.openstreetmap.org/node/12622941710",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6559614,
+          2.9244407
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12672981809",
+        "source_url": "https://www.openstreetmap.org/node/12672981809",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6549868,
+          2.9134754
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12722522393",
+        "source_url": "https://www.openstreetmap.org/node/12722522393",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6371699,
+          2.933668
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/13807265091",
+        "source_url": "https://www.openstreetmap.org/node/13807265091",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694147,
+          2.8186417
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/6200097720",
+        "source_url": "https://www.openstreetmap.org/node/6200097720",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950849,
+          2.8075606
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10200963459",
+        "source_url": "https://www.openstreetmap.org/node/10200963459",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7057699,
+          2.8288102
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "R.G.23A, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10931025295",
+        "source_url": "https://www.openstreetmap.org/node/10931025295",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7048214,
+          2.8247498
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "6, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10931156056",
+        "source_url": "https://www.openstreetmap.org/node/10931156056",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7130597,
+          2.8245995
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/13144718444",
+        "source_url": "https://www.openstreetmap.org/node/13144718444",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6867204,
+          2.7431023
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/04  LOTHIAN TIMUR",
+        "source": "OpenStreetMap",
+        "source_id": "node/4455632875",
+        "source_url": "https://www.openstreetmap.org/node/4455632875",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    }
+  ]
+}

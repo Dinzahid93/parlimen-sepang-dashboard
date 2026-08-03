@@ -1,0 +1,2214 @@
+{
+  "type": "FeatureCollection",
+  "name": "retail_and_markets",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5582173,
+          2.6615192
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/07  TANJONG SEPAT TEMPATAN 4",
+        "source": "OpenStreetMap",
+        "source_id": "node/3617375402",
+        "source_url": "https://www.openstreetmap.org/node/3617375402",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5650394,
+          2.6599233
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/09  TANJONG SEPAT 6",
+        "source": "OpenStreetMap",
+        "source_id": "node/7707726707",
+        "source_url": "https://www.openstreetmap.org/node/7707726707",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4543985,
+          2.7321273
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/12  KAMPUNG ENDAH",
+        "source": "OpenStreetMap",
+        "source_id": "node/11017984094",
+        "source_url": "https://www.openstreetmap.org/node/11017984094",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6159941,
+          2.8304334
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/02  BUKIT CANGGANG",
+        "source": "OpenStreetMap",
+        "source_id": "node/7707712300",
+        "source_url": "https://www.openstreetmap.org/node/7707712300",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6844437,
+          2.8555913
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/04  AMPAR TENANG",
+        "source": "OpenStreetMap",
+        "source_id": "node/7419663471",
+        "source_url": "https://www.openstreetmap.org/node/7419663471",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7002423,
+          2.8786674
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/04  AMPAR TENANG",
+        "source": "OpenStreetMap",
+        "source_id": "node/8998146410",
+        "source_url": "https://www.openstreetmap.org/node/8998146410",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6307527,
+          2.9011589
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/7599205685",
+        "source_url": "https://www.openstreetmap.org/node/7599205685",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6761563,
+          2.8642761
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Dengkil",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/06  KAMPUNG DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/4719212615",
+        "source_url": "https://www.openstreetmap.org/node/4719212615",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6741057,
+          2.857436
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Dengkil, 43800",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/06  KAMPUNG DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/5383360011",
+        "source_url": "https://www.openstreetmap.org/node/5383360011",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6700545,
+          2.8721706
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/06  KAMPUNG DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/7688783429",
+        "source_url": "https://www.openstreetmap.org/node/7688783429",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6560328,
+          2.9775613
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010368",
+        "source_url": "https://www.openstreetmap.org/node/7733010368",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6577675,
+          2.9732448
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/12816666774",
+        "source_url": "https://www.openstreetmap.org/node/12816666774",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7270854,
+          2.8852814
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/12  JENDERAM HILIR",
+        "source": "OpenStreetMap",
+        "source_id": "node/8998158830",
+        "source_url": "https://www.openstreetmap.org/node/8998158830",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7642193,
+          2.9029206
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/13  SUNGAI BUAH",
+        "source": "OpenStreetMap",
+        "source_id": "node/7688783428",
+        "source_url": "https://www.openstreetmap.org/node/7688783428",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6565587,
+          2.8004632
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "149;151, Jalan LU 2/2, Banting",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/14  RTB DATOK HARUN",
+        "source": "OpenStreetMap",
+        "source_id": "node/4758915006",
+        "source_url": "https://www.openstreetmap.org/node/4758915006",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6893828,
+          2.8191038
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Saujana KLIA 1/B, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/16  KAMPUNG MELOT",
+        "source": "OpenStreetMap",
+        "source_id": "node/7419412104",
+        "source_url": "https://www.openstreetmap.org/node/7419412104",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6922926,
+          2.8243816
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Arena, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/16  KAMPUNG MELOT",
+        "source": "OpenStreetMap",
+        "source_id": "node/11104331286",
+        "source_url": "https://www.openstreetmap.org/node/11104331286",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6180188,
+          2.9467263
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "2, Jalan Putra Perdana 2/3",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7693865600",
+        "source_url": "https://www.openstreetmap.org/node/7693865600",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6020696,
+          2.9443942
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010366",
+        "source_url": "https://www.openstreetmap.org/node/7733010366",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6134086,
+          2.9460417
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "68",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733651006",
+        "source_url": "https://www.openstreetmap.org/node/7733651006",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6105737,
+          2.9414863
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/9965565402",
+        "source_url": "https://www.openstreetmap.org/node/9965565402",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6205101,
+          2.9425812
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862733653",
+        "source_url": "https://www.openstreetmap.org/node/11862733653",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6162477,
+          2.9448785
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Putra Perdana 5C/1",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862733661",
+        "source_url": "https://www.openstreetmap.org/node/11862733661",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.610659,
+          2.9682638
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/7732999386",
+        "source_url": "https://www.openstreetmap.org/node/7732999386",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6062099,
+          2.979508
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733135992",
+        "source_url": "https://www.openstreetmap.org/node/7733135992",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5800242,
+          2.9752322
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/7734023782",
+        "source_url": "https://www.openstreetmap.org/node/7734023782",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5919514,
+          2.9773116
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/10575698404",
+        "source_url": "https://www.openstreetmap.org/node/10575698404",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6604927,
+          2.9232797
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656504119",
+        "source_url": "https://www.openstreetmap.org/node/7656504119",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372091,
+          2.9244391
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656590694",
+        "source_url": "https://www.openstreetmap.org/node/7656590694",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6492497,
+          2.9157108
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "101",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12697954036",
+        "source_url": "https://www.openstreetmap.org/node/12697954036",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7058832,
+          2.9008037
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Pinggiran Putra 4a/4, Kajang",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/22  DESA PINGGIRAN PUTRA",
+        "source": "OpenStreetMap",
+        "source_id": "node/4894231468",
+        "source_url": "https://www.openstreetmap.org/node/4894231468",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6947759,
+          2.8210414
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/6200097726",
+        "source_url": "https://www.openstreetmap.org/node/6200097726",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7058544,
+          2.8247235
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "36-38, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/6393411086",
+        "source_url": "https://www.openstreetmap.org/node/6393411086",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7010389,
+          2.8390689
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "39, Jalan Sunsuria 1B/3, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/11005349816",
+        "source_url": "https://www.openstreetmap.org/node/11005349816",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7207215,
+          2.8051418
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/02  SALAK",
+        "source": "OpenStreetMap",
+        "source_id": "node/7419412094",
+        "source_url": "https://www.openstreetmap.org/node/7419412094",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7489791,
+          2.7901252
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/02  SALAK",
+        "source": "OpenStreetMap",
+        "source_id": "node/7688779418",
+        "source_url": "https://www.openstreetmap.org/node/7688779418",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7510013,
+          2.689876
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Sepang",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/06  SEPANG SELATAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/4781813227",
+        "source_url": "https://www.openstreetmap.org/node/4781813227",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7074988,
+          2.6247329
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/08  BAGAN LALANG",
+        "source": "OpenStreetMap",
+        "source_id": "node/9321627219",
+        "source_url": "https://www.openstreetmap.org/node/9321627219",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7162951,
+          2.6419761
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/11  SUNGAI PELEK EMPAT",
+        "source": "OpenStreetMap",
+        "source_id": "node/1594369829",
+        "source_url": "https://www.openstreetmap.org/node/1594369829",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7381458,
+          2.8117759
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "source": "OpenStreetMap",
+        "source_id": "node/11156190985",
+        "source_url": "https://www.openstreetmap.org/node/11156190985",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7257385,
+          2.8378957
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Belian 1, Bandar Baru Salak Tinggi, 43900",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7398559663",
+        "source_url": "https://www.openstreetmap.org/node/7398559663",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301745,
+          2.8284376
+        ]
+      },
+      "properties": {
+        "name": "99 Speedmart",
+        "category": "speedmart",
+        "category_label": "99 Speedmart",
+        "brand": "99 Speedmart",
+        "address": "Jalan Seroja 7, Bandar Baru Salak Tinggi, 43900",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7400373854",
+        "source_url": "https://www.openstreetmap.org/node/7400373854",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6168383,
+          2.9644284
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/13791124164",
+        "source_url": "https://www.openstreetmap.org/node/13791124164",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6135488,
+          2.945961
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "G-71",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862710374",
+        "source_url": "https://www.openstreetmap.org/node/11862710374",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.618887,
+          2.9467046
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "28, Jalan Putra Perdana 2/3",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12169654467",
+        "source_url": "https://www.openstreetmap.org/node/12169654467",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.607543,
+          2.9795247
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/12082386289",
+        "source_url": "https://www.openstreetmap.org/node/12082386289",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6502158,
+          2.9157216
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/5565638655",
+        "source_url": "https://www.openstreetmap.org/node/5565638655",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6627947,
+          2.9233169
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/10544068365",
+        "source_url": "https://www.openstreetmap.org/node/10544068365",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6392178,
+          2.9227386
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12622941708",
+        "source_url": "https://www.openstreetmap.org/node/12622941708",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372206,
+          2.9246788
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12622941710",
+        "source_url": "https://www.openstreetmap.org/node/12622941710",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6559614,
+          2.9244407
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12672981809",
+        "source_url": "https://www.openstreetmap.org/node/12672981809",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6549868,
+          2.9134754
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12722522393",
+        "source_url": "https://www.openstreetmap.org/node/12722522393",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6371699,
+          2.933668
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/13807265091",
+        "source_url": "https://www.openstreetmap.org/node/13807265091",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.694147,
+          2.8186417
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "Jalan Warisan Sentral 1, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/6200097720",
+        "source_url": "https://www.openstreetmap.org/node/6200097720",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6950849,
+          2.8075606
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10200963459",
+        "source_url": "https://www.openstreetmap.org/node/10200963459",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7057699,
+          2.8288102
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "R.G.23A, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10931025295",
+        "source_url": "https://www.openstreetmap.org/node/10931025295",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7048214,
+          2.8247498
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "6, Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/10931156056",
+        "source_url": "https://www.openstreetmap.org/node/10931156056",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7130597,
+          2.8245995
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/13144718444",
+        "source_url": "https://www.openstreetmap.org/node/13144718444",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6867204,
+          2.7431023
+        ]
+      },
+      "properties": {
+        "name": "KK Super Mart",
+        "category": "kkmart",
+        "category_label": "KK Mart",
+        "brand": "KK Super Mart",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/04  LOTHIAN TIMUR",
+        "source": "OpenStreetMap",
+        "source_id": "node/4455632875",
+        "source_url": "https://www.openstreetmap.org/node/4455632875",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.556598,
+          2.6624784
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/08  TANJONG SEPAT TEMPATAN 5",
+        "source": "OpenStreetMap",
+        "source_id": "node/13886055359",
+        "source_url": "https://www.openstreetmap.org/node/13886055359",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5651697,
+          2.6598605
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/09  TANJONG SEPAT 6",
+        "source": "OpenStreetMap",
+        "source_id": "node/7707726708",
+        "source_url": "https://www.openstreetmap.org/node/7707726708",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6394022,
+          2.9109061
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/05  KAMPUNG BAHARU DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/13919271523",
+        "source_url": "https://www.openstreetmap.org/node/13919271523",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6752265,
+          2.8645297
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Mutiara 1, Dengkil",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/06  KAMPUNG DENGKIL",
+        "source": "OpenStreetMap",
+        "source_id": "node/4719212640",
+        "source_url": "https://www.openstreetmap.org/node/4719212640",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6183221,
+          2.9485086
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/2361299994",
+        "source_url": "https://www.openstreetmap.org/node/2361299994",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6561859,
+          2.9777988
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010367",
+        "source_url": "https://www.openstreetmap.org/node/7733010367",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6167602,
+          2.9645855
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/07  PULAU MERANTI",
+        "source": "OpenStreetMap",
+        "source_id": "node/13791124162",
+        "source_url": "https://www.openstreetmap.org/node/13791124162",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7334131,
+          2.9706504
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/08 SUNGAI MERAB UTARA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12764566122",
+        "source_url": "https://www.openstreetmap.org/node/12764566122",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7506956,
+          2.9419776
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/10 SUNGAI MERAB",
+        "source": "OpenStreetMap",
+        "source_id": "node/5311298021",
+        "source_url": "https://www.openstreetmap.org/node/5311298021",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6555942,
+          2.8013207
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "105",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/14  RTB DATOK HARUN",
+        "source": "OpenStreetMap",
+        "source_id": "node/12651142866",
+        "source_url": "https://www.openstreetmap.org/node/12651142866",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6911156,
+          2.8191307
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Saujana KLIA 1/A, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/16  KAMPUNG MELOT",
+        "source": "OpenStreetMap",
+        "source_id": "node/10933989994",
+        "source_url": "https://www.openstreetmap.org/node/10933989994",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6020978,
+          2.9443096
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7733010365",
+        "source_url": "https://www.openstreetmap.org/node/7733010365",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6134851,
+          2.9459961
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/17  BANDAR PUTRA PERDANA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11862710372",
+        "source_url": "https://www.openstreetmap.org/node/11862710372",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6098179,
+          2.9795382
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/19  DESA AIR HITAM",
+        "source": "OpenStreetMap",
+        "source_id": "node/9955158550",
+        "source_url": "https://www.openstreetmap.org/node/9955158550",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6610677,
+          2.9233925
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656505731",
+        "source_url": "https://www.openstreetmap.org/node/7656505731",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6372134,
+          2.9245597
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7656590692",
+        "source_url": "https://www.openstreetmap.org/node/7656590692",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6431529,
+          2.9277384
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/11079782069",
+        "source_url": "https://www.openstreetmap.org/node/11079782069",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6559474,
+          2.924275
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12672981810",
+        "source_url": "https://www.openstreetmap.org/node/12672981810",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6382091,
+          2.9325269
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/12993822346",
+        "source_url": "https://www.openstreetmap.org/node/12993822346",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6503538,
+          2.9156905
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "50",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "node/14041650221",
+        "source_url": "https://www.openstreetmap.org/node/14041650221",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7050081,
+          2.8247444
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Warisan Megah 1/4, Kota Warisan, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/4363091690",
+        "source_url": "https://www.openstreetmap.org/node/4363091690",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6941489,
+          2.8179973
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/5428458325",
+        "source_url": "https://www.openstreetmap.org/node/5428458325",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7052086,
+          2.8288006
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "R.G.18, Bell Avenue, Jalan Sunsuria, Sepang, 43900",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/23  KOTA WARISAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/9516636788",
+        "source_url": "https://www.openstreetmap.org/node/9516636788",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6878104,
+          2.7430824
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/04  LOTHIAN TIMUR",
+        "source": "OpenStreetMap",
+        "source_id": "node/13713897801",
+        "source_url": "https://www.openstreetmap.org/node/13713897801",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7503309,
+          2.6856721
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/06  SEPANG SELATAN",
+        "source": "OpenStreetMap",
+        "source_id": "node/9290751781",
+        "source_url": "https://www.openstreetmap.org/node/9290751781",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.717284,
+          2.6427498
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/11  SUNGAI PELEK EMPAT",
+        "source": "OpenStreetMap",
+        "source_id": "node/1594369828",
+        "source_url": "https://www.openstreetmap.org/node/1594369828",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7159017,
+          2.8061146
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "source": "OpenStreetMap",
+        "source_id": "node/12719128647",
+        "source_url": "https://www.openstreetmap.org/node/12719128647",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7378821,
+          2.8114765
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/12  BANDAR BARU SALAK TINGGI",
+        "source": "OpenStreetMap",
+        "source_id": "node/12719128665",
+        "source_url": "https://www.openstreetmap.org/node/12719128665",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301206,
+          2.8267255
+        ]
+      },
+      "properties": {
+        "name": "7 Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/10065255034",
+        "source_url": "https://www.openstreetmap.org/node/10065255034",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7257431,
+          2.8381174
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "category": "7eleven",
+        "category_label": "7-Eleven",
+        "brand": "7-Eleven",
+        "address": "Jalan Belian 1, Salak Perdana, Sepang, 43900",
+        "DUN": "N.56 SUNGAI PELEK",
+        "PDM": "113/56/13  TAMAN SEROJA",
+        "source": "OpenStreetMap",
+        "source_id": "node/7398584003",
+        "source_url": "https://www.openstreetmap.org/node/7398584003",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.644054,
+          2.9363257
+        ]
+      },
+      "properties": {
+        "name": "Pasar Tani Taman Tasik Cyberjaya",
+        "category": "pasar_tani",
+        "category_label": "Pasar Tani",
+        "brand": "Pasar Tani",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/20  CYBERJAYA",
+        "source": "OpenStreetMap",
+        "source_id": "way/1417656469",
+        "source_url": "https://www.openstreetmap.org/way/1417656469",
+        "verification_status": "Mapped record; field verification recommended",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6807886,
+          2.8554837
+        ]
+      },
+      "properties": {
+        "name": "Pasar Tani Dengkil",
+        "category": "pasar_tani",
+        "category_label": "Pasar Tani",
+        "brand": "",
+        "address": "",
+        "DUN": "N.55 DENGKIL",
+        "PDM": "113/55/21  SELANGOR DREDGING",
+        "source": "Official listing + OpenStreetMap venue",
+        "source_id": "curated-market",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "verification_status": "Official/local listing; venue coordinate mapped as Pasar Dengkil",
+        "retrieved_on": "2026-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5657397,
+          2.6597506
+        ]
+      },
+      "properties": {
+        "name": "Pasar Pagi Tanjong Sepat",
+        "category": "pasar_pagi",
+        "category_label": "Pasar Pagi",
+        "brand": "",
+        "address": "",
+        "DUN": "N.54 TANJONG SEPAT",
+        "PDM": "113/54/09  TANJONG SEPAT 6",
+        "source": "Official listing + OpenStreetMap venue",
+        "source_id": "curated-market",
+        "source_url": "https://dewan.selangor.gov.my/question/pasar-malam-di-negeri-selangor/",
+        "verification_status": "Official state listing; venue coordinate mapped as Pasar Awam Tanjong Sepat",
+        "retrieved_on": "2026-08-03"
+      }
+    }
+  ]
+}

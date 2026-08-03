@@ -36,7 +36,11 @@ FILES = {
     "healthcare": DATA / "healthcare.geojson",
     "kampung": DATA / "kampung.geojson",
     "worship": DATA / "places_of_worship.geojson",
-    "retail": DATA / "retail_markets.geojson",
+    "speedmart": DATA / "speedmart.geojson",
+    "kkmart": DATA / "kkmart.geojson",
+    "seven_eleven": DATA / "7eleven.geojson",
+    "pasar_tani": DATA / "pasar_tani.geojson",
+    "pasar_pagi": DATA / "pasar_pagi.geojson",
     "vulnerable": DATA / "vulnerable_facilities.geojson",
 }
 
@@ -391,7 +395,18 @@ schools = datasets["schools"].get("features", [])
 healthcare = datasets["healthcare"].get("features", [])
 kampungs = datasets["kampung"].get("features", [])
 worship = datasets["worship"].get("features", [])
-retail = datasets["retail"].get("features", [])
+retail_layers = {
+    "99 Speedmart": datasets["speedmart"].get("features", []),
+    "KK Mart": datasets["kkmart"].get("features", []),
+    "7-Eleven": datasets["seven_eleven"].get("features", []),
+    "Pasar Tani": datasets["pasar_tani"].get("features", []),
+    "Pasar Pagi": datasets["pasar_pagi"].get("features", []),
+}
+retail = [
+    feature
+    for features in retail_layers.values()
+    for feature in features
+]
 vulnerable_raw = datasets["vulnerable"].get("features", [])
 
 # Surau/Musolla are Islamic facilities, but they are not Masjid. Keep them as

@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import math
 import re
 
 import folium
@@ -42,7 +41,6 @@ FILES = {
     "seven_eleven": DATA / "7eleven.geojson",
     "pasar_tani": DATA / "pasar_tani.geojson",
     "pasar_pagi": DATA / "pasar_pagi.geojson",
-    "roads": DATA / "roads_authority_sepang.geojson",
     "vulnerable": DATA / "vulnerable_facilities.geojson",
 }
 
@@ -412,7 +410,6 @@ retail = [
 # Always derive electoral attributes from the point coordinates. This also
 # supports older retail files that used uppercase DUN/PDM property names.
 retail = [spatially_assign(feature, duns, pdms) for feature in retail]
-roads = datasets["roads"].get("features", [])
 vulnerable_raw = datasets["vulnerable"].get("features", [])
 
 # Surau/Musolla are Islamic facilities, but they are not Masjid. Keep them as
@@ -478,67 +475,13 @@ for feature in vulnerable_raw:
     vulnerable.append(spatially_assign(feature, duns, pdms))
 
 
-def line_coordinates(geometry):
-    """Return a list of coordinate lines for LineString/MultiLineString."""
-    geometry = geometry or {}
-    if geometry.get("type") == "LineString":
-        return [geometry.get("coordinates", [])]
-    if geometry.get("type") == "MultiLineString":
-        return geometry.get("coordinates", [])
-    return []
-
-
-def road_length_km(feature):
-    total = 0.0
-    for line in line_coordinates(feature.get("geometry")):
-        for start, end in zip(line, line[1:]):
-            lon1, lat1 = start[:2]
-            lon2, lat2 = end[:2]
-            phi1, phi2 = math.radians(lat1), math.radians(lat2)
-            dphi = math.radians(lat2 - lat1)
-            dlambda = math.radians(lon2 - lon1)
-            a = (
-                math.sin(dphi / 2) ** 2
-                + math.cos(phi1)
-                * math.cos(phi2)
-                * math.sin(dlambda / 2) ** 2
-            )
-            total += 6371.0088 * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    return total
-
-
 st.title("Parlimen Sepang (P.113) Dashboard")
 st.caption("Local information, facilities and issue-monitoring dashboard")
 
-road_df = pd.DataFrame(
-    [
-        {
-            "Road": p.get("road_name", "") or "Unnamed road",
-            "Route": p.get("route_number", ""),
-            "Road class": p.get("road_class", ""),
-            "Responsible authority": p.get("responsible_authority", ""),
-            "Maintenance agency": p.get("maintenance_agency", ""),
-            "DUN": p.get("dun", ""),
-            "PDM": p.get("pdm", ""),
-            "Verification": p.get("verification_status", ""),
-            "Verification note": p.get("verification_note", ""),
-            "Geometry source": p.get("geometry_source", ""),
-            "Geometry source URL": p.get("geometry_source_url", ""),
-            "Authority reference": p.get("authority_reference", ""),
-            "Authority source URL": p.get("authority_source_url", ""),
-            "Retrieved": p.get("retrieved_date", ""),
-            "_feature_index": index,
-        }
-        for index, feature in enumerate(roads)
-        for p in [feature.get("properties", {})]
-    ]
-)
-
-overview_tab, map_tab, roads_tab, facilities_tab, issues_tab, data_tab = st.tabs(
+overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
     [
         "Overview",
         "Interactive Map",
-        "Roads",
         "Facilities",
         "Issues Reported",
         "Data Explorer",
@@ -698,7 +641,6 @@ with map_tab:
         selected_dun,
         selected_pdm_name,
     )
-    c14.metric("Road segments", len(roads))
     visible_suraus = filter_points(
         suraus,
         selected_dun,
@@ -1243,261 +1185,6 @@ with map_tab:
     )
 
 
-with roads_tab:
-    st.subheader("Roads and Responsible Authorities")
-    st.caption(
-        "Filter the road list, then click a row to highlight that road on the map. "
-        "Use the ruler button on the map to measure any distance or area."
-    )
-
-    shown_roads = road_df.copy()
-    c1, c2, c3 = st.columns(3)
-    with c1:
-        road_dun = st.selectbox(
-            "DUN",
-            ["All DUN"]
-            + sorted(shown_roads["DUN"].dropna().loc[lambda s: s != ""].unique()),
-            key="roads_dun",
-        )
-    if road_dun != "All DUN":
-        shown_roads = shown_roads[shown_roads["DUN"] == road_dun]
-
-    with c2:
-        road_pdm = st.selectbox(
-            "PDM",
-            ["All PDM"]
-            + sorted(shown_roads["PDM"].dropna().loc[lambda s: s != ""].unique()),
-            key="roads_pdm",
-        )
-    if road_pdm != "All PDM":
-        shown_roads = shown_roads[shown_roads["PDM"] == road_pdm]
-
-    with c3:
-        road_class_filter = st.selectbox(
-            "Road class",
-            ["All classes"]
-            + sorted(
-                shown_roads["Road class"]
-                .dropna()
-                .loc[lambda s: s != ""]
-                .unique()
-            ),
-            key="roads_class",
-        )
-    if road_class_filter != "All classes":
-        shown_roads = shown_roads[
-            shown_roads["Road class"] == road_class_filter
-        ]
-
-    road_query = st.text_input(
-        "Search road name, route, authority or verification status",
-        key="roads_search",
-    )
-    if road_query:
-        searchable = shown_roads.drop(columns=["_feature_index"])
-        shown_roads = shown_roads[
-            searchable.astype(str).apply(
-                lambda row: row.str.contains(
-                    road_query, case=False, na=False, regex=False
-                ).any(),
-                axis=1,
-            )
-        ]
-
-    st.metric("Road segments shown", f"{len(shown_roads):,} of {len(roads):,}")
-
-    if "selected_road_indices" not in st.session_state:
-        st.session_state.selected_road_indices = set(
-            road_df["_feature_index"].astype(int).tolist()
-        )
-    if "road_editor_version" not in st.session_state:
-        st.session_state.road_editor_version = 0
-
-    filtered_indices = set(
-        shown_roads["_feature_index"].astype(int).tolist()
-    )
-    select_col, deselect_col, selection_count_col = st.columns([1, 1, 2])
-    with select_col:
-        if st.button(
-            "Select all",
-            use_container_width=True,
-            key="select_all_filtered_roads",
-        ):
-            st.session_state.selected_road_indices.update(filtered_indices)
-            st.session_state.road_editor_version += 1
-            st.rerun()
-    with deselect_col:
-        if st.button(
-            "Deselect all",
-            use_container_width=True,
-            key="deselect_all_filtered_roads",
-        ):
-            st.session_state.selected_road_indices.difference_update(
-                filtered_indices
-            )
-            st.session_state.road_editor_version += 1
-            st.rerun()
-
-    editor_roads = shown_roads.copy()
-    editor_roads.insert(
-        0,
-        "Show",
-        editor_roads["_feature_index"].astype(int).isin(
-            st.session_state.selected_road_indices
-        ),
-    )
-    table_columns = [
-        "Show",
-        "Road",
-        "Route",
-        "Road class",
-        "Responsible authority",
-        "Maintenance agency",
-        "DUN",
-        "PDM",
-        "Verification",
-    ]
-    edited_roads = st.data_editor(
-        editor_roads[table_columns],
-        use_container_width=True,
-        hide_index=True,
-        height=330,
-        disabled=[column for column in table_columns if column != "Show"],
-        column_config={
-            "Show": st.column_config.CheckboxColumn(
-                "Show on map",
-                help="Tick to show this road; untick to hide it.",
-                default=True,
-            )
-        },
-        key=f"road_list_{st.session_state.road_editor_version}",
-    )
-
-    checked_mask = edited_roads["Show"].fillna(False).astype(bool).to_numpy()
-    checked_indices = set(
-        editor_roads.loc[checked_mask, "_feature_index"].astype(int).tolist()
-    )
-    st.session_state.selected_road_indices.difference_update(filtered_indices)
-    st.session_state.selected_road_indices.update(checked_indices)
-    selected_feature_index = None
-    with selection_count_col:
-        st.metric(
-            "Selected on map",
-            f"{len(checked_indices):,} of {len(shown_roads):,}",
-        )
-
-    highlight_options = [None] + sorted(
-        checked_indices,
-        key=lambda index: (
-            str(roads[index].get("properties", {}).get("road_name", "")),
-            index,
-        ),
-    )
-    selected_feature_index = st.selectbox(
-        "Highlight and zoom to one selected road",
-        highlight_options,
-        format_func=lambda index: (
-            "None"
-            if index is None
-            else (
-                f"{roads[index].get('properties', {}).get('road_name') or 'Unnamed road'}"
-                f" — {roads[index].get('properties', {}).get('route_number', '')}"
-            )
-        ),
-        key="highlight_road",
-    )
-
-    road_map = folium.Map(
-        location=[2.80, 101.67],
-        zoom_start=10,
-        tiles="OpenStreetMap",
-        control_scale=True,
-    )
-    folium.TileLayer(
-        "https://server.arcgisonline.com/ArcGIS/rest/services/"
-        "World_Imagery/MapServer/tile/{z}/{y}/{x}",
-        attr="Esri World Imagery",
-        name="Satellite",
-        show=False,
-    ).add_to(road_map)
-    Fullscreen(position="topright").add_to(road_map)
-    MeasureControl(
-        position="topleft",
-        primary_length_unit="kilometers",
-        secondary_length_unit="meters",
-        primary_area_unit="sqkilometers",
-        secondary_area_unit="hectares",
-    ).add_to(road_map)
-
-    road_colors = {
-        "Expressway": "#7c3aed",
-        "Federal Road": "#dc2626",
-        "State Road": "#f59e0b",
-        "Major road—authority unverified": "#475569",
-        "Local/other road": "#64748b",
-    }
-    map_indices = sorted(checked_indices)
-    selected_bounds = []
-    for feature_index in map_indices:
-        feature = roads[feature_index]
-        props = feature.get("properties", {})
-        road_class = props.get("road_class", "Unverified")
-        is_selected = feature_index == selected_feature_index
-        length_km = road_length_km(feature)
-        popup = (
-            f"<b>{props.get('road_name') or 'Unnamed road'}</b><br><br>"
-            f"<b>Route:</b> {props.get('route_number', '')}<br>"
-            f"<b>Mapped segment length:</b> {length_km:.3f} km<br>"
-            f"<b>Road class:</b> {road_class}<br>"
-            f"<b>Responsible authority:</b> "
-            f"{props.get('responsible_authority', '')}<br>"
-            f"<b>Maintenance agency:</b> "
-            f"{props.get('maintenance_agency', '')}<br>"
-            f"<b>DUN:</b> {props.get('dun', '')}<br>"
-            f"<b>PDM:</b> {props.get('pdm', '')}<br>"
-            f"<b>Verification:</b> "
-            f"{props.get('verification_status', '')}<br>"
-            f"<b>Geometry source:</b> {props.get('geometry_source', '')}<br>"
-            f"<b>Retrieved:</b> {props.get('retrieved_date', '')}"
-        )
-        color = "#00e5ff" if is_selected else road_colors.get(
-            road_class, "#475569"
-        )
-        folium.GeoJson(
-            feature,
-            style_function=lambda _, color=color, selected=is_selected: {
-                "color": color,
-                "weight": 7 if selected else 3,
-                "opacity": 1.0 if selected else 0.75,
-            },
-            tooltip=props.get("road_name") or road_class,
-            popup=folium.Popup(popup, max_width=500),
-        ).add_to(road_map)
-        if is_selected:
-            for line in line_coordinates(feature.get("geometry")):
-                selected_bounds.extend([[coord[1], coord[0]] for coord in line])
-
-    if selected_bounds:
-        road_map.fit_bounds(selected_bounds, padding=(25, 25))
-        selected_feature = roads[selected_feature_index]
-        selected_props = selected_feature.get("properties", {})
-        st.success(
-            f"Selected: {selected_props.get('road_name') or 'Unnamed road'} "
-            f"— mapped segment length {road_length_km(selected_feature):.3f} km"
-        )
-    elif not map_indices:
-        st.info("No roads are selected. Tick a road or use Select all.")
-
-    folium.LayerControl(collapsed=True).add_to(road_map)
-    st_folium(
-        road_map,
-        use_container_width=True,
-        height=620,
-        returned_objects=[],
-        key="roads_map",
-    )
-
-
 with facilities_tab:
     st.subheader("Facilities")
 
@@ -1939,7 +1626,6 @@ with data_tab:
             "Healthcare",
             "Kampung",
             "Retail & Markets",
-            "Roads & Authorities",
             "Vulnerable Facilities",
         ],
     )
@@ -1953,7 +1639,6 @@ with data_tab:
         "Healthcare": healthcare_df,
         "Kampung": kampung_df,
         "Retail & Markets": retail_df,
-        "Roads & Authorities": road_df,
         "Vulnerable Facilities": vulnerable_df,
     }
 

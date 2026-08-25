@@ -44,6 +44,9 @@ FILES = {
     "vulnerable": DATA / "vulnerable_facilities.geojson",
 }
 
+# Separate editable trial data. The original kampung.geojson is never changed.
+KAMPUNG_TRIAL_FILE = DATA / "kampung_trial_data.json"
+
 DUN_COLORS = {"54": "#84b83f", "55": "#2474b5", "56": "#b12a90"}
 DUN_LABELS = {
     "54": "N.54 Tanjong Sepat",
@@ -376,6 +379,58 @@ def make_point_dataframe(features, columns):
     return pd.DataFrame(rows)
 
 
+def default_kampung_trial_dataframe(kampung_features):
+    """Build the initial editable table from kampung.geojson."""
+    return make_point_dataframe(
+        kampung_features,
+        [
+            ("Kampung", "name"), ("Type", "kampung_type"),
+            ("District", "district"), ("Mukim", "mukim"),
+            ("DUN", "dun"), ("PDM", "pdm"),
+            ("Area (ha)", "area_ha"),
+            ("Verification", "verification_status"),
+        ],
+    )
+
+
+def load_kampung_trial_dataframe(kampung_features):
+    """Load saved trial edits, or start with the original kampung data."""
+    if KAMPUNG_TRIAL_FILE.exists():
+        try:
+            with open(KAMPUNG_TRIAL_FILE, encoding="utf-8") as stream:
+                records = json.load(stream)
+            if isinstance(records, list):
+                return pd.DataFrame(records)
+        except (OSError, ValueError, json.JSONDecodeError):
+            pass
+    return default_kampung_trial_dataframe(kampung_features)
+
+
+def save_kampung_trial_dataframe(dataframe):
+    """Atomically save the editable table as JSON."""
+    clean = dataframe.copy().where(pd.notna(dataframe), None)
+    temporary_file = KAMPUNG_TRIAL_FILE.with_suffix(".json.tmp")
+    with open(temporary_file, "w", encoding="utf-8") as stream:
+        json.dump(
+            clean.to_dict(orient="records"), stream,
+            ensure_ascii=False, indent=2, default=str,
+        )
+    temporary_file.replace(KAMPUNG_TRIAL_FILE)
+
+
+def unique_column_name(requested_name, existing_columns):
+    """Return a non-conflicting name for a user-created column."""
+    base_name = re.sub(r"\s+", " ", requested_name or "").strip()
+    if not base_name:
+        return None
+    if base_name not in existing_columns:
+        return base_name
+    number = 2
+    while f"{base_name} ({number})" in existing_columns:
+        number += 1
+    return f"{base_name} ({number})"
+
+
 missing = [str(path) for path in FILES.values() if not path.exists()]
 if missing:
     st.error("Missing dashboard data file(s): " + ", ".join(missing))
@@ -478,11 +533,15 @@ for feature in vulnerable_raw:
 st.title("Parlimen Sepang (P.113) Dashboard")
 st.caption("Local information, facilities and issue-monitoring dashboard")
 
-overview_tab, map_tab, facilities_tab, issues_tab, data_tab = st.tabs(
+(
+    overview_tab, map_tab, facilities_tab, kampung_trial_tab,
+    issues_tab, data_tab,
+) = st.tabs(
     [
         "Overview",
         "Interactive Map",
         "Facilities",
+        "Kampung (Trial Test Run)",
         "Issues Reported",
         "Data Explorer",
     ]
@@ -1576,6 +1635,125 @@ with facilities_tab:
                 hide_index=True,
                 height=520,
             )
+
+
+with kampung_trial_tab:
+    st.subheader("Kampung – Trial Test Run")
+    st.write(
+        "Edit cells directly, add or remove rows, and create additional "
+        "information columns. Click **Save changes** to keep the edits."
+    )
+    st.info(
+        "This trial uses data/kampung_trial_data.json and does not modify "
+        "the original data/kampung.geojson file."
+    )
+
+    if "kampung_trial_df" not in st.session_state:
+        st.session_state.kampung_trial_df = load_kampung_trial_dataframe(kampungs)
+    if "kampung_trial_editor_version" not in st.session_state:
+        st.session_state.kampung_trial_editor_version = 0
+
+    st.markdown("#### Manage columns")
+    column_a, column_b = st.columns([3, 1])
+    with column_a:
+        requested_column = st.text_input(
+            "New column name",
+            placeholder="Example: Phone Number, Ketua Kampung or Remarks",
+            key="kampung_trial_new_column",
+        )
+    with column_b:
+        st.write("")
+        st.write("")
+        if st.button("Add column", use_container_width=True):
+            new_column = unique_column_name(
+                requested_column, st.session_state.kampung_trial_df.columns
+            )
+            if not new_column:
+                st.error("Enter a column name first.")
+            else:
+                st.session_state.kampung_trial_df[new_column] = ""
+                st.session_state.kampung_trial_editor_version += 1
+                st.rerun()
+
+    removable_columns = st.multiselect(
+        "Columns to remove (optional)",
+        list(st.session_state.kampung_trial_df.columns),
+        key="kampung_trial_remove_columns",
+    )
+    if st.button("Remove selected columns", disabled=not removable_columns):
+        st.session_state.kampung_trial_df = (
+            st.session_state.kampung_trial_df.drop(columns=removable_columns)
+        )
+        st.session_state.kampung_trial_editor_version += 1
+        st.rerun()
+
+    st.markdown("#### Edit table")
+    editor_key = (
+        "kampung_trial_editor_"
+        f"{st.session_state.kampung_trial_editor_version}"
+    )
+    edited_kampung_df = st.data_editor(
+        st.session_state.kampung_trial_df,
+        key=editor_key,
+        use_container_width=True,
+        hide_index=True,
+        num_rows="dynamic",
+        height=560,
+        column_config={
+            "Latitude": st.column_config.NumberColumn("Latitude", format="%.7f"),
+            "Longitude": st.column_config.NumberColumn("Longitude", format="%.7f"),
+            "Area (ha)": st.column_config.NumberColumn(
+                "Area (ha)", min_value=0.0, format="%.2f"
+            ),
+            "Phone Number": st.column_config.TextColumn(
+                "Phone Number",
+                help="Saved as text so a leading zero is retained.",
+            ),
+        },
+    )
+
+    st.caption(
+        f"{len(edited_kampung_df)} row(s) and "
+        f"{len(edited_kampung_df.columns)} column(s)."
+    )
+    save_column, reload_column, reset_column, download_column = st.columns(4)
+    with save_column:
+        if st.button("Save changes", type="primary", use_container_width=True):
+            try:
+                save_kampung_trial_dataframe(edited_kampung_df)
+                st.session_state.kampung_trial_df = edited_kampung_df.copy()
+                st.success("Kampung trial data saved successfully.")
+            except OSError as error:
+                st.error(f"Unable to save the data: {error}")
+
+    with reload_column:
+        if st.button("Reload saved data", use_container_width=True):
+            st.session_state.kampung_trial_df = load_kampung_trial_dataframe(kampungs)
+            st.session_state.kampung_trial_editor_version += 1
+            st.rerun()
+
+    with reset_column:
+        if st.button("Reset from GeoJSON", use_container_width=True):
+            st.session_state.kampung_trial_df = default_kampung_trial_dataframe(kampungs)
+            st.session_state.kampung_trial_editor_version += 1
+            st.rerun()
+
+    with download_column:
+        st.download_button(
+            "Download CSV",
+            data=edited_kampung_df.to_csv(index=False).encode("utf-8-sig"),
+            file_name="kampung_trial_data.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+    if KAMPUNG_TRIAL_FILE.exists():
+        saved_time = pd.Timestamp(
+            KAMPUNG_TRIAL_FILE.stat().st_mtime, unit="s"
+        ).strftime("%d %B %Y, %I:%M:%S %p")
+        st.caption(f"Last saved on the server: {saved_time}")
+    else:
+        st.caption("No trial file has been saved yet.")
 
 
 with issues_tab:

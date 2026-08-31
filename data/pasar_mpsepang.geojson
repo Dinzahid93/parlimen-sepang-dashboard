@@ -1,0 +1,330 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66172,
+          2.80338
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Murni Sepang",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Taman Murni, Sepang, Selangor",
+        "operating_day": "Monday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces nearby named location",
+        "verification_status": "Approx. named Taman Murni market locality; field/map verification recommended",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66969,
+          2.87242
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Pekan Dengkil",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Pekan Dengkil, 43800 Dengkil, Selangor",
+        "operating_day": "Tuesday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces",
+        "verification_status": "Mapped named Pasar Malam Dengkil",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74963,
+          2.78131
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Pekan Salak",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Pekan Salak, 43900 Sepang, Selangor",
+        "operating_day": "Wednesday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces",
+        "verification_status": "Mapped named Pasar Malam Pekan Salak",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.58271,
+          2.97523
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Mas",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Taman Mas Sepang, 47130 Puchong, Selangor",
+        "operating_day": "Wednesday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces",
+        "verification_status": "Mapped named Pasar Malam Taman Mas",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7244,
+          2.83304
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Seroja",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Taman Seroja, Bandar Baru Salak Tinggi, 43900 Sepang, Selangor",
+        "operating_day": "Thursday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces",
+        "verification_status": "Mapped named Pasar Malam Taman Seroja",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5609,
+          2.6468
+        ]
+      },
+      "properties": {
+        "name": "Pasar Sari Sungai Pelek",
+        "group": "Market",
+        "category": "Pasar Sari",
+        "category_label": "Pasar Sari",
+        "address": "Jalan Pasar, 43950 Sungai Pelek, Selangor",
+        "operating_day": "Friday",
+        "opening_hours": "7:00 AM–12:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "MP Sepang locality + map estimate",
+        "verification_status": "Approx. Jalan Pasar / public-market locality; exact stall footprint should be checked",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6203667,
+          2.9490833
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Putra Perdana Jalan PP1A",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Jalan Putra Perdana 1A, Taman Putra Perdana, 47100 Puchong, Selangor",
+        "operating_day": "Friday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "Lowyat historical map reference",
+        "verification_status": "Converted from published N2°56.945′ E101°37.222′ reference",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5623,
+          2.6493
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Sungai Pelek",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "29, Jalan Permai 1, Kampung Hulu Chuchoh, 43950 Sungai Pelek, Selangor",
+        "operating_day": "Saturday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "Named market address / map estimate",
+        "verification_status": "Address verified from named market listing; coordinate positioned at listed locality",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70774,
+          2.82567
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Kota Warisan",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Kota Warisan, 43900 Sepang, Selangor",
+        "operating_day": "Saturday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces",
+        "verification_status": "Mapped named Pasar Malam Kota Warisan",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.66724,
+          2.87237
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Dengkil Jaya",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Taman Dengkil Jaya, 43800 Dengkil, Selangor",
+        "operating_day": "Saturday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces nearby reference",
+        "verification_status": "Approx. named market locality ~237 m from reference point; verify exact road segment",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.70443,
+          2.89669
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Desa Pinggiran Putra",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Desa Pinggiran Putra, 43000 Kajang, Selangor",
+        "operating_day": "Saturday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "WorldPlaces nearby reference",
+        "verification_status": "Named market shown ~14 m from reference point",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74963,
+          2.78131
+        ]
+      },
+      "properties": {
+        "name": "Pasar Sari Pekan Salak",
+        "group": "Market",
+        "category": "Pasar Sari",
+        "category_label": "Pasar Sari",
+        "address": "Pekan Salak, 43900 Sepang, Selangor",
+        "operating_day": "Sunday",
+        "opening_hours": "7:00 AM–12:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "Pekan Salak market locality",
+        "verification_status": "Uses the established Pekan Salak market ground; exact Sunday footprint should be checked",
+        "retrieved_on": "2026-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61555,
+          2.9429667
+        ]
+      },
+      "properties": {
+        "name": "Pasar Malam Taman Putra Perdana 5D / 2",
+        "group": "Market",
+        "category": "Pasar Malam",
+        "category_label": "Pasar Malam",
+        "address": "Jalan Putra Perdana 5D, Taman Putra Perdana, 47100 Puchong, Selangor",
+        "operating_day": "Sunday",
+        "opening_hours": "4:00 PM–11:00 PM",
+        "premises_type": "Periodic market",
+        "source": "Majlis Perbandaran Sepang",
+        "source_url": "https://www.mpsepang.gov.my/pasar/",
+        "coordinate_source": "Lowyat historical map reference",
+        "verification_status": "Converted from published N2°56.578′ E101°36.933′ reference",
+        "retrieved_on": "2026-08-31"
+      }
+    }
+  ]
+}

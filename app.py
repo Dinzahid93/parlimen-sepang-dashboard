@@ -41,6 +41,7 @@ FILES = {
     "seven_eleven": DATA / "7eleven.geojson",
     "pasar_tani": DATA / "pasar_tani.geojson",
     "pasar_pagi": DATA / "pasar_pagi.geojson",
+    "pasar_mpsepang": DATA / "pasar_mpsepang.geojson",
     "vulnerable": DATA / "vulnerable_facilities.geojson",
 }
 
@@ -456,6 +457,7 @@ retail_layers = {
     "7-Eleven": datasets["seven_eleven"].get("features", []),
     "Pasar Tani": datasets["pasar_tani"].get("features", []),
     "Pasar Pagi": datasets["pasar_pagi"].get("features", []),
+    "Pasar Malam & Pasar Sari (MP Sepang)": datasets["pasar_mpsepang"].get("features", []),
 }
 retail = [
     feature
@@ -1138,6 +1140,7 @@ with map_tab:
             f"<b>DUN:</b> {props.get('dun', '')}<br>"
             f"<b>PDM:</b> {props.get('pdm', '')}<br>"
             f"<b>Address:</b> {props.get('address', '')}<br>"
+            f"<b>Operating day:</b> {props.get('operating_day', '')}<br>"
             f"<b>Opening hours:</b> {props.get('opening_hours', '')}<br>"
             f"<b>Premises:</b> {props.get('premises_type', '')}<br>"
             f"<b>Status:</b> {props.get('verification_status', '')}<br>"
@@ -1346,6 +1349,7 @@ with facilities_tab:
             ("DUN", "dun"),
             ("PDM", "pdm"),
             ("Address", "address"),
+            ("Operating day", "operating_day"),
             ("Opening hours", "opening_hours"),
             ("Premises", "premises_type"),
             ("Verification", "verification_status"),

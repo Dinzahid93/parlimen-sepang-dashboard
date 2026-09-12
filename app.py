@@ -17,7 +17,7 @@ st.set_page_config(
 
 password = st.text_input("Enter password", type="password")
 
-if password != "4732":
+if password != "8453":
     if password:
         st.error("Incorrect password.")
     st.stop()
